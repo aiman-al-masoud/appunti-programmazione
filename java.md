@@ -203,6 +203,8 @@ arg.chiSonoIo(); //sono il MODIFICATO!
 
 Ok, proviamo ora a creare una nuova classe partendo da zero.
 
+La prima cosa da fare è creare un nuovo file di testo .java, e dichiarare una classe pubblica in questo modo che abbiamo già visto:
+
 ```java 
 public class Banca{
 
