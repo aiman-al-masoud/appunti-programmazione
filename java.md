@@ -25,6 +25,8 @@ Un **attributo** di un oggetto è un dato che lo caratterizza, un **metodo** inv
 Nelle classi più complesse, gli attributi stessi possono essere a loro volta degli oggetti.
 
 
+<span id="I Meccanismi dell'OOP">
+
 ## I Meccanismi dell'OOP
 
 Un linguaggio è detto orientato agli oggetti quando permette di implementare, usando la sintassi nativa del linguagio, i tre meccanismi di:
@@ -58,7 +60,22 @@ gli oggetti appunto si conoscono il meno possibile, questo per garantire sostitu
 
 <!-- https://it.wikipedia.org/wiki/Java_(linguaggio_di_programmazione) -->
 
-Java è un linguaggio di programmazione ad **alto livello**, **orientato agli oggetti** e a **tipizzazione statica**, che si appoggia sull'omonima piattaforma software di esecuzione, specificamente progettato per essere **il più possibile indipendente dalla piattaforma hardware di esecuzione** (tramite compilazione in **bytecode** prima e interpretazione poi da parte di una JVM).
+Java è un linguaggio di programmazione ad **alto livello**, **orientato agli oggetti** e a **tipizzazione statica**, che si appoggia sull'omonima piattaforma software di esecuzione, specificamente progettato per essere il più possibile indipendente dalla piattaforma hardware di esecuzione (tramite compilazione in **bytecode** prima e interpretazione poi da parte di una JVM).
+
+Decifriamo un attimo i termini "gergali" in grassetto. 
+
+* Alto livello: vuol dire semplicemente che è 
+* Orientato agli Oggetti: vedi <a href="#I Meccanismi dell'OOP">I Meccanismi dell'OOP</a> 
+* Tipizzazione Statica: vuol dire che una volta dicharata la variabile `x` di un certo tipo (per esempio `int`), è proibito riassegnarla con un valore di tipo diverso (per esempio `float`, `double` ecc...).
+
+```java
+int x = 1; // x è un int per sempre!
+x = 2.1; // errore! errore! il compilatore si lamenta!
+```
+
+* Bytecode vedi <a href="#Java Virtual Machine (JVM)">Java Virtual Machine (JVM) </a>
+
+<span id="Java Virtual Machine (JVM)">
 
 ## Java Virtual Machine (JVM) 
 
