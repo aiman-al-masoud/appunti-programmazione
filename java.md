@@ -201,6 +201,13 @@ arg.chiSonoIo(); //sono il MODIFICATO!
 
 # Dichiariamo una classe
 
-Ok, proviamo a creare una nuova classe.
+Ok, proviamo a creare una nuova classe, per fare qualcosa di utile!
+
+```java 
+public class Banca{
+
+
+}
+```
 
 
