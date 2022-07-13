@@ -428,7 +428,7 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 
 * Nomi di classi, interfacce ed enum: **PascalCase**
 * Nomi di oggetti e metodi: **camelCase**
-
+* Costanti (attributi `final`) e valori di enum: **CONSTANT_CASE**
 
 
 
