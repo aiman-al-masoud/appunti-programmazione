@@ -387,7 +387,7 @@ Negli IDE (Integrated Development Envinronment) odierni, spesso c'è la possibil
 click destro > Sorgente > Genera getters e setters
 ```
 
-Meglio non esagerare però, perché a volte è inutile metterceli. Per esempio se l'attributo serve solo alla logica interna della classe, e non ci si deve accedere mai direttamente da fuori. Oppure se l'attributo è immutabile (`final`), in questo caso getters e setters sono perfettamente inutili, e si potrebbe anche dichiarare l'attributo come `public`, per esempio:
+Meglio non esagerare però, perché a volte è inutile metterceli. Per esempio se l'attributo serve solo alla logica interna della classe, e non ci si deve accedere mai direttamente da fuori. Oppure se l'attributo è immutabile/costante (`final`), in questo caso getters e setters sono perfettamente inutili, e si potrebbe anche dichiarare l'attributo come `public`, per esempio:
 
 
 ```java 
