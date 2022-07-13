@@ -327,3 +327,16 @@ public Persona(String n /*ecc...*/ ){
     nome = n;
 }
 ```
+
+## Modificatori di Visibilità
+
+Gli attributi che abbiamo dichiarato sono tutti `private`, cioè si possono vedere solo dall'interno della classe. 
+
+```java
+// nel main
+Persona p = new Persona("Pinko", 33, true);
+p.nome; //errore! nome non è visibile dall'esterno
+```
+
+
+
