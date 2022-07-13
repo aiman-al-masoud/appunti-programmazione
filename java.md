@@ -223,23 +223,23 @@ Ok, proviamo ora a creare una nuova classe partendo da zero.
 La prima cosa da fare è creare un nuovo file di testo .java, e dichiarare una classe pubblica in questo modo che abbiamo già visto:
 
 ```java 
-public class Banca{
+public class Persona{
 
 
 }
 ```
 
-Possiamo già così nel nostro `main()` creare nuovi oggetti di tipo `Banca`:
+Possiamo già così nel nostro `main()` creare nuovi oggetti di tipo `Persona`:
 
 ```java 
-import Banca;
+import Persona;
 
 public class Main{
 
     public static void main(String[] args){
 
-    Banca b1 = new Banca();
-    Banca b2 = new Banca();
+    Persona b1 = new Persona();
+    Persona b2 = new Persona();
 }
 }
 ```
@@ -255,7 +255,7 @@ b1 == b2; //false
 ```java 
 b1 = b2;
 ```
-Ora i riferimenti b1 e b2 puntano alla stessa area di memoria! Cioè il secondo oggetto `Banca` che avevamo creato, pertanto:
+Ora i riferimenti b1 e b2 puntano alla stessa area di memoria! Cioè il secondo oggetto `Persona` che avevamo creato, pertanto:
 
 ```java
 b1==b2; //true
@@ -264,15 +264,42 @@ b1==b2; //true
 Il primo oggetto che avevamo creato (quello che prima era puntato da `b1`), si dice "uscito dallo scope", dato che nessuna variabile punta più ad esso. Il **Garbage Collector** di Java sarà dunque autorizzato a rimuovere questo oggetto dalla memoria il prima possibile, per risparmiare risorse, dato che oramai è un peso inutile.
 
 
-Ma torniamo alla nostra classe `Banca`, e proviamo a renderla un po' più utile:
+Ma torniamo alla nostra classe `Persona`, e proviamo a renderla un po' più utile:
 
 
 ```java 
-public class Banca{
+public class Persona{
 
+    private String nome;
+    private int eta;
+    private boolean sesso;
+
+    /**
+    * Questo è un costruttore (constructor).
+    */
+    public Persona(String nome, int eta, boolean sesso){
+        this.nome = nome;
+        this.eta = eta;
+        this.sesso = sesso;   
+    }
 
 }
 ```
+
+
+Abbiamo aggiunto 3 attributi dichiarati come privati (`private`), ed un costruttore publico.
+
+## Costruttore
+è un metodo speciale, che crea ed inizializza una nuova istanza di una classe. Da notare che il nome del costruttore deve essere uguale a quello della classe. Il costruttore si può poi invocare altrove nel modo in cui abbiamo già visto, con la parola chiave `new`:
+
+```java 
+Persona p = new Persona("Pinko", 33, true);
+```
+
+
+
+
+
 
 
 
