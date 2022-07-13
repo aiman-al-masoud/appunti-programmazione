@@ -395,7 +395,7 @@ public class Persona{
 
     public final String nome;
     public final int eta;
-    public final  boolean sesso;
+    public final boolean sesso;
 
     /**
     * Questo è un costruttore (constructor).
