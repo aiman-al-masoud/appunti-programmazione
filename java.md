@@ -309,7 +309,7 @@ public Persona(String nome /*ecc...*/ ){
     this.nome = nome;
 }
 ```
-La variabile `this.nome` fa riferimento all'attributo `private String nome`, mentre `nome` e basta è solo il parametro del metodo.
+Per Java, la variabile `this.nome` fa riferimento all'attributo `private String nome`, mentre `nome` e basta è solo un parametro del costruttore, dato che **le variabili locali nascondono quelle globali**.
 
 Se avessimo scritto:
 
