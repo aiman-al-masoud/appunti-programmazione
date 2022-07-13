@@ -53,6 +53,8 @@ Due oggetti di tipo diverso possono avere un'interfaccia in comune. Chi li chiam
 ### Alta Coesione: 
 una classe ha un compito ben preciso, fa solo un certo tipo di cose correlate, e non troppe! "Separation of concerns", non vogliamo che la macchinetta del caffè abbia anche la funzionalità "contatta presidente degli Stati Uniti".
 
+<span id="Basso Accoppiamento">
+
 ### Basso Accoppiamento: 
 gli oggetti appunto si conoscono il meno possibile, questo per garantire sostituibilità di un implementazione con un'altra, e quindi buona modularità e manutenibilità.
 
@@ -337,6 +339,8 @@ Gli attributi che abbiamo dichiarato sono tutti `private`, cioè si possono vede
 Persona p = new Persona("Pinko", 33, true);
 p.nome; //errore! l'attributo "nome" non è visibile dall'esterno!
 ```
+
+A cosa servono gli attributi se nessuno può vederli? Beh, vengono utilizzati all'interno della classe. Dichiarare attributi privati può aiutare a  <a href="#Basso Accoppiamento">diminuire l'accoppiamento</a> fra le classi.
 
 
 
