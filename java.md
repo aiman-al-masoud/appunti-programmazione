@@ -144,6 +144,8 @@ void metodo(int x){
     x+=1; // anche questo modifica solo la x locale
 }
 
+/* ... */
+
 // dentro al main
 int x = 1; // variabile globale
 oggetto.metodo(x); // chiamo il metodo
@@ -160,12 +162,14 @@ oggetto.metodo(x); // chiamo il metodo
 
 // dentro la mia classe 'Oggetto'
 void metodo(ClasseArgomento arg){
-    // questo modifica solo la variabile locale
-    arg = new ClasseArgomento("sono il secondo!");
+    // questo riassegna solo la variabile locale
+    arg = new ClasseArgomento("secondo");
 }
 
+/* ... */
+
 // dentro al main
-Argomento arg = new ClasseArgomento("sono il primo!");
+Argomento arg = new ClasseArgomento("primo");
 oggetto.metodo(arg);
 
 arg.chiSonoIo(); //sono il primo!
@@ -180,11 +184,13 @@ arg.chiSonoIo(); //sono il primo!
 // dentro la mia classe 'Oggetto'
 void metodo(ClasseArgomento arg){
     // questo invece può modificare l'originale!
-    arg.setNome("MODIFICATO!");
+    arg.setNome("MODIFICATO");
 }
 
+/* ... */
+
 // dentro al main
-Argomento arg = new ClasseArgomento("sono il primo!");
+Argomento arg = new ClasseArgomento("primo");
 oggetto.metodo(arg);
 
 arg.chiSonoIo(); //sono il MODIFICATO!
