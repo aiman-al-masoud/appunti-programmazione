@@ -342,5 +342,39 @@ p.nome = "Pinko Pallino"; //errore! l'attributo "nome" non è visibile dall'este
 
 A cosa servono gli attributi se nessuno può vederli? Beh, vengono utilizzati all'interno della classe. Dichiarare attributi privati può aiutare a  <a href="#Basso Accoppiamento">diminuire l'accoppiamento</a> fra le classi. Ovviamente, la classe deve avere qualche altro metodo o attributo che permette di fare uso diretto o indiretto di un membro privato della stessa.
 
+## Getters & Setters
 
+Sono dei metodi che di sovente si usano in Java per ottenere (get) e impostare (set) i valori degli attributi privati dall'esterno di una classe. Ovviamente devono essere metodi pubblici, cioè visibili dall'esterno della classe, eg:
 
+```java 
+public class Persona{
+
+    private String nome;
+    private int eta;
+    private boolean sesso;
+
+    /**
+    * Questo è un costruttore (constructor).
+    */
+    public Persona(String nome, int eta, boolean sesso){
+        this.nome = nome;
+        this.eta = eta;
+        this.sesso = sesso;   
+    }
+
+    /**
+    * questo è un getter
+    */
+    public getNome(){
+        return nome; //equivalente a this.nome
+    }
+
+   /**
+    * questo è un setter
+    */
+    public setNome(String nome){
+        return this.nome = nome; 
+    }
+
+}
+```
