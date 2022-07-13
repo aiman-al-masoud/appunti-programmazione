@@ -80,6 +80,26 @@ public class Main{
 }
 ```
 
+## Spiegazione:
+
+In Java, anche per il più semplice dei programmi, è necessario creare una classe (`Main`, in questo caso). La classe è pubblica (`public`), cioè visibile anche al di fuori del package dov'è definita (vedremo cosa vuol dire).
+
+All'interno di questa classe, è presente il metodo speciale `main()`, il nome è importante. Questo metodo viene usato da Java come punto d'ingresso (entry point) al programma. Questo metodo è:
+
+* pubblico `public`: visibile anche al di fuori della sua classe.
+
+* statico `static`: legato alla classe, e non ad una sua istanza (vedremo meglio cosa vuol dire).
+
+* void `void`: non ritorna alcun valore. È più simile ad una procedura che ad una funzione.
+
+* prende `String[] args` come unico argomento. Questo è un array di stringhe, che rappresenta i parametri da linea di comando, quando si esegue il programma da una shell. Il primo elemento dell'array (`args[0]`) è il nome del programma.
+
+All'interno del metodo `main()`, usiamo il metodo `println()` per stampare una stringa e andare a capo. 
+
+*NB: Il metodo `println()` è un metodo statico, contenuto nell'oggetto `out`, a sua volta contenuto come attributo statico nella classe `System`. Di solito quando un metodo è molto generico e non ha bisogno di accedere allo stato di un oggetto particolare (come `println()` appunto), viene comodo dichiararlo come metodo statico di una classe, dato che in Java non esistono le funzioni.*
+
+
+
 
 
 
