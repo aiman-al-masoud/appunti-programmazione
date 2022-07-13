@@ -413,7 +413,7 @@ Ovviamente, ci stiamo imponendo il limite di non poter più cambiare gli attribu
 
 ```java
 // buon compleanno
-pinko.eta += 1; //errore! eta è final!!!!!
+p.eta += 1; //errore! eta è final!!!!!
 ```
 
 *Chiaramente, c'è sempre l'opzione di creare ex novo una nuova istanza dell'oggetto immutabile, ogni volta che lo vorremmo mutare.*
