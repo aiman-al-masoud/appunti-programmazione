@@ -212,4 +212,42 @@ public class Banca{
 }
 ```
 
+Possiamo già così nel nostro `main()` creare nuovi oggetti di tipo `Banca`:
+
+```java 
+import Banca;
+
+public class Main{
+
+    public static void main(String[] args){
+
+    Banca b1 = new Banca();
+    Banca b2 = new Banca();
+}
+}
+```
+
+Constatiamo che i due oggetti puntano a due aree distinte della memoria, utilizzando l'operatore `==`, che sugli oggetti funziona come "operatore di identità". 
+
+```java
+b1 == b2; //false
+```
+
+`b1` e `b2` sono due riferimenti a due oggetti diversi in memoria. Ma posso sempre riassegnarne uno così:
+
+```java 
+b1 = b2;
+```
+Ora i riferimenti b1 e b2 puntano alla stessa area di memoria! Cioè il secondo oggetto `Banca` che avevamo creato, pertanto:
+
+```java
+b1==b2; //true
+```
+
+Il primo oggetto che avevamo creato (quello che prima era puntato da `b1`), si dice "uscito dallo scope", dato che nessuna variabile punta più ad esso. Il Garbage Collector di Java sarà dunque autorizzato a rimuovere questo oggetto dalla memoria, per risparmiare risorse, dato che oramai è un peso inutile.
+
+
+
+
+
 
