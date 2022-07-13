@@ -247,7 +247,15 @@ b1==b2; //true
 Il primo oggetto che avevamo creato (quello che prima era puntato da `b1`), si dice "uscito dallo scope", dato che nessuna variabile punta più ad esso. Il **Garbage Collector** di Java sarà dunque autorizzato a rimuovere questo oggetto dalla memoria il prima possibile, per risparmiare risorse, dato che oramai è un peso inutile.
 
 
+Ma torniamo alla nostra classe `Banca`, e proviamo a renderla un po' più utile:
 
+
+```java 
+public class Banca{
+
+
+}
+```
 
 
 
