@@ -191,7 +191,7 @@ void metodo(ClasseArgomento arg){
 /* ... */
 
 // dentro al main
-Argomento arg = new ClasseArgomento("primo");
+ClasseArgomento arg = new ClasseArgomento("primo");
 oggetto.metodo(arg);
 
 arg.chiSonoIo(); //sono il MODIFICATO!
