@@ -112,7 +112,7 @@ Non si possono avere due metodi con la stessa identica firma in una classe, altr
 
 # Tipi Primitivi
 
-In Java tutto è un oggetto... tranne i tipi primitivi! I tipi primitivi sono dei semplici valori, non hanno né attributi né metodi. I tipi primitivi sono:
+In Java tutto è un oggetto... tranne i tipi primitivi! I tipi primitivi sono dei semplici valori, non hanno né attributi né metodi, e non possono avere `null` come valore. I tipi primitivi sono:
 
 * int, long, short, byte
 * float, double
