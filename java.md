@@ -324,6 +324,6 @@ In alternativa ad usare `this`, potevamo semplicemente dare ad attributo e param
 ```java 
 //...
 public Persona(String n /*ecc...*?*/ ){
-    this.nome = n;
+    nome = n;
 }
 ```
