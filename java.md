@@ -142,6 +142,7 @@ In Java, una variabile di tipo primitivo è sempre e comunque passata by value. 
 void metodo(int x){
     x = 2; // questo modifica solo la x locale
     x+=1; // anche questo modifica solo la x locale
+    // qui dentro x locale vale 3.
 }
 
 /* ... */
@@ -150,7 +151,7 @@ void metodo(int x){
 int x = 1; // variabile globale
 oggetto.metodo(x); // chiamo il metodo
 
-// x globale vale sempre ((((1)))) qui fuori
+// qua fuori x globale è rimasta = 1
 ```
 
 
