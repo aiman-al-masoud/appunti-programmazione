@@ -296,6 +296,7 @@ Abbiamo aggiunto 3 attributi dichiarati come privati (`private`), ed un costrutt
 Persona p = new Persona("Pinko", 33, true);
 ```
 
+Anche prima stavamo usando un costruttore, ma senza nessun argomento. Quello era il costruttore di default, che Java inserice automaticamente se noi non facciamo niente. Adesso non risulta più possibile usarlo. Però possiamo sempre creare più costruttori, qualora desiderassimo inizializzare in modo diverso una classe.
 
 
 
