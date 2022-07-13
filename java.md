@@ -319,7 +319,7 @@ Se avessimo scritto:
 nome = nome;
 ```
 
-Avremmo fatto un'operazione perfettamente ridondante. Ma soprattutto non avremmo inizializzato l'attributo (cosa di cui il compiler ci avvertirebbe). 
+Avremmo fatto un'operazione perfettamente ridondante. Ma soprattutto non avremmo inizializzato l'attributo (cosa di cui il compiler ci avrebbe avvertito). 
 
 In alternativa ad usare `this`, potevamo semplicemente dare ad attributo e parametro nomi diversi, es:
 
