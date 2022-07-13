@@ -121,8 +121,11 @@ In Java tutto è un oggetto... tranne i tipi primitivi! I tipi primitivi sono de
 
 *NB: come in C, un char è circondato da apici singoli. `'a'` è un char e quindi un tipo primitivo, `"a"` è invece una stringa e quindi un oggetto.*
 
+# Passaggio Parametri: "by value" vs "by reference"
+
+Per passaggio "by value" si intende che il metodo riceve una copia della variabile passata come argomento, e quindi, caschi il mondo, non la modificherà mai.
+
+Per passaggio "by reference" si intende invece che la variabile ricevuta dal metodo, punta alla stessa area di memoria della variabile originale. 
 
 
-
-
-
+Una variabile di tipo primitivo in Java è sempre passata "by value". Questo
