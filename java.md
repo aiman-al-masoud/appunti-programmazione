@@ -409,5 +409,8 @@ public class Persona{
 }
 ```
 
+Ovviamente, ci stiamo imponendo il limite di non poter più cambiare gli attributi una volta inizializzata la classe, che potrebbe non aver senso per tutti gli attributi.
+
+
 
 
