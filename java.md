@@ -332,7 +332,7 @@ public Persona(String n /*ecc...*/ ){
 
 ## Modificatori di Visibilità
 
-Gli attributi che abbiamo dichiarato sono tutti `private`, cioè si possono vedere solo dall'interno della classe. Se proviamo a fare questo, il compiler si lamenterà:
+Gli attributi che abbiamo dichiarato sono tutti `private`, cioè si possono vedere solo dall'interno della classe. Se proviamo a fare altrimenti, il compiler si lamenterà:
 
 ```java
 // nel main
