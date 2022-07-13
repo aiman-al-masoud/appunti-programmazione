@@ -387,6 +387,5 @@ Negli IDE (Integrated Development Envinronment) odierni, spesso c'è la possibil
 click destro > Sorgente > Genera getters e setters
 ```
 
-
-Spesso però 
+Meglio non esagerare però, perché a volte è inutile metterceli. Per esempio se l'attributo serve solo alla logica interna della classe, e non ci si deve accedere mai direttamente da fuori. 
 
