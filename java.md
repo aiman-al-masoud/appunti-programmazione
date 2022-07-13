@@ -156,7 +156,7 @@ oggetto.metodo(x); // chiamo il metodo
 
 
 
-## 3. Riassegno Oggetto
+## 2. Riassegno Oggetto
 
 
 ```java
@@ -177,7 +177,7 @@ arg.chiSonoIo(); //sono il primo!
 
 ```
 
-## 2. Modifico Oggetto
+## 3. Modifico Oggetto
 
 
 ```java
