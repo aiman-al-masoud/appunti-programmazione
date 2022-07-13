@@ -412,7 +412,7 @@ public class Persona{
 Ovviamente, ci stiamo imponendo il limite di non poter più cambiare gli attributi di un oggetto una volta inizializzato, che potrebbe non aver senso per tutti gli attributi:
 
 ```java
-// buon compleanno
+// buon compleanno, Pinko
 p.eta += 1; //errore! eta è final!!!!!
 ```
 
