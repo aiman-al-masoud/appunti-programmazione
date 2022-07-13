@@ -305,7 +305,7 @@ Il `this` è una parola chiave molto utile che fa riferimento all'istanza di un 
 
 ```java 
 //...
-public Persona(String nome /*ecc...*?*/ ){
+public Persona(String nome /*ecc...*/ ){
     this.nome = nome;
 }
 ```
@@ -319,11 +319,11 @@ nome = nome;
 
 Avremmo fatto un'operazione perfettamente ridondante. Ma soprattutto non avremmo inizializzato l'attributo (cosa di cui il compiler ci avvertirebbe). 
 
-In alternativa ad usare `this`, potevamo semplicemente dare ad attributo e parametro nomi diversi, in modo da eliminare es:
+In alternativa ad usare `this`, potevamo semplicemente dare ad attributo e parametro nomi diversi, es:
 
 ```java 
 //...
-public Persona(String n /*ecc...*?*/ ){
+public Persona(String n /*ecc...*/ ){
     nome = n;
 }
 ```
