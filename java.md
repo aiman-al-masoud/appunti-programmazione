@@ -335,7 +335,7 @@ Gli attributi che abbiamo dichiarato sono tutti `private`, cioè si possono vede
 ```java
 // nel main
 Persona p = new Persona("Pinko", 33, true);
-p.nome; //errore! nome non è visibile dall'esterno
+p.nome; //errore! nome non è visibile dall'esterno!
 ```
 
 
