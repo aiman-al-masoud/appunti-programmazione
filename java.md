@@ -123,9 +123,75 @@ In Java tutto è un oggetto... tranne i tipi primitivi! I tipi primitivi sono de
 
 # Passaggio Parametri: "by value" vs "by reference"
 
-Per passaggio "by value" si intende che il metodo riceve una copia della variabile passata come argomento, e quindi, caschi il mondo, non la modificherà mai.
+In generale, una variabile è un puntatore ad una certa area della memoria RAM (nella cosiddetta regione di memoria "heap").
 
-Per passaggio "by reference" si intende invece che la variabile ricevuta dal metodo, punta alla stessa area di memoria della variabile originale. 
+## Per passaggio "by value" (per valore) 
+si intende che il metodo riceve una copia della variabile passata come argomento, e quindi, caschi il mondo, non modificherà mai l'originale.
+
+## Per passaggio "by reference" (per riferimento) 
+si intende invece che la variabile ricevuta dal metodo, punta proprio alla stessa area di memoria della variabile originale. 
 
 
-Una variabile di tipo primitivo in Java è sempre passata "by value". Questo
+In Java, una variabile di tipo primitivo è sempre e comunque passata by value. Per gli oggetti, invece, la cosa si complica un pochettino. La variabile oggetto non può essere riassegnata del tutto, ma l'istanza originale può eccome essere modificata. Vediamo meglio con degli esempi (in pseudo-codice):
+
+
+## 1. Con Tipo Primitivo (int)
+
+```java
+// dentro la mia classe 'Oggetto'
+void metodo(int x){
+    x = 2; // questo modifica solo la x locale
+    x+=1; // anche questo modifica solo la x locale
+}
+
+// dentro al main
+int x = 1; // variabile globale
+oggetto.metodo(x); // chiamo il metodo
+
+// x globale vale sempre ((((1)))) qui fuori
+```
+
+
+
+## 3. Riassegno Oggetto
+
+
+```java
+
+// dentro la mia classe 'Oggetto'
+void metodo(ClasseArgomento arg){
+    // questo modifica solo la variabile locale
+    arg = new ClasseArgomento("sono il secondo!");
+}
+
+// dentro al main
+Argomento arg = new ClasseArgomento("sono il primo!");
+oggetto.metodo(arg);
+
+arg.chiSonoIo(); //sono il primo!
+
+```
+
+## 2. Modifico Oggetto
+
+
+```java
+
+// dentro la mia classe 'Oggetto'
+void metodo(ClasseArgomento arg){
+    // questo invece può modificare l'originale!
+    arg.setNome("MODIFICATO!");
+}
+
+// dentro al main
+Argomento arg = new ClasseArgomento("sono il primo!");
+oggetto.metodo(arg);
+
+arg.chiSonoIo(); //sono il MODIFICATO!
+
+```
+
+
+
+
+
