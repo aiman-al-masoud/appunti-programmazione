@@ -301,8 +301,21 @@ Anche prima stavamo usando un costruttore, ma senza nessun argomento. Quello era
 
 ## Keyword `this`
 
-Il `this` è una parola chiave molto utile che fa riferimento all'istanza di un oggetto dal suo interno. Nel costruttore di sopra, l'abbiamo usata per disambiguare le coppie di variabili con lo stesso nome.
+Il `this` è una parola chiave molto utile che fa riferimento all'istanza di un oggetto dal suo interno. Nel costruttore di sopra, l'abbiamo usata per disambiguare le coppie di variabili con lo stesso nome:
 
+```java 
+//...
+public Persona(String nome /*ecc...*?*/ ){
+    this.nome = nome;
+}
+```
+La variabile `this.nome` fa riferimento all'attributo `private String nome`, mentre `nome` e basta è solo il parametro del metodo.
 
+Se avessimo scritto:
 
+```java 
+nome = nome;
+```
+
+Avremmo fatto un'operazione perfettamente ridondante. Ma soprattutto non avremmo inizializzato l'attributo (cosa di cui il compiler ci avvertirebbe). 
 
