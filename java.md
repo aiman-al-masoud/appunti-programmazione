@@ -422,3 +422,10 @@ Oltre a `public` e `private` esiste anche `protected`. Se non si dichiara esplic
 
 
 
+## Naming Conventions
+
+Le convenzioni di nomenclatura servono a rendere il codice più familiare e leggibile agli estranei, e a sé stessi del futuro.
+
+in Java 
+
+
