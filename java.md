@@ -99,6 +99,23 @@ All'interno del metodo `main()`, usiamo il metodo `println()` per stampare una s
 *NB: Il metodo `println()` è un metodo statico, contenuto nell'oggetto `out`, a sua volta contenuto come attributo statico nella classe `System`. Di solito quando un metodo è molto generico e non ha bisogno di accedere allo stato di un oggetto particolare (come `println()` appunto), viene comodo dichiararlo come metodo statico di una classe, dato che in Java non esistono le funzioni.*
 
 
+## Parametri "formali" vs "attuali"
+I parametri formali di un metodo si riferiscono alla sua definizione, per esempio `println()` è definito sulle stringhe. I parametri attuali sono quelli passati al metodo durante una chiamata (per esempio la stringa particolare "Ciao Mondo!").
+
+
+## Signature ("Firma") di un metodo
+è rappresentata dal:
+* nome
+* valore di ritorno
+* parametri formali
+Non si possono avere due metodi con la stessa identica firma in una classe, altrimenti ci sarebbe un'ambiguità.
+
+# Tipi Primitivi
+
+
+
+
+
 
 
 
