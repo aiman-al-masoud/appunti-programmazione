@@ -378,3 +378,7 @@ public class Persona{
 
 }
 ```
+
+La loro utilità sta nel "regolamentare" l'accesso e la modifica degli attributi: se volessimo potremmo controllare che il nome sia valido prima di assegnarlo, per esempio.
+
+
