@@ -337,7 +337,7 @@ Gli attributi che abbiamo dichiarato sono tutti `private`, cioè si possono vede
 ```java
 // nel main
 Persona p = new Persona("Pinko", 33, true);
-p.nome; //errore! l'attributo "nome" non è visibile dall'esterno!
+p.nome = "Pinko Pallino"; //errore! l'attributo "nome" non è visibile dall'esterno!
 ```
 
 A cosa servono gli attributi se nessuno può vederli? Beh, vengono utilizzati all'interno della classe. Dichiarare attributi privati può aiutare a  <a href="#Basso Accoppiamento">diminuire l'accoppiamento</a> fra le classi. Ovviamente, la classe deve avere qualche altro metodo o attributo che permette di fare uso diretto o indiretto di un membro privato della stessa.
