@@ -424,7 +424,8 @@ Oltre a `public` e `private` esiste anche `protected`. Se non si dichiara esplic
 
 ## Naming Conventions
 
-Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere il codice più familiare e leggibile agli estranei, e a sé stessi del futuro.
+Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere il codice più familiare e leggibile agli estranei, e a sé stessi del futuro. In Italiano è lecito dire: "mela, la mangio", ma se si fa senza motivo (enfasi sulla mela...) è molto più chiaro dire: "mangio la mela", per evitare malintesi con gli altri.
+
 
 in Java 
 
