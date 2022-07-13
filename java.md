@@ -409,11 +409,16 @@ public class Persona{
 }
 ```
 
-Ovviamente, ci stiamo imponendo il limite di non poter più cambiare gli attributi di un oggetto una volta inizializzato, che potrebbe non aver senso per tutti gli attributi.
+Ovviamente, ci stiamo imponendo il limite di non poter più cambiare gli attributi di un oggetto una volta inizializzato, che potrebbe non aver senso per tutti gli attributi:
 
 ```java
 // buon compleanno
 pinko.eta += 1; //errore! eta è final!!!!!
 ```
+
+*Chiaramente, c'è sempre l'opzione di creare ex novo una nuova istanza dell'oggetto immutabile, ogni volta che lo vorremmo mutare.*
+
+
+
 
 
