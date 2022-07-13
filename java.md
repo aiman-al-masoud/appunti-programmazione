@@ -301,7 +301,7 @@ Anche prima stavamo usando un costruttore, ma senza nessun argomento. Quello era
 
 ## Keyword `this`
 
-Il `this` è una parola chiave molto utile che fa riferimento all'istanza di un oggetto dal suo interno.
+Il `this` è una parola chiave molto utile che fa riferimento all'istanza di un oggetto dal suo interno. Nel costruttore di sopra, l'abbiamo usata per disambiguare le coppie di variabili con lo stesso nome.
 
 
 
