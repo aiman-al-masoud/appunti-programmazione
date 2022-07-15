@@ -726,6 +726,9 @@ stud.compilaPianoDiStudi(pianoDiStudi);
 Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
 
 ```java 
+
+//solo gli studenti di filosofia possono studiare Platone. 
+
 Libro platone = new LibroPlatone();
 
 for(Persona persona : persone){
