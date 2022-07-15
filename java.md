@@ -573,6 +573,14 @@ stud.toString(); // "Pinko ha 21 anni ed è un maschio"
 
 *NB: Studente **non** ha ereditato il costruttore della superclasse, perché ce ne ha fatto definire uno nuovo, col nuovo parametro `matricola`; ma siamo stati in grado di sfruttare quello di `Persona` (usando la keyword `super`), per assegnare `nome`, `eta` e `sesso`, senza dover riscrivere del codice identico.*
 
+
+## Overriding 
+
+Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno, 
+
+
+
+
 ## Classcasting 
 
 Ma `stud` **è** proprio un'istanza di `Persona` (oltre ad essere ovviamente un'istanza di `Studente`). Questo vuol dire che possiamo anche *dimenticarci* che `stud` è uno `Studente`, e trattarlo da `Persona` qualunque:
@@ -581,19 +589,7 @@ Ma `stud` **è** proprio un'istanza di `Persona` (oltre ad essere ovviamente un'
 Persona p = stud;
 ```
 
-
-
-
-
-
-
-
-## Overriding 
-
-Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno, 
-
-
-
+Questo si chiama **upcasting**, 
 
 
 
