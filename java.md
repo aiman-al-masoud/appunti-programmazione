@@ -507,7 +507,7 @@ int x = Integer.parseInt("112"); // 122
 Va anche detto che le stringhe in Java sono immutabili. Tutte le operazioni che ci si possono svolgere con i metodi (`substring()`, `charAt()` ecc...) non modificano mai l'oggetto originale, ma ne creano uno nuovo (se non c'è già nello String Pool), e ritornano una nuova reference, come mostrato negli esempi.
 
 
-
+# L'Ereditarietà in Java
 
 
 
