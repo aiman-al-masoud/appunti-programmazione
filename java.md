@@ -543,6 +543,15 @@ public class Persona{
 }
 ```
 
+Abbiamo fatto alcune modifiche, nello specifico:
+
+* Attributi resi `protected`.
+* Implementato metodo `toString()` che produce una rappresentazione testuale dell'oggetto.
+* 
+
+
+
+
 Estendiamola con la classe Studente:
 
 ```java
