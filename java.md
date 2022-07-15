@@ -432,4 +432,38 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 * Nomi di Package: **lowercase**
 
 
+# Le Stringhe 
+
+Finora abbiamo intravisto l'utilizzo delle stringhe attraverso gli *string literals*, ovvero la notazione di stringa contenuta fra doppi apici, es:
+
+```java
+String s = "ciao mondo!";
+```
+
+*NB: in Java, come in C, gli apici singoli sono riservati al **singolo carattere**, per cui 'ciao mondo' dà un errore di compilazione.*
+
+Quando usiamo questa notazione, Java **può** creare un nuovo oggetto di tipo `String`. Non è detto che ne crei uno nuovo, perché se usiamo la stessa stringa più di una volta, quello che ci verrà restituito è un riferimento allo stesso oggetto in memoria. Java infatti mantiene un così detto "pool" di stringhe ricilate.
+
+es:
+```java
+String s = "ciao mondo!";
+String s2 = "ciao mondo!";
+s==s2; //true
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
