@@ -525,6 +525,30 @@ In Java una classe può ereditare direttamente **da una sola** superclasse, vale
 Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita da `Mammifero` che eredita da `Vertebrato` ecc ... 
 
 
+Torniamo alla nostra classe Persona, definita in questo modo:
+
+
+```java 
+public class Persona{
+
+    protected String nome; 
+    protected int eta;
+    protected boolean sesso;
+
+    public Persona(String nome, int eta, boolean sesso){
+        this.nome = nome;
+        this.eta = eta;
+        this.sesso = sesso;   
+    }
+
+    public String toString(){
+        return nome+" ha "+eta+" anni ed è un"+(sesso?" maschio": "a femmina")
+    }
+}
+```
+
+
+
 
 
 
