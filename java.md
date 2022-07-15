@@ -722,11 +722,11 @@ obj.faiQualcosa(); // studia la tua materia
 Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
 
 ```java 
-LibroStoria libroStoria = new LibroStoria();
+Libro platone = new LibroPlatone();
 
 for(Persona persona : persone){
     try{
-        ((StudenteStoria)persona).studia(libroStoria);
+        ((StudenteFilosofia)persona).studia(platone);
     }catch{
         /* ... */
     }
