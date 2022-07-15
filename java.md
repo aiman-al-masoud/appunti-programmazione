@@ -550,9 +550,7 @@ Abbiamo fatto alcune modifiche, nello specifico:
 * Creato il metodo `festeggiaCompleanno()` che aumenta l'età della persona di un anno.
 
 
-Ora pensiamo al nostro studente, immaginiamo che uno studente abbia bisogno, oltre ai dati di `Persona`, di avere una matricola.
-
-Allora potremmo fare così:
+Ora pensiamo al nostro studente, immaginiamo che uno studente abbia bisogno, oltre ai dati di `Persona`, di avere una matricola. Allora potremmo fare così:
 
 ```java
 public class Studente extends Persona{
