@@ -662,7 +662,7 @@ L'overloading, consiste nel creare più metodi con lo stesso nome nella stessa c
 ```java 
 
 /**
-* Calcola le tasse di un dato anno.
+* Calcola le tasse di un anno qualsiasi.
 */
 public float calcolaTasse(int anno){
     // ...
