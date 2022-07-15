@@ -381,7 +381,7 @@ public class Persona{
 
 La loro utilità sta nel "regolamentare" l'accesso e la modifica degli attributi: se volessimo potremmo controllare che il nome sia valido prima di assegnarlo, per esempio.
 
-Negli IDE (Integrated Development Envinronment) odierni, spesso c'è la possibilità di generare automaticamente i getter e i setter. Per esempio su Eclipse basta fare:
+Negli IDE (Integrated Development Environment) odierni, spesso c'è la possibilità di generare automaticamente i getter e i setter. Per esempio su Eclipse basta fare:
 
 ```
 click destro > Sorgente > Genera getters e setters
