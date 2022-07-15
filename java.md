@@ -509,7 +509,16 @@ Va anche detto che le stringhe in Java sono immutabili. Tutte le operazioni che 
 
 # L'Ereditarietà in Java
 
-L'ereditarietà permette di riciclare le funzionalità di classi esistenti, usandole come base per creare nuove classi specializzate. 
+L'ereditarietà permette di riciclare le funzionalità di classi esistenti, usandole come base per creare nuove classi specializzate, es:
+
+```java
+public class Studente extends Persona{
+
+}
+```
+
+La classe `Studente` si dice una **sottoclasse** di `Persona`. Sta a dire che la classe `Persona` è la **superclasse** di `Studente`.
+
 
 
 
