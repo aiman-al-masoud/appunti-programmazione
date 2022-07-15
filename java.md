@@ -517,7 +517,12 @@ public class Studente extends Persona{
 }
 ```
 
-La classe `Studente` si dice una **sottoclasse** di `Persona`. La classe `Persona` è la **superclasse** di `Studente`.
+La classe `Studente` si dice una **sottoclasse** di `Persona`. La classe `Persona` è la **superclasse** di `Studente`. 
+
+## Ereditarietà Multipla
+In Java una classe può ereditare **da una sola** superclasse, vale a dire che l'ereditarietà multipla è **proibita**. 
+
+
 
 
 
