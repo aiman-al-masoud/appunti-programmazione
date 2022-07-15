@@ -590,6 +590,32 @@ stud.toString(); // "Pinko ha 21 anni ed è un maschio"
 Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno; lo studente di imbottisce di torta, e aumenta la sua massa di un chilo!
 
 
+```java
+public class Studente extends Persona{ // keyword extends
+
+    String matricola;
+    float massaAggiuntiva;
+
+    /**
+    * nuovo costruttore
+    */
+    public Studente(String nome, int eta, boolean sesso, String matricola){
+        super(nome, eta, sesso); // chiamo vecchio costruttore di superclasse
+        this.matricola = matricola;
+        massaAggiuntiva = 0;
+    }
+
+    @Override
+    public festeggiaCompleanno(){
+        super.festeggiaCompleanno();
+        massaAggiuntiva+=1;
+    }
+
+}
+```
+
+
+
 
 
 ## Classcasting 
