@@ -655,6 +655,8 @@ Studente s = (Studente) p;
 Se l'oggetto `p` di tipo `Persona` è anche un'istanza di `Studente`, questa conversione andrà a buon fine. Se no, lancerà un errore (`ClassCastException`), da gestire in runtime. Non tutte le persone sono studenti, non tutte le piante sono alberi, ecc...
 
 
+Conviene pensare ad una reference come un telecomando. Una reference molto generica, in cui tratto l'oggetto `Studente` da `Persona` qualunque è un telecomando meno potente, ma più semplice da usare e generico. 
+
 ## Overloading 
 
 L'overloading, consiste nel creare più metodi con lo stesso nome nella stessa classe. Questo è possibile solo se i parametri dei due metodi sono diversi,(ricordiamo che la signature non può essere uguale). Per esempio, in `Persona` potremmo creare questi due metodi:
