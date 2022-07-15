@@ -418,9 +418,7 @@ p.eta += 1; //errore! eta è final!!!!!
 
 *Chiaramente, c'è sempre l'opzione di creare ex novo una nuova istanza dell'oggetto immutabile, ogni volta che lo vorremmo mutare.*
 
-Oltre a `public` e `private` esiste anche `protected`. Se non si dichiara esplicitamente (che è lecito fare) la visibilità di un attributo o metodo, questo sarà `protected` di default. `protected` vuol dire che il membro della classe si potrà vedere dall'esterno di questa, ma non dall'esterno del package.  
-
-
+Oltre a `public` e `private` esiste anche `protected`. `protected` vuol dire che i membri della classe saranno visibili all'interno dello stesso package, e alle sottoclassi definite ovunque. Infine, se non si dichiara esplicitamente la visibilità di una variabile, essa sarà visibile soltanto all'interno del proprio package.
 
 ## Naming Conventions
 
