@@ -643,7 +643,7 @@ Persona p = stud;
 
 Questo si chiama **Upcasting**, ed è sempre lecito farlo. Esso consiste nel fare riferimento ad un oggetto specifico in modo generico. Dopotutto, una formica è anche un insetto, un albero è anche una pianta ecc...
 
-Se lo facciamo, perdiamo la visibilità dei metodi e attributi specifici a `Studente`. Potremo invocare solo i metodi dichiarati in `Persona`. Questi metodi però, se overridati in `Studente`, saranno chiamati con la versione "giusta", cioè quella specializzata di `Studente`, questo si chiama **Polimorfismo**.
+Se lo facciamo, perdiamo la visibilità dei metodi e attributi specifici a `Studente`. Potremo invocare solo i metodi dichiarati in `Persona`. Questi metodi però, se overridati in `Studente`, saranno chiamati con la versione "giusta", cioè quella nuova e specializzata di `Studente` (studente ingrasserà comunque!), questo si chiama **Polimorfismo**.
 
 
 L'operazione inversa invece si chiama **Downcasting**, e consiste nel **provare** a fare riferimento ad un oggetto generale in modo più specifico: 
