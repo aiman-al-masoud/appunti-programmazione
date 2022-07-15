@@ -50,7 +50,7 @@ Due oggetti di tipo diverso possono avere un'interfaccia in comune. Chi li chiam
 *es: ho due tipi di prodotti diversi nell'inventario, che richiedono due formule diverse per il calcolo del loro prezzo. Posso creare due classi che implementano la stessa interfaccia "Acquistabile", con un metodo calcolaPrezzo(). La Cassa che farà la sommatoria dei prezzi per arrivare al totale, non sa che ciascun tipo di prodotto calcola internamente in modo diverso il proprio prezzo.* 
 
 
-## ***Generalmente***, gli ogetti devono avere
+## Gli ogetti devono avere
 
 ### Alta Coesione: 
 una classe ha un compito ben preciso, fa solo un certo tipo di cose correlate, e non troppe! "Separation of concerns", non vogliamo che la macchinetta del caffè abbia anche la funzionalità "contatta presidente degli Stati Uniti".
@@ -59,6 +59,12 @@ una classe ha un compito ben preciso, fa solo un certo tipo di cose correlate, e
 
 ### Basso Accoppiamento: 
 gli oggetti appunto si conoscono il meno possibile, questo per garantire sostituibilità di un implementazione con un'altra, e quindi buona modularità e manutenibilità.
+
+
+<br/>
+<br/>
+
+**(Questo è vero in generale, ma c'è un margine per i compromessi).**
 
 # Java 
 
