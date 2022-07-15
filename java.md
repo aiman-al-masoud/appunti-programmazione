@@ -547,7 +547,7 @@ Abbiamo fatto alcune modifiche, nello specifico:
 
 * Attributi resi `protected`.
 * Implementato metodo `toString()` che produce una rappresentazione testuale dell'oggetto.
-* Creato il metodo `festeggiaCompleanno()` che aumentà l'età della persona di un anno.
+* Creato il metodo `festeggiaCompleanno()` che aumenta l'età della persona di un anno.
 
 
 
