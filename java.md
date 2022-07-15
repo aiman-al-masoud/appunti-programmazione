@@ -621,7 +621,7 @@ Si tratta semplicemente di creare un metodo con la stessa firma (annotazione opz
 NB: se non usassimo `super`, così:
 
 ```java
-@Override // questa è un'annotazione
+@Override 
 public festeggiaCompleanno(){
     festeggiaCompleanno();
     massaAggiuntiva+=1;
