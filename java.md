@@ -575,7 +575,15 @@ stud.toString(); // "Pinko ha 21 anni ed è un maschio"
 
 ## Classcasting 
 
-Ma `stud` **è** un'istanza di `Persona` (oltre ad essere ovviamente un'istanza di `Studente`). Questo vuol dire che possiamo anche dimenticarci che 
+Ma `stud` **è** proprio un'istanza di `Persona` (oltre ad essere ovviamente un'istanza di `Studente`). Questo vuol dire che possiamo anche *dimenticarci* che `stud` è uno `Studente`, e trattarlo da `Persona` qualunque:
+
+```java
+Persona p = stud;
+```
+
+
+
+
 
 
 
