@@ -574,7 +574,7 @@ public class Studente extends Persona{ // keyword extends
 }
 ```
 
-Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Persona`, dato che abbiamo avuto l'accortezza di dichiarali `public` e `protected`. Possiamo usarli **come su un'istanza di `Persona`**:
+Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Persona`, dato che abbiamo avuto l'accortezza di dichiarali `public` e `protected`. Possiamo usarli **proprio come su una qualunque istanza di `Persona`**:
 
 ```java 
 Studente stud  = new Studente("Pinko", 20, true, "PNK000");
