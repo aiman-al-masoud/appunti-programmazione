@@ -705,7 +705,7 @@ Tutti gli oggetti sono implicitamente istanze di `Object`, la superclasse per ec
 stud instanceof Object // true
 ```
 
-Quest'operatore è controverso quasi quanto il costrutto goto in C. Non bisogna abusarne, o si rischia di andare contro la filosofia dell'OOP. Un errore comune a chi sta imparando a usare Java, e di creare dei blocchi di `if-else` del genere:
+Quest'operatore è controverso quasi quanto il costrutto goto in C. Non bisogna abusarne, o si rischia di andare contro la filosofia dell'OOP. Un errore comune di chi sta imparando a usare Java, e di creare dei blocchi di `if-else` del genere:
 
 ```java 
 if (obj instanceof StudenteStoria ){
