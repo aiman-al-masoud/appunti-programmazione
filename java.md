@@ -506,8 +506,7 @@ esistono diversi metodi standard per convertire le stringhe in valori numerici, 
 int x = Integer.parseInt("112"); // 122
 ```
 
-
-
+Va anche detto che le stringhe in Java sono immutabili. Tutte le operazioni che ci si possono svolgere con i metodi (`substring()`, `charAt()` ecc...) non modificano mai l'oggetto originale, ma ne creano uno nuovo se non c'è già nello String Pool.
 
 
 
