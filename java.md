@@ -563,7 +563,7 @@ public class Studente extends Persona{
 }
 ```
 
-Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Persona`, dato che abbiamo avuto l'accortezza di dichiarali `public` e `protected`.
+Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Persona`, dato che abbiamo avuto l'accortezza di dichiarali `public` e `protected`. Possiamo usarli come su un'istanza di `Persona`:
 
 ```java 
 Studente stud  = new Studente("Pinko", 21, true, "PNK000");
