@@ -269,7 +269,7 @@ Il primo oggetto che avevamo creato (quello che prima era puntato da `b1`), si d
 
 ### Identità vs Ugualianza 
 
-Due variabili sono **identiche**, quando puntano allo stesso oggetto in memoria. In Java l'identità si può testare usando l'operatore `==`. 
+Due variabili sono **identiche**, quando puntano allo stesso (unico) oggetto in memoria. In Java l'identità si può testare usando l'operatore `==`. 
 
 Due variabili sono **uguali**, quando puntano ad oggetti equivalenti, secondo qualche criterio. Di solito si usa il metodo `equals()` di `Object` per testare l'uguaglianza. Chiaramente, se vogliamo usare `equals()` su una classe creata da noi, dobbiamo implementarlo come meglio crediamo.
 
