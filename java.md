@@ -657,7 +657,7 @@ Se l'oggetto `p` di tipo `Persona` è anche un'istanza di `Studente`, questa con
 
 ## Overloading 
 
-L'overloading, consiste nel creare più metodi con lo stesso nome nella stessa classe. Questo è possibile solo se i parametri dei due metodi sono diversi (ricordiamo che la signature non può essere uguale).
+L'overloading, consiste nel creare più metodi con lo stesso nome nella stessa classe. Questo è possibile solo se i parametri dei due metodi sono diversi,(ricordiamo che la signature non può essere uguale).
 
 
 
