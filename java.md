@@ -443,7 +443,7 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 
 # Le Stringhe 
 
-Finora abbiamo intravisto l'utilizzo delle stringhe attraverso gli *string literals*, ovvero la notazione di stringa contenuta fra doppi apici, es:
+Finora abbiamo intravisto l'utilizzo delle stringhe tramite gli *string literals*, ovvero la notazione di stringa contenuta fra doppi apici, es:
 
 ```java
 String s = "ciao mondo!";
