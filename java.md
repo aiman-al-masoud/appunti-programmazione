@@ -547,9 +547,13 @@ public class Persona{
 }
 ```
 
+Estendiamola con la classe Studente:
 
+```java
+public class Studente extends Persona{
 
-
+}
+```
 
 
 
