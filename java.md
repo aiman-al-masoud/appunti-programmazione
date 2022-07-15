@@ -712,7 +712,14 @@ if (obj instanceof ClasseA ){
     // fai qualcosa 3 ...
 }
 ```
-Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da fare, è provare a sfruttare il **Polimorfismo**, mettendo il codice che  "fai qualcosa" all'interno delle sottoclassi.
+Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da fare, è provare a sfruttare il **Polimorfismo**, mettendo il codice che  "fai qualcosa" all'interno delle sottoclassi. Così da chiamare il metodo polimorfico una volta:
+
+
+```java 
+obj.faiQualcosa(); 
+```
+
+Se proprio non si può fare, allora è meglio usare un 
 
 
 
