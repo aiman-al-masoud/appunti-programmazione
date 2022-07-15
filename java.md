@@ -655,7 +655,7 @@ Studente s = (Studente) p;
 Se l'oggetto `p` di tipo `Persona` è anche un'istanza di `Studente`, questa conversione andrà a buon fine. Se no, lancerà un errore (`ClassCastException`), da gestire in runtime. Non tutte le persone sono studenti, non tutte le piante sono alberi, ecc...
 
 
-Conviene pensare ad una reference come un telecomando. Una reference molto generica, in cui tratto gli oggetti di tipo `Studente`, `Professore` e `FisicoNucleare` da `Persona`, è un telecomando meno potente, ma più semplice da usare e più generale. 
+Conviene pensare ad una reference come un telecomando. Una reference molto generica, in cui tratto gli oggetti di tipo `Studente`, `Professore` e `FisicoNucleare` tutti da `Persona` normale, è un telecomando meno potente, ma più semplice da usare e più generale. 
 
 ## Overloading 
 
