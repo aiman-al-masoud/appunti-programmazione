@@ -701,7 +701,7 @@ Tutti gli oggetti sono implicitamente istanze di `Object`, la superclasse per ec
 stud instanceof Object // true
 ```
 
-
+Quest'operatore è controverso quasi quanto il costrutto goto in C. Non bisogna abusarne, 
 
 
 
