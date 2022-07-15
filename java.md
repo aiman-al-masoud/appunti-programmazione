@@ -677,7 +677,7 @@ public float calcolaTasse(){
 
 ```
 
-In altri linguaggi, lo stesso risultato può essere ottenuto con i parametri opzionali. Altri linguaggi permettono anche di fare l'overloading degli operatori, per esempio per ridefinire `==` come uguaglianza logica, o `+` come somma matriciale fra oggetti di tipo Matrice. Purtroppo Java non permette questa flessibilità.
+In altri linguaggi, lo stesso risultato può essere ottenuto con i parametri opzionali. Altri linguaggi permettono anche di fare l'overloading degli operatori stessi del linguaggio, per esempio per ridefinire `==` come uguaglianza logica, o `+` come somma matriciale fra oggetti di tipo Matrice. Purtroppo Java non permette questa flessibilità.
 
 
 
