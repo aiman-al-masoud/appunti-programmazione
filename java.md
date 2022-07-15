@@ -587,7 +587,7 @@ stud.toString(); // "Pinko ha 21 anni ed è un maschio"
 
 ## Overriding 
 
-Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno; lo studente di imbottisce di torta, e aumenta la sua massa di un chilo!
+Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno; lo studente di imbottisce di torta, e aumenta la sua massa di un chilo! A questo fine, possiamo definire un **Override** del metodo `festeggiaCompleanno()` in `Studente`.
 
 
 ```java
@@ -605,7 +605,7 @@ public class Studente extends Persona{ // keyword extends
         massaAggiuntiva = 0;
     }
 
-    @Override
+    @Override // questa è un'annotazione
     public festeggiaCompleanno(){
         super.festeggiaCompleanno();
         massaAggiuntiva+=1;
@@ -613,6 +613,8 @@ public class Studente extends Persona{ // keyword extends
 
 }
 ```
+
+Si tratta semplicemente di creare un metodo con la stessa firma (annotazione opzionale), che però differisca nell'implementazione interna. In questo caso, aumentiamo la `massaAggiuntiva` dello `Studente` di 1. Prima però chiamiamo il metodo originale con `super.festeggiaCompleanno()`, questo perché vogliamo anche aumentare l'età, come nell'implementazione originale.
 
 
 
