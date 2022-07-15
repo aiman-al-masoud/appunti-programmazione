@@ -511,10 +511,6 @@ Va anche detto che le stringhe in Java sono immutabili. Tutte le operazioni che 
 
 L'ereditarietà permette di riciclare le funzionalità di classi esistenti, usandole come base per creare nuove classi specializzate; per esempio, molti dei metodi e degli attributi della classe `Persona`, potrebbero tornarci utili nel caso decidessimo di creare la classe `Studente`, visto che uno `Studente` è una `Persona` con qualcosa in più. La classe `Studente` si direbbe allora una **sottoclasse** di `Persona`. La classe `Persona`: la **superclasse** di `Studente`. 
 
-## Ereditarietà Multipla
-In Java una classe può ereditare direttamente **da una sola** superclasse, vale a dire che l'ereditarietà multipla è **proibita**. Questo onde evitare situazioni in cui una classe eredita da due superclassi due metodi diversi ma con lo stesso nome e signature, il che sarebbe causa di ambiguità.
-
-Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita a sua volta da `Mammifero` che eredita da `Vertebrato` ecc ... 
 
 
 Torniamo alla nostra classe `Persona`, definita in questo modo:
@@ -570,6 +566,13 @@ public class Studente extends Persona{
 Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Persona`, dato che abbiamo avuto l'accortezza di dichiarali `public` e `protected`.
 
 Studente non ha ereditato il costruttore della superclasse, perché ce ne ha fatto definire uno nuovo, col nuovo parametro `matricola`; ma siamo stati in grado di sfruttare quello di `Persona`, per assegnare `nome`, `eta` e `sesso`.
+
+
+
+## Ereditarietà Multipla
+In Java una classe può ereditare direttamente **da una sola** superclasse, vale a dire che l'ereditarietà multipla è **proibita**. Questo onde evitare situazioni in cui una classe eredita da due superclassi due metodi diversi ma con lo stesso nome e signature, il che sarebbe causa di ambiguità.
+
+Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita a sua volta da `Mammifero` che eredita da `Vertebrato` ecc ... 
 
 
 Overloding, Overriding, Class casting
