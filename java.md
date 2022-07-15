@@ -552,10 +552,14 @@ Abbiamo fatto alcune modifiche, nello specifico:
 
 Ora pensiamo al nostro studente, immaginiamo che ci serva tenere traccia del suo stato di promozione, del suo anno di corso e della sua matricola, questo oltre ai dati di base forniti da `Persona`. 
 
-Allora possiamo fare così:
+Allora potremmo fare così:
 
 ```java
 public class Studente extends Persona{
+
+    public Studente(String nome, int eta, boolean sesso, String matricola){
+        super(nome, eta, sesso);
+    }
 
 }
 ```
