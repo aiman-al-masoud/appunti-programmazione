@@ -273,7 +273,7 @@ Due variabili sono identiche, quando puntano allo stesso oggetto in memoria. In 
 
 Due variabili sono uguali, quando puntano ad oggetti equivalenti, secondo qualche criterio. Di solito si usa il metodo `equals()` di `Object` per testare l'uguaglianza. Ovviamente, se vogliamo usare `equals()` su una classe creata da noi, dobbiamo implementarlo come meglio crediamo.
 
-Ovviamente se due variabili sono identiche, sono anche uguali, ma non vale il viceversa.
+Chiaramente se due variabili sono identiche, sono anche uguali, ma non vale il viceversa.
 
 
 
