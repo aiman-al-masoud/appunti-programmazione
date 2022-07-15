@@ -565,13 +565,16 @@ public class Studente extends Persona{
 
 Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Persona`, dato che abbiamo avuto l'accortezza di dichiarali `public` e `protected`.
 
-Studente non ha ereditato il costruttore della superclasse, perché ce ne ha fatto definire uno nuovo, col nuovo parametro `matricola`; ma siamo stati in grado di sfruttare quello di `Persona`, per assegnare `nome`, `eta` e `sesso`.
-
 ```java 
 Studente stud  = new Studente("Pinko", 21, true, "PNK000");
-
-
+stud.festeggiaCompleanno() // aumenta eta di uno
+stud.nome; // Pinko
+stud.toString(); // "Pinko ha 22 anni ed è un maschio"
 ```
+
+Studente non ha ereditato il costruttore della superclasse, perché ce ne ha fatto definire uno nuovo, col nuovo parametro `matricola`; ma siamo stati in grado di sfruttare quello di `Persona`, per assegnare `nome`, `eta` e `sesso`.
+
+
 
 
 
