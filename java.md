@@ -514,7 +514,7 @@ L'ereditarietà permette di riciclare le funzionalità di classi esistenti, usan
 ## Ereditarietà Multipla
 In Java una classe può ereditare direttamente **da una sola** superclasse, vale a dire che l'ereditarietà multipla è **proibita**. Questo onde evitare situazioni in cui una classe eredita da due superclassi due metodi diversi ma con lo stesso nome e signature, il che sarebbe causa di ambiguità.
 
-Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita da `Mammifero` che eredita da `Vertebrato` ecc ... 
+Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita a sua volta da `Mammifero` che eredita da `Vertebrato` ecc ... 
 
 
 Torniamo alla nostra classe `Persona`, definita in questo modo:
