@@ -131,10 +131,10 @@ I parametri formali di un metodo si riferiscono alla sua definizione, per esempi
 
 
 ## Signature (Firma) di un metodo
-è rappresentata dal:
-* nome
-* valore di ritorno
-* parametri formali
+è composta dal:
+1. nome
+2. valore di ritorno
+3. parametri formali
 
 Non si possono avere due metodi con la stessa identica firma in una classe, altrimenti ci sarebbe un'ambiguità.
 
