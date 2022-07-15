@@ -468,6 +468,7 @@ es:
 ```java
 String s = "ciao mondo!";
 String s2 = new String("ciao mondo!");
+s==s2; //false
 s.equals(s2); //true
 ```
 
