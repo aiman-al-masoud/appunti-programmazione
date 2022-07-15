@@ -573,6 +573,11 @@ stud.toString(); // "Pinko ha 21 anni ed è un maschio"
 
 Studente non ha ereditato il costruttore della superclasse, perché ce ne ha fatto definire uno nuovo, col nuovo parametro `matricola`; ma siamo stati in grado di sfruttare quello di `Persona` (usando la keyword `super`), per assegnare `nome`, `eta` e `sesso` col codice che avevamo già scritto prima.
 
+## Overriding 
+
+Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno, 
+
+
 
 
 
