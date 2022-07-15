@@ -704,11 +704,11 @@ stud instanceof Object // true
 Quest'operatore è controverso quasi quanto il costrutto goto in C. Non bisogna abusarne, o si rischia di andare contro la filosofia dell'OOP. Un errore comune a chi sta imparando a usare Java, e di creare dei blocchi di `if-else` del genere:
 
 ```java 
-if (obj instanceof ClasseA ){
+if (obj instanceof StudenteStoria ){
     // fai qualcosa 1 ... 
-}else if (obj instanceof ClasseB){
+}else if (obj instanceof StudenteGeografia){
     // fai qualcosa 2 ...
-}else if (obj instanceof ClasseC){
+}else if (obj instanceof StudenteMatematica){
     // fai qualcosa 3 ...
 }
 ```
@@ -716,15 +716,17 @@ Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da f
 
 
 ```java 
-obj.faiQualcosa(); 
+obj.faiQualcosa(); // studia la tua materia
 ```
 
 Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
 
 ```java 
+LibroStoria libroStoria = new LibroStoria();
+
 for(Persona persona : persone){
     try{
-        ((Studente)persona).studia(esame);
+        ((StudenteStoria)persona).studia(libroStoria);
     }catch{
         /* ... */
     }
