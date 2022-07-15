@@ -708,19 +708,19 @@ stud instanceof Object // true
 Quest'operatore è controverso quasi quanto il costrutto goto in C. Non bisogna abusarne, o si rischia di andare contro la filosofia dell'OOP. Un errore comune di chi sta imparando a usare Java, e di creare dei blocchi di `if-else` del genere:
 
 ```java 
-if (obj instanceof StudenteStoria ){
-    // fai qualcosa 1 ... 
-}else if (obj instanceof StudenteFilosofia){
-    // fai qualcosa 2 ...
-}else if (obj instanceof StudenteMatematica){
-    // fai qualcosa 3 ...
+if ( stud instanceof StudenteStoria ){
+    // compila il piano di studi 1 ... 
+}else if ( stud instanceof StudenteFilosofia ){
+    // compila il piano di studi 2 ...
+}else if ( stud instanceof StudenteMatematica ){
+    // compila il piano di studi 3 ...
 }
 ```
-Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da fare, è provare a sfruttare il **Polimorfismo**, spostando il codice che "fa qualcosa" di diverso ad obj, in base al suo tipo, all'interno delle sottoclassi. Così da chiamare il metodo polimorfico una volta:
+Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da fare, è provare a sfruttare il **Polimorfismo**, spostando il codice che "fa qualcosa" di diverso, in base al tipo di `stud`, all'interno delle sottoclassi. Così da chiamare il metodo polimorfico una volta:
 
 
 ```java 
-obj.faiQualcosa(); // studia la tua materia
+stud.compilaPianoDiStudi(pianoDiStudi); // studia la tua materia
 ```
 
 Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
