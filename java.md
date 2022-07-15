@@ -130,11 +130,12 @@ All'interno del metodo `main()`, usiamo il metodo `println()` per stampare una s
 I parametri formali di un metodo si riferiscono alla sua definizione, per esempio `println()` è definito sulle stringhe. I parametri attuali sono quelli passati al metodo durante una chiamata (per esempio la stringa particolare "Ciao Mondo!").
 
 
-## Signature ("Firma") di un metodo
+## Signature (Firma) di un metodo
 è rappresentata dal:
 * nome
 * valore di ritorno
 * parametri formali
+
 Non si possono avere due metodi con la stessa identica firma in una classe, altrimenti ci sarebbe un'ambiguità.
 
 # Tipi Primitivi
