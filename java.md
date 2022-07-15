@@ -681,6 +681,27 @@ in altri linguaggi, lo stesso risultato può essere ottenuto con i parametri opz
 
 ## L'operatore `instanceof`
 
+L'operatore `instanceof` serve a controllare che un dato oggetto sia un'istanza di una data classe. 
+
+```java 
+stud instanceof Studente //true
+```
+
+```java 
+stud instanceof Persona //true
+```
+
+```java 
+stud instanceof Lavatrice //false
+```
+
+Tutti gli oggetti sono implicitamente istanze di `Object`, la superclasse per eccellenza in Java:
+
+```java 
+obj instanceof Object // true
+```
+
+
 
 
 
