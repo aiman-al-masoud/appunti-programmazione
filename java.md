@@ -472,6 +472,36 @@ s==s2; //false
 s.equals(s2); //true
 ```
 
+## Concatenazione
+
+Un modo veloce di concatenare le stringhe è attraverso l'operatore `+`, es:
+
+```java 
+String s = "ciao" + " mondo";
+s; // "ciao mondo"
+```
+
+## Lunghezza 
+
+```java 
+int l = "ciao".lenght(); //4
+```
+
+## Estrarre singolo char
+
+```java 
+char c = "ciao".charAt(1); // 'i'
+```
+## Estrarre Sottostringa 
+
+```java 
+String sub = "ciao a tutti".substring(2, 5); // "ao"
+```
+
+
+
+
+
 
 
 
