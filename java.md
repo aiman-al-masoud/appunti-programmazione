@@ -591,6 +591,9 @@ Persona p = stud;
 
 Questo si chiama **Upcasting**, ed è sempre valido. Esso consiste nel fare riferimento ad un oggetto di una sottoclasse come se fosse della superclasse. Dopotutto, una formica è anche un insetto, un albero è anche una pianta ecc...
 
+Se lo facciamo, perderemo la visibilità dei metodi e attributi specifici a `Studente`. Potremmo ivocare solo i metodi dichiarati in `Persona`. Questi metodi, se overridati in `Studente` saranno chiamati con la versione "giusta", quella specifica a `Studente`.
+
+
 L'operazione inversa invece si chiama **Downcasting**, e consiste nel **provare** a fare riferimento ad un oggetto generale in modo più specifico: 
 
 ```java
