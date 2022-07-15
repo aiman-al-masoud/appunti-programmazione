@@ -549,15 +549,15 @@ Abbiamo fatto alcune modifiche, nello specifico:
 Ora pensiamo al nostro studente, immaginiamo che uno studente abbia bisogno, oltre ai dati di `Persona`, di avere una matricola. Allora potremmo fare così:
 
 ```java
-public class Studente extends Persona{
+public class Studente extends Persona{ // keyword extends
 
     String matricola;
 
     /**
-    * costruttore
+    * nuovo costruttore
     */
     public Studente(String nome, int eta, boolean sesso, String matricola){
-        super(nome, eta, sesso); // chiamo costruttore di superclasse
+        super(nome, eta, sesso); // chiamo vecchio costruttore di superclasse
         this.matricola = matricola;
     }
 }
