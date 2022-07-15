@@ -629,7 +629,7 @@ public festeggiaCompleanno(){
 ```
 
 
-staremmo definendo un metodo ricorsivo (che chiama se stesso) senza base case (cioè senza condizione di uscita), e se lo eseguissimo, incorreremmo nel famoso `StackOverflowError`.
+staremmo definendo un metodo ricorsivo (che chiama se stesso) senza base case (cioè senza condizione di uscita), e se lo eseguissimo, incorreremmo nel famoso `StackOverflowError`, che ci avverte che abbiamo superato il limite massimo di chiamate annidate nello stack.
 
 
 
