@@ -583,7 +583,7 @@ Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aument
 
 ## Classcasting 
 
-Ma `stud` **è** proprio un'istanza di `Persona` (oltre ad essere ovviamente un'istanza di `Studente`). Questo vuol dire che possiamo anche *dimenticarci* che `stud` è uno `Studente`, e trattarlo da `Persona` qualunque:
+Ma `stud` **è proprio** un'istanza di `Persona` (oltre ad essere ovviamente un'istanza di `Studente`). Questo vuol dire che possiamo anche *dimenticarci* che `stud` è uno `Studente`, e trattarlo da `Persona` qualunque:
 
 ```java
 Persona p = stud;
