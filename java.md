@@ -641,7 +641,7 @@ Tornando al discorso di prima, `stud` (oltre ad essere un'istanza di `Studente`)
 Persona p = stud;
 ```
 
-Questo si chiama **Upcasting**, ed è sempre valido. Esso consiste nel fare riferimento ad un oggetto specifico in modo generico. Dopotutto, una formica è anche un insetto, un albero è anche una pianta ecc...
+Questo si chiama **Upcasting**, ed è sempre lecito farlo. Esso consiste nel fare riferimento ad un oggetto specifico in modo generico. Dopotutto, una formica è anche un insetto, un albero è anche una pianta ecc...
 
 Se lo facciamo, perdiamo la visibilità dei metodi e attributi specifici a `Studente`. Potremo invocare solo i metodi dichiarati in `Persona`. Questi metodi però, se overridati in `Studente`, saranno chiamati con la versione "giusta", cioè quella specializzata di `Studente`, questo si chiama **Polimorfismo**.
 
