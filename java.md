@@ -589,7 +589,11 @@ Ma `stud` **è** proprio un'istanza di `Persona` (oltre ad essere ovviamente un'
 Persona p = stud;
 ```
 
-Questo si chiama **upcasting**, 
+Questo si chiama **Upcasting**, ed è sempre valido. Esso consiste nel fare riferimento ad un oggetto di una sottoclasse come se fosse della superclasse. Una formica è anche un insetto, un albero è anche una pianta ecc...
+
+
+
+
 
 
 
