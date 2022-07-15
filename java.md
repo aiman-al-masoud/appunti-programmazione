@@ -537,7 +537,7 @@ public class Persona{
         return nome+" ha "+eta+" anni ed è un"+(sesso?" maschio": "a femmina")
     }
 
-    public void compleanno(){
+    public void festeggiaCompleanno(){
         eta++;
     }
 }
