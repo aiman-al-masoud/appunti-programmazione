@@ -10,7 +10,7 @@ Il primo linguaggio di programmazione orientato agli oggetti fu il Simula (1967)
 
 ## Classi e Oggetti
 
-Una classe è il modello ("blueprint") con qui verranno creati (o "istanziati") degli oggetti. Un oggetto è un'istanza di una data classe, per esempio:
+Una classe è il modello **(blueprint)** con qui verranno creati  **o istanziati** degli oggetti. Un oggetto è un'istanza di una data classe, per esempio:
 
 ```java 
 Gatto malachia = new Gatto();
