@@ -635,7 +635,7 @@ staremmo definendo un metodo ricorsivo (che chiama se stesso) senza base case (c
 
 ## Classcasting 
 
-Ma `stud` **è** un'istanza di `Persona` (oltre ad essere ovviamente un'istanza di `Studente`). Questo vuol dire che possiamo anche *dimenticarci* che `stud` è uno `Studente`, e trattarlo da `Persona` qualunque:
+Tornando al discorso di prima, `stud` (oltre ad essere ovviamente un'istanza di `Studente`) **è** un'istanza di `Persona`! Questo vuol dire che possiamo anche *dimenticarci* che `stud` è uno `Studente`, e trattarlo da `Persona` qualunque:
 
 ```java
 Persona p = stud;
