@@ -500,7 +500,7 @@ String sub = "ciao a tutti".substring(2, 5); // "ao"
 
 ## Parsing 
 
-esistono diversi metodi standard per convertire le stringhe in valori numerici, es:
+esistono diversi metodi standard per convertire le stringhe in valori numerici, un esempio con gli interi:
 
 ```java
 int x = Integer.parseInt("112"); // 122
