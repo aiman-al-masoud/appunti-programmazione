@@ -568,7 +568,6 @@ Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Pers
 ```java 
 Studente stud  = new Studente("Pinko", 21, true, "PNK000");
 stud.festeggiaCompleanno() // aumenta eta di uno
-stud.nome; // Pinko
 stud.toString(); // "Pinko ha 22 anni ed è un maschio"
 ```
 
