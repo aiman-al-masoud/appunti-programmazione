@@ -720,7 +720,7 @@ Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da f
 
 
 ```java 
-stud.compilaPianoStudi(pianoStudi); 
+stud.compilaPianoStudi(pianoStudi); // modifico, o ritorno nuovo
 ```
 
 Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
