@@ -550,17 +550,19 @@ Abbiamo fatto alcune modifiche, nello specifico:
 * Creato il metodo `festeggiaCompleanno()` che aumenta l'età della persona di un anno.
 
 
-Ora pensiamo al nostro studente, immaginiamo che ci serva tenere traccia del suo stato di promozione, del suo anno di corso e della sua matricola, questo oltre ai dati di base forniti da `Persona`. 
+Ora pensiamo al nostro studente, immaginiamo che uno studente abbia bisogno, oltre ai dati di `Persona`, di avere una matricola.
 
 Allora potremmo fare così:
 
 ```java
 public class Studente extends Persona{
 
+    String matricola;
+
     public Studente(String nome, int eta, boolean sesso, String matricola){
         super(nome, eta, sesso);
+        this.matricola = matricola;
     }
-
 }
 ```
 
