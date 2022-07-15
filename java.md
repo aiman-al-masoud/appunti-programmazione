@@ -698,7 +698,7 @@ stud instanceof Lavatrice //false
 Tutti gli oggetti sono implicitamente istanze di `Object`, la superclasse per eccellenza in Java:
 
 ```java 
-obj instanceof Object // true
+stud instanceof Object // true
 ```
 
 
