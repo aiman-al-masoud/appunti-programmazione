@@ -509,9 +509,7 @@ Va anche detto che le stringhe in Java sono immutabili. Tutte le operazioni che 
 
 # L'Ereditarietà in Java
 
-L'ereditarietà permette di riciclare le funzionalità di classi esistenti, usandole come base per creare nuove classi specializzate; per esempio, molti dei metodi e degli attributi della classe `Persona`, potrebbero tornarci utili nel caso decidessimo di creare la classe `Studente`.
-
-La classe `Studente` si direbbe allora una **sottoclasse** di `Persona`. La classe `Persona`: la **superclasse** di `Studente`. 
+L'ereditarietà permette di riciclare le funzionalità di classi esistenti, usandole come base per creare nuove classi specializzate; per esempio, molti dei metodi e degli attributi della classe `Persona`, potrebbero tornarci utili nel caso decidessimo di creare la classe `Studente`, visto che uno `Studente` è una `Persona` con qualcosa in più. La classe `Studente` si direbbe allora una **sottoclasse** di `Persona`. La classe `Persona`: la **superclasse** di `Studente`. 
 
 ## Ereditarietà Multipla
 In Java una classe può ereditare direttamente **da una sola** superclasse, vale a dire che l'ereditarietà multipla è **proibita**. Questo onde evitare situazioni in cui una classe eredita da due superclassi due metodi diversi ma con lo stesso nome e signature, il che sarebbe causa di ambiguità.
