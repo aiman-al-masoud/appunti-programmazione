@@ -597,7 +597,7 @@ L'operazione inversa invece si chiama **Downcasting**, e consiste nel **provare*
 Studente s = (Studente) p;
 ```
 
-Se l'oggetto `p` è un'istanza di `Studente` questa conversione funzionerà a dovere. Se no, lancerà un errore (`ClassCastException`), che deve essere gestito in runtime. Non tutte le persone sono studenti.
+Se l'oggetto `p` è un'istanza di `Studente` questa conversione funzionerà a dovere. Se no, lancerà un errore (`ClassCastException`), che deve essere gestito in runtime. Non tutte le persone sono studenti, non tutte le piante sono alberi, ecc...
 
 
 
