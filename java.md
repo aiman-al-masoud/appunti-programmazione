@@ -536,6 +536,10 @@ public class Persona{
     public String toString(){
         return nome+" ha "+eta+" anni ed è un"+(sesso?" maschio": "a femmina")
     }
+
+    public void compleanno(){
+        eta++;
+    }
 }
 ```
 
