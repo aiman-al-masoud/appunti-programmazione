@@ -451,7 +451,25 @@ String s2 = "ciao mondo!";
 s==s2; //true
 ```
 
+Il confronto con `==` ritorna `true`, il che conferma che `s` ed `s2` puntano allo stesso oggetto in memoria.
 
+Possiamo costringere Java a creare un nuovo oggetto `String`, usando il costruttore esplicitamente:
+
+es:
+```java
+String s = "ciao mondo!";
+String s2 = new String("ciao mondo!");
+s==s2; //false
+```
+
+In questo caso `s` ed `s2` puntano a due oggetti distinti. Possiamo però svolgere il confronto logico usando il metodo `equals()`, es:
+
+es:
+```java
+String s = "ciao mondo!";
+String s2 = new String("ciao mondo!");
+s.equals(s2); //true
+```
 
 
 
