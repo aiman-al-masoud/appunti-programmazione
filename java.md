@@ -474,7 +474,7 @@ s.equals(s2); //true
 
 ## Concatenazione
 
-Un modo veloce di concatenare le stringhe è attraverso l'operatore `+`, es:
+Un modo semplice di concatenare le stringhe è attraverso l'operatore `+`, es:
 
 ```java 
 String s = "ciao" + " mondo";
