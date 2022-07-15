@@ -576,7 +576,7 @@ stud.toString(); // "Pinko ha 21 anni ed è un maschio"
 
 ## Overriding 
 
-Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno, 
+Supponiamo che uno studente non si limiti a festeggiare il suo compleanno aumentando la sua età di un anno; lo studente di imbottisce di torta, e aumenta la sua massa di un chilo!
 
 
 
