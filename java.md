@@ -517,7 +517,7 @@ public class Studente extends Persona{
 }
 ```
 
-La classe `Studente` si dice una **sottoclasse** di `Persona`. Sta a dire che la classe `Persona` è la **superclasse** di `Studente`.
+La classe `Studente` si dice una **sottoclasse** di `Persona`. La classe `Persona` è la **superclasse** di `Studente`.
 
 
 
