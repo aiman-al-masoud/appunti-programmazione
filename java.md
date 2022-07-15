@@ -719,7 +719,17 @@ Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da f
 obj.faiQualcosa(); 
 ```
 
-Se proprio non si può fare, allora è meglio usare un 
+Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
+
+```java 
+for(Persona persona : persone){
+    try{
+        ((Studente)persona).studia();
+    }catch{
+        /* ... */
+    }
+}
+```
 
 
 
