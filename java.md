@@ -1,7 +1,7 @@
 <!-- https://it.wikipedia.org/wiki/Programmazione_orientata_agli_oggetti -->
 
 # Programmazione Orientata Agli Oggetti
-(Object Oriented Programming, OOP) è un **paradigma di programmazione** che permette di definire oggetti software in grado di interagire gli uni con gli altri attraverso lo scambio di messaggi. Un oggetto comprende sia dati (attributi) che istruzioni (metodi). 
+(Object Oriented Programming, OOP) è un **paradigma di programmazione** che permette di definire oggetti software in grado di interagire gli uni con gli altri attraverso lo scambio di messaggi. Un oggetto comprende sia dati (attributi) che funzioni (metodi). 
 
 Esempi di paradigmi di programmazione alternativi sono la programmazione procedurale (come nel linguaggio C), o funzionale (come nel linguaggio Haskell).
 
