@@ -712,7 +712,10 @@ if (obj instanceof ClasseA ){
     // fai qualcosa 3 ...
 }
 ```
-Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da fare, è provare a mettere 
+Questo tipo di codice deve essere evitato il più possibile! La cosa giusta da fare, è provare a sfruttare il **Polimorfismo**, mettendo il codice che  "fai qualcosa" all'interno delle sottoclassi.
+
+
+
 
 
 
