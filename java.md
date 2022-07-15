@@ -550,6 +550,7 @@ Abbiamo fatto alcune modifiche, nello specifico:
 * Creato il metodo `festeggiaCompleanno()` che aumenta l'età della persona di un anno.
 
 
+Ora pensiamo al nostro studente, immaginiamo che ci serva tenere traccia del suo stato di promozione, del suo anno di corso e della sua matricola, questo oltre ai dati di base forniti da `Persona`. 
 
 
 Estendiamola con la classe Studente:
