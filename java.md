@@ -509,6 +509,10 @@ Va anche detto che le stringhe in Java sono immutabili. Tutte le operazioni che 
 
 # L'Ereditarietà in Java
 
+L'ereditarietà permette di estendere la funzionalità di classi esistenti, usandole come base per creare nuove classi specializzate. 
+
+
+
 
 
 
