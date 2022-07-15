@@ -567,6 +567,12 @@ Cos'è successo? `Studente` ha ereditato tutti i metodi e gli attributi di `Pers
 
 Studente non ha ereditato il costruttore della superclasse, perché ce ne ha fatto definire uno nuovo, col nuovo parametro `matricola`; ma siamo stati in grado di sfruttare quello di `Persona`, per assegnare `nome`, `eta` e `sesso`.
 
+```java 
+Studente stud  = new Studente("Pinko", 21, true, "PNK000");
+
+
+```
+
 
 
 ## Ereditarietà Multipla
