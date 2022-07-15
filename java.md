@@ -724,7 +724,7 @@ Se proprio non si può fare, allora è meglio usare un class cast, per esempio:
 ```java 
 for(Persona persona : persone){
     try{
-        ((Studente)persona).studia(libro);
+        ((Studente)persona).studia(esame);
     }catch{
         /* ... */
     }
