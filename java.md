@@ -618,7 +618,7 @@ Si tratta semplicemente di creare un metodo con la stessa firma (annotazione opz
 
 
 ### StackOverFlowError
-NB: se non usassimo `super`, così:
+NB: se **non** usassimo `super`, così:
 
 ```java
 @Override 
