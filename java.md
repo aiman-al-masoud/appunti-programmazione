@@ -266,6 +266,17 @@ b1==b2; //true
 Il primo oggetto che avevamo creato (quello che prima era puntato da `b1`), si dice "uscito dallo scope", dato che nessuna variabile punta più ad esso. Il **Garbage Collector** di Java sarà dunque autorizzato a rimuovere questo oggetto dalla memoria il prima possibile, per risparmiare risorse, dato che oramai è un peso inutile.
 
 
+
+### Identità vs Ugualianza 
+
+Due variabili sono identiche, quando puntano allo stesso oggetto in memoria. In Java l'identità si può testare usando l'operatore `==`. 
+
+Due variabili sono uguali, quando puntano ad oggetti equivalenti, secondo qualche criterio. Di solito si usa il metodo `equals()` di `Object` per testare l'uguaglianza. Ovviamente, se vogliamo usare `equals()` su una classe creata da noi, dobbiamo implementarlo come meglio crediamo.
+
+Ovviamente se due variabili sono identiche, sono anche uguali, ma non vale il viceversa.
+
+
+
 Ma torniamo alla nostra classe `Persona`, e proviamo a renderla un po' più utile:
 
 
