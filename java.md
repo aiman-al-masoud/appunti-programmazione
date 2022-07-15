@@ -522,6 +522,8 @@ La classe `Studente` si dice una **sottoclasse** di `Persona`. La classe `Person
 ## Ereditarietà Multipla
 In Java una classe può ereditare **da una sola** superclasse, vale a dire che l'ereditarietà multipla è **proibita**. Questo onde evitare situazioni in cui una classe eredita da due superclassi due metodi diversi ma con lo stesso nome e signature, il che sarebbe causa di ambiguità.
 
+Invece l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita da `Mammifero` che eredita da `Vertebrato` ecc ... 
+
 
 
 
