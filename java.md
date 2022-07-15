@@ -669,7 +669,7 @@ public float calcolaTasse(int anno){
 }
 
 /**
-* Calcola le tasse di quest'anno
+* Calcola le tasse di quest'anno. Comodo.
 */
 public float calcolaTasse(){
     calcolaTasse(new Date().getYear()+1900);
