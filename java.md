@@ -240,8 +240,8 @@ public class Main{
 
     public static void main(String[] args){
 
-    Persona b1 = new Persona();
-    Persona b2 = new Persona();
+        Persona b1 = new Persona();
+        Persona b2 = new Persona();
 }
 }
 ```
