@@ -616,6 +616,8 @@ public class Studente extends Persona{ // keyword extends
 
 Si tratta semplicemente di creare un metodo con la stessa firma (annotazione opzionale), che però differisca nell'implementazione interna. In questo caso, aumentiamo la `massaAggiuntiva` dello `Studente` di 1. Prima però chiamiamo il metodo originale con `super.festeggiaCompleanno()`, questo perché vogliamo anche aumentare l'età, come nell'implementazione originale.
 
+
+### StackOverFlowError
 NB: se non usassimo `super`, così:
 
 ```java
