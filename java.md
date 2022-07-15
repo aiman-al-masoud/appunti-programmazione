@@ -440,7 +440,7 @@ String s = "ciao mondo!";
 
 *NB: in Java, come in C, gli apici singoli sono riservati al **singolo carattere**, per cui 'ciao mondo' dà un errore di compilazione.*
 
-Quando usiamo questa notazione, Java **può** creare un nuovo oggetto di tipo `String`. Non è detto che ne crei uno nuovo, perché se usiamo la stessa stringa più di una volta, quello che ci verrà restituito è un riferimento allo stesso oggetto in memoria. Java infatti mantiene un così detto "pool" di stringhe ricilate.
+Quando usiamo questa notazione, Java **può** creare un nuovo oggetto di tipo `String`. Non è detto che ne crei uno nuovo, perché se usiamo la stessa stringa più di una volta, quello che ci verrà restituito è un riferimento allo stesso oggetto in memoria. Java infatti mantiene un così detto "pool" di stringhe riciclate.
 
 es:
 ```java
