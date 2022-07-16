@@ -857,7 +857,6 @@ public interface Bancomat{
 Le classi che implementato l'interfaccia dovranno provvedere a implementarne tutti i metodi (a meno che non siano classi astratte...)
 
 ```java 
-
 public class PdPBankBancomat implements Bancomat{
 
         void ritiraDenaro(double ammontare){
@@ -868,7 +867,6 @@ public class PdPBankBancomat implements Bancomat{
             // implementazione ...
         }
 }
-
 ```
 
 
