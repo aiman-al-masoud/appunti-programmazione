@@ -832,7 +832,7 @@ Questo permette di usare le classi astratte per definire dei comportamenti comun
 
 # Interfacce
 
-Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia garantisce la presenza di un certo metodo, nascondendone l'implementazione interna.
+Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia garantisce a chi usa un oggetto la presenza di un certo metodo, nascondendone l'implementazione interna.
 
 
 
