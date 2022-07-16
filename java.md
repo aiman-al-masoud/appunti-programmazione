@@ -881,7 +881,7 @@ Un package contiene un insieme di classi correlate, e può anche contenere altri
 
 I package servono a organizzare il codice, ed evitano le collisioni in caso di classi con lo stesso nome, permettendo di usarle tutte nello stesso file. 
 
-Usando l'IDE Eclipse, potremo creare nuovi packages dal menù Package Explorer:
+Usando l'IDE Eclipse, potremo creare nuovi packages dal menù Package Explorer a sinistra:
 
 ```
 Click destro (su cartella src) > Nuovo > Package
