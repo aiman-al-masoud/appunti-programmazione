@@ -947,7 +947,7 @@ Qui ci possono tornare utili le classi anonime, una sintassi speciale che ci per
 ```java
 componenteGrafico.addActionListener(new ActionListener(){
 
-    onActionPerformed(ActionEvent e){
+    public void onActionPerformed(ActionEvent e){
         // fai qualcosa con l'evento e
     }
 
