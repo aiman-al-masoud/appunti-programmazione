@@ -969,7 +969,7 @@ componenteGrafico.addActionListener(e->{
 })
 ```
 
-Questo funziona solo se l'interfaccia da implementare ha un singolo metodo (come la `ActionListener`). Se occorre implementare più metodi, dovremo sempre usare le classi anonime.
+Questo funziona solo se l'interfaccia da implementare ha un singolo metodo (come la `ActionListener`). Se occorre implementare più metodi, dovremo comunque ricorrere alle classi anonime.
 
 
 
