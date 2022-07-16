@@ -840,7 +840,7 @@ Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia 
 
 In Java, le interfacce "risolvono" il problema dell'ereditarietà multipla. Mentre una classe può estendere una sola superclasse, può invece implementare più di un'interfaccia. Il problema dell'ambiguità in caso di metodi con la stessa firma non si ripresenta in questo caso, perché essendo tutti i metodi delle interfacce astratti, essi avranno un'unica implementazione nella classe.
 
-
+I benefici di usare delle buone interfacce comprendono un aumento della modularità del codice, diminuendo l'accoppiamento fra gli oggetti, e favorendo il facile scambio di implementazioni durante la manutenzione di un programma.
 
 
 
