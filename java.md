@@ -956,7 +956,7 @@ componenteGrafico.addActionListener(new ActionListener(){
 
 In quest'esempio, lo scopo era solamente di implementare il metodo `onActionPerformed()`, a cui verrà passato un nuovo evento `ActionEvent` ogni qualvolta accada qualcosa al `componenteGrafico` (per esempio l'utente ci clicca sopra).
 
-Se avete familiarità con Javascript, saprete che lì si eviterebbe di passare un oggetto; in questo caso basta passare una funzione, la `onActionPerformed()`!
+Se avete familiarità con Javascript, saprete che lì si eviterebbe di passare un oggetto; in questo caso basterebbe anche solo una funzione, la `onActionPerformed()`!
 
 
 
