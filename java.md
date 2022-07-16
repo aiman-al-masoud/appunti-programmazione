@@ -921,7 +921,7 @@ public class Main{
 ```java 
 package main;
 
-import gatto.Gatto;
+import felini.Gatto;
 //import gatto.*;  // importa tutte le classi nel pkg
 
 public class Main{
