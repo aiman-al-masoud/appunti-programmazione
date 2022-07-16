@@ -875,6 +875,64 @@ I benefici di usare delle buone interfacce, comprendono un aumento della modular
 Se una grossa parte del nostro programma conosce solo l'interfaccia generale, e non la classe specifica, possiamo re-implementare l'interfaccia con una nuova classe, e nessuno se ne accogerà! Risparmiadoci di riscrivere un sacco di codice...
 
 
+# Package
+
+Un package contiene un insieme di classi correlate. Può a sua volta contenere dei package annidati. 
+
+Evita collisioni in caso di classi con lo stesso nome, permettendo di usarle tutte nello stesso file. Usando un IDE Eclipse potremo creare nuovi packages usando:
+
+```
+Click destro > Nuovo > Package
+```
+
+Nel filesystem i packages corrispondono a folder che contengono i sorgenti.
+
+
+Quando si crea una classe in un package, questo è dichiarato in testa con la keyword `package`:
+
+```java
+package felini;
+
+public class Gatto{
+
+}
+```
+
+Per utilizzare la classe da un altro package, abbiamo due opzioni:
+
+## 1 Senza importare
+
+```java 
+package main;
+
+public class Main{
+    public static void main(String[] args){
+        felini.Gatto g = felini.Gatto();
+    }
+}
+```
+
+
+## 2 Con keyword `import`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
