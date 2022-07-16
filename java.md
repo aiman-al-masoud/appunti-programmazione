@@ -825,6 +825,9 @@ public abstract class Forma{
 
 I metodi dichiarati `abstract` non sono implementati nella classe astratta, ma **devono** essere implementati nelle sottoclassi (a meno che non siano `abstract` pure loro).
 
+Possono anche contenere degli attributi, dei costruttori e dei metodi implementati normalmente (non `abstract`).
+
+Questo permette di usare le classi astratte per definire dei comportamenti comuni alle sottoclassi, ammettendo un margine di varianza 
 
 
 
