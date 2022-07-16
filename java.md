@@ -755,6 +755,8 @@ In Java una classe può ereditare direttamente **da una sola** superclasse, vale
 
 Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita a sua volta da `Mammifero` che eredita da `Vertebrato` ecc ... 
 
+Una classe però **può** implementare più interfacce! Questo perché come vedremo, le interfacce non prevedono l'implmentazione dei metodi.
+
 ## La keyword `final`...
 
 L'abbiamo già vista in azione per creare costanti all'interno di una classe. Si può anche utilizzare per:
@@ -764,7 +766,9 @@ L'abbiamo già vista in azione per creare costanti all'interno di una classe. Si
 * rendere un parametro di un metodo non riassegnabile.
 
 
+# Enum
 
+Le Enum 
 
 
 
