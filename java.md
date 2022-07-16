@@ -75,7 +75,12 @@ Java è un linguaggio di programmazione ad **alto livello**, **orientato agli og
 Decifriamo un attimo i termini "gergali" in grassetto. 
 
 * Alto livello: vuol dire semplicemente che è più comodo da usare che un linguaggio di più basso livello (per esempio assembly).
-* Orientato agli Oggetti: vedi <a href="#I Meccanismi dell'OOP">I Meccanismi dell'OOP</a> 
+* Orientato agli Oggetti: vedi [I Meccanismi dell'OOP](#i-meccanismi-delloop)
+
+
+
+
+
 * Tipizzazione Statica: vuol dire che una volta dicharata la variabile `x` di un certo tipo (per esempio `int`), è proibito riassegnarla con un valore di tipo diverso (per esempio `float`, `double` ecc...).
 
 ```java
@@ -97,7 +102,7 @@ Oggigiorno, esistono addirittura svariati altri linguaggi oltre a Java che posso
 
 # Ciao Mondo!
 
-```
+```java 
 public class Main{
 
     public static void main(String[] args){
