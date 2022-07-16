@@ -768,7 +768,9 @@ L'abbiamo già vista in azione per creare costanti all'interno di una classe. Si
 
 # Enum
 
-Le Enum 
+Le Enum sono un pattern molto popolare nei linguaggi di programmazione, che consiste nel raggruppare (enumerare) tutti i possibili valori di un parametro in un unico luogo, per potervi facilmente fare riferimento.
+
+
 
 
 
