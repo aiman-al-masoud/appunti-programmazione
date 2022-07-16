@@ -814,12 +814,12 @@ switch(giorno){
 * Possono contenere metodi normali.
 * Devono essere estese (o implementate da classi anonime) per farne uso.
 
-
 Le Abstract Class si creano aggiungendo la keyword `abstract` alla dichiarazione di una classe normale:
 
 ```java
-public abstract class Gatto{
-    //...
+public abstract class Forma{
+    
+    public abstract double area();
 }
 ```
 
