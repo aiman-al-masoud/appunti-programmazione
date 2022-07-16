@@ -937,6 +937,21 @@ Ovviamente, se due o più classi hanno lo stesso nome, sarà necessario usare il
 Come abbiamo già accenato, la keyword `protected` limita l'accesso ai memrbi di una classe al package d'apparteneza, **e alle sue sottoclassi ovunque**. Di default invece (senza keyword di visibilità) il membro sarà visibile solo all'interno dello stesso package. 
 
 
+# Classi Anonime 
+
+Capita spesso di dover passare un oggetto come argomento ad un metodo. Spesso, il tipo richiesto da metodo è un'interfaccia, che non può essere istanziata, dato che è incompleta. Dovremmo dunque creare una nuova classe che implementa l'interfaccia, scrivere il corpo dei metodi e poi creare un'istanza della nostra classe per passarla al metodo.
+
+Qui ci possono tornare utili le classi anonime, una sintassi speciale che ci permette di implementare un'interfaccia (o classe anonima) al volo:
+
+```java
+window.addActionListener(new ActionListener(){
+
+    onActionPerformed(ActionEvent e){
+        // fai qualcosa con l'evento e
+    }
+
+})
+```
 
 
 
@@ -956,6 +971,14 @@ Come abbiamo già accenato, la keyword `protected` limita l'accesso ai memrbi di
 
 
 
+
+
+
+
+
+
+
+<!-- https://techvidvan.com/tutorials/data-structure-in-java/ -->
 
 
 
