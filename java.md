@@ -770,6 +770,21 @@ L'abbiamo già vista in azione per creare costanti all'interno di una classe. Si
 
 Le Enum sono un pattern molto popolare nei linguaggi di programmazione, che consiste nel raggruppare (enumerare) tutti i possibili valori di un parametro in un unico luogo, per potervi facilmente fare riferimento.
 
+Per esempio, si possono dichiarare così in giorni della settimana:
+
+
+```java 
+public enum Giorni{
+
+    LUNEDI,
+    MARTEDI,
+    MERCOLEDI,
+    GIOVEDI,
+    VENERDI,
+    SABATO,
+    DOMENICA
+}
+```
 
 
 
