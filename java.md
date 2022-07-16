@@ -830,6 +830,7 @@ Le classi astratte possono anche contenere degli attributi, dei costruttori e de
 Questo permette di usare le classi astratte per definire dei comportamenti comuni alle sottoclassi con metodi normali, introducendovi un margine di varianza tramite i metodi `abstract`, che ciascuna sottoclasse dovrà implementare da sé.
 
 
+# Interfacce
 
 
 
