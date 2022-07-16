@@ -979,7 +979,7 @@ Se una classe anonima diventa troppo lunga e complicata, o la si deve ripetere p
 
 
 
-
+<!-- l'interfaccia Comparable -->
 
 
 
