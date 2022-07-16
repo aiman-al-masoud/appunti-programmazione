@@ -956,11 +956,20 @@ componenteGrafico.addActionListener(new ActionListener(){
 
 In quest'esempio, Java *ci ha chiesto* di usare una classe anonima per il solo scopo di farci **implementare il metodo `onActionPerformed()`** dell'interfaccia `ActionListener`, che riceverà un nuovo evento `ActionEvent` ogni qualvolta accada qualcosa al `componenteGrafico` (per esempio l'utente ci clicca sopra).
 
-Se avete familiarità con Javascript, saprete che lì si eviterebbe di passare un oggetto; in questo caso basterebbe anche solo una funzione, la `onActionPerformed()`!
+Se avete familiarità con Javascript, saprete che lì si eviterebbe l'onere di passare un oggetto; in questo caso basterebbe anche solo una funzione, la `onActionPerformed()`!
+
+Passare 'funzioni' come se fossero oggeti non era possibile in Java, fino all'avvento di Java 8 (2014), quando furono introdotte le espressioni lambda.
+
+Con le espressioni lambda possiamo scrivere:
 
 
+```java
+componenteGrafico.addActionListener(e->{
+    // fai qualcosa con l'evento e
+})
+```
 
-
+Questo funziona solo se l'interfaccia da implementare ha un singolo metodo (come la `ActionListener`). Se occorre implementare più metodi, dovremo sempre usare le classi anonime.
 
 
 
