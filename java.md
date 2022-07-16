@@ -971,7 +971,7 @@ componenteGrafico.addActionListener(e->{
 
 Questo funziona solo se l'interfaccia da implementare ha un singolo metodo (come la `ActionListener`). Se occorre implementare più metodi, dovremo comunque ricorrere alle classi anonime.
 
-
+Se una classe anonima diventa troppo lunga e complicata, o la si deve ripetere pari pari in più parti del codice, allora si dovrebbe considerare di esportarla in una propria classe (normale).
 
 
 
