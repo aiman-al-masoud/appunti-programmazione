@@ -444,7 +444,7 @@ Oltre a `public` e `private` esiste anche `protected`. `protected` vuol dire che
 
 ## Naming Conventions
 
-Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere il codice più familiare e leggibile agli estranei, e a sé stessi del futuro. In Italiano è "lecito" trascurare la punteggiatura e le maiuscole, ma se vogliamo renderci comprensibili, è molto meglio usarle. Analogamente in Java è meglio seguire queste linee guida:
+Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere il codice più familiare e leggibile agli estranei, e a se stessi del futuro. In Italiano è "lecito" trascurare la punteggiatura e le maiuscole, ma se vogliamo renderci comprensibili, è molto meglio usarle. Analogamente in Java è meglio seguire queste linee guida:
 
 * Nomi di classi, interfacce ed enum: **PascalCase**
 * Nomi di oggetti e metodi: **camelCase**
