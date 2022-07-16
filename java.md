@@ -940,7 +940,7 @@ Come abbiamo già accenato, la keyword `protected` limita l'accesso ai memrbi di
 # Classi Anonime 
 
 Capita spesso di dover passare un oggetto come argomento ad un metodo. Spesso, il tipo richiesto dal metodo è un'interfaccia. Ma le interfacce non possono essere implementate, dato che sono incomplete. Dovremmo dunque creare una nuova classe, che implementa l'interfaccia, e scrivere il corpo dei metodi.
-E, infine, potremo creare un'istanza della nostra nuova classe, per passarla al metodo.
+E, finalmente, creare un'istanza della nostra nuova classe, per passarla al metodo.
 
 Qui ci possono tornare utili le classi anonime, una sintassi speciale che ci permette di implementare un'interfaccia (o classe anonima) al volo:
 
