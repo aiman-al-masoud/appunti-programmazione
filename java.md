@@ -785,7 +785,7 @@ public enum Giorni{
 }
 ```
 
-In questo modo potremo fare riferimento a qualsiasi giorno dappertutto, senza doverci ricordare il numero o il valore corrispondente.
+In questo modo potremo fare riferimento a qualsiasi giorno dappertutto, senza doverci ricordare il numero o il valore corrispondente:
 
 ```java
 Giorni giorno = Giorni.LUNEDI;
