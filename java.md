@@ -934,7 +934,7 @@ Ovviamente, se due o più classi hanno lo stesso nome, sarà necessario usare il
 
 ## Package e scope
 
-Come abbiamo già accenato, la keyword `protected` limita l'accesso ai memrbi di una classe al package d'apparteneza, e alle sue sottoclassi ovunque. Di default invece (senza keyword di visibilità) il membro sarà visibile solo all'interno dello stesso package. 
+Come abbiamo già accenato, la keyword `protected` limita l'accesso ai memrbi di una classe al package d'apparteneza, **e alle sue sottoclassi ovunque**. Di default invece (senza keyword di visibilità) il membro sarà visibile solo all'interno dello stesso package. 
 
 
 
