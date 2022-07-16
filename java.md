@@ -842,6 +842,35 @@ In Java, le interfacce "risolvono" il problema dell'ereditarietà multipla. Ment
 
 I benefici di usare delle buone interfacce comprendono un aumento della modularità del codice, diminuendo l'accoppiamento fra gli oggetti, e favorendo il facile scambio di implementazioni durante la manutenzione di un programma.
 
+Per dichiarare un'interfaccia:
+
+```java
+public interface Bancomat{
+
+    void ritiraDenaro(double ammontare);
+
+    String stampaBilancio();
+
+}
+```
+
+Le classi che implementato l'interfaccia dovranno provvedere a implementarne tutti i metodi (a meno che non siano classi astratte...)
+
+```java 
+
+public class PdPBankBancomat implements Bancomat{
+
+        void ritiraDenaro(double ammontare){
+            // implementazione ...
+        }
+
+        String stampaBilancio(){
+            // implementazione ...
+        }
+}
+
+```
+
 
 
 
