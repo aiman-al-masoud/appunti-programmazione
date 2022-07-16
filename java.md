@@ -902,7 +902,7 @@ public class Gatto{
 
 Per utilizzare la classe da un altro package, abbiamo due opzioni:
 
-## 1 Senza importare
+## 1 Senza `import`
 
 ```java 
 package main;
@@ -915,7 +915,7 @@ public class Main{
 ```
 
 
-## 2 Con keyword `import`
+## 2 Con `import`
 
 
 
