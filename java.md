@@ -814,7 +814,7 @@ switch(giorno){
 * Possono definire costruttori, ma non sono istanziabili.
 * Possono contenere metodi `abstract`.
 * Possono contenere metodi normali.
-* Devono essere estese (o implementate da classi anonime) per farne uso.
+* Devono essere estese (o implementate da ["classi anonime"](#classi-anonime)) per farne uso.
 
 Le Abstract Class si creano aggiungendo la keyword `abstract` alla dichiarazione di una classe normale:
 
@@ -838,7 +838,7 @@ Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia 
 
 * Non hanno costruttori, e non sono istanziabili.
 * Tutti i metodi sono implicitamente `public` e `abstract`, per forza.
-* Devono essere implementate da una classe (anche anonima) per farne uso.
+* Devono essere implementate da una classe (anche ["anonima"](#classi-anonime)  ) per farne uso.
 
 In Java, le interfacce "risolvono" il problema dell'ereditarietà multipla. Mentre una classe può estendere una sola superclasse, può invece implementare più di un'interfaccia. Il problema dell'ambiguità in caso di metodi con la stessa firma non si ripresenta in questo caso, perché essendo tutti i metodi delle interfacce astratti, essi avranno un'unica implementazione nella classe.
 
