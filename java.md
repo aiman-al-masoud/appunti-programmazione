@@ -954,7 +954,7 @@ componenteGrafico.addActionListener(new ActionListener(){
 })
 ```
 
-In quest'esempio, Java *ci ha chiesto* di usare una classe anonima per il solo scopo di farci **implementare il metodo `onActionPerformed()`**, che riceverà nuovo evento `ActionEvent` ogni qualvolta accada qualcosa al `componenteGrafico` (per esempio l'utente ci clicca sopra).
+In quest'esempio, Java *ci ha chiesto* di usare una classe anonima per il solo scopo di farci **implementare il metodo `onActionPerformed()`** dell'interfaccia `ActionListener`, che riceverà nuovo evento `ActionEvent` ogni qualvolta accada qualcosa al `componenteGrafico` (per esempio l'utente ci clicca sopra).
 
 Se avete familiarità con Javascript, saprete che lì si eviterebbe di passare un oggetto; in questo caso basterebbe anche solo una funzione, la `onActionPerformed()`!
 
