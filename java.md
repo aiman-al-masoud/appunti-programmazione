@@ -27,7 +27,6 @@ Un **attributo** di un oggetto è un dato che lo caratterizza, un **metodo** inv
 Nelle classi più complesse, gli attributi stessi possono essere a loro volta degli oggetti.
 
 
-<span id="I Meccanismi dell'OOP">
 
 ## I Meccanismi dell'OOP
 
@@ -55,7 +54,6 @@ Due oggetti di tipo diverso possono avere un'interfaccia in comune. Chi li chiam
 ### Alta Coesione: 
 una classe ha un compito ben preciso, fa solo un certo tipo di cose correlate, e non troppe! "Separation of concerns", non vogliamo che la macchinetta del caffè abbia anche la funzionalità "contatta presidente degli Stati Uniti".
 
-<span id="Basso Accoppiamento">
 
 ### Basso Accoppiamento: 
 gli oggetti appunto si conoscono il meno possibile, questo per garantire sostituibilità di un implementazione con un'altra, e quindi buona modularità e manutenibilità.
@@ -88,9 +86,8 @@ int x = 1; // x è un int per sempre!
 x = 2.1; // errore! errore! il compilatore si lamenta!
 ```
 
-* Bytecode vedi <a href="#Java Virtual Machine (JVM)">Java Virtual Machine (JVM) </a>
+* Bytecode vedi [Java Virtual Machine (JVM)](#java-virtual-machine-jvm)
 
-<span id="Java Virtual Machine (JVM)">
 
 ## Java Virtual Machine (JVM) 
 
@@ -365,7 +362,7 @@ Persona p = new Persona("Pinko", 33, true);
 p.nome = "Pinko Pallino"; //errore! l'attributo "nome" non è visibile dall'esterno!
 ```
 
-A cosa servono gli attributi se nessuno può vederli? Beh, vengono utilizzati all'interno della classe. Dichiarare attributi privati può aiutare a  <a href="#Basso Accoppiamento">diminuire l'accoppiamento</a> fra le classi. Ovviamente, la classe deve avere qualche altro metodo o attributo che permette di fare uso diretto o indiretto di un membro privato della stessa.
+A cosa servono gli attributi se nessuno può vederli? Beh, vengono utilizzati all'interno della classe. Dichiarare attributi privati può aiutare a [diminuire l'accoppiamento](#basso-accoppiamento) fra le classi. Ovviamente, la classe deve avere qualche altro metodo o attributo che permette di fare uso diretto o indiretto di un membro privato della stessa.
 
 ## Getters & Setters
 
