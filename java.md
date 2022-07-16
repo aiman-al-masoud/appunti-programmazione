@@ -835,7 +835,7 @@ Questo permette di usare le classi astratte per definire dei comportamenti comun
 Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia garantisce a chi usa un oggetto la presenza di un certo metodo, nascondendone l'implementazione interna.
 
 * Non hanno costruttori, e non sono istanziabili.
-* Tutti i metodi sono public e abstract, per forza.
+* Tutti i metodi sono implicitamente `public` e `abstract`, per forza.
 * Devono essere implementate da una classe (anche anonima) per farne uso.
 
 In Java, le interfacce "risolvono" il problema dell'ereditarietà multipla. Mentre una classe può estendere una sola superclasse, può invece implementare più di un'interfaccia. Il problema dell'ambiguità in caso di metodi con la stessa firma non si ripresenta in questo caso, perché essendo tutti i metodi delle interfacce astratti, essi avranno un'unica implementazione nella classe.
