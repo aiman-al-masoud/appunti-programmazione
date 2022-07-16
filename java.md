@@ -909,7 +909,7 @@ package main;
 
 public class Main{
     public static void main(String[] args){
-        felini.Gatto g = felini.Gatto();
+        felini.Gatto g = new felini.Gatto();
     }
 }
 ```
@@ -918,7 +918,18 @@ public class Main{
 ## 2 Con `import`
 
 
+```java 
+package main;
 
+import gatto.Gatto;
+//import gatto.*;  // importa tutte le classi nel pkg
+
+public class Main{
+    public static void main(String[] args){
+        Gatto g = new  Gatto();
+    }
+}
+```
 
 
 
