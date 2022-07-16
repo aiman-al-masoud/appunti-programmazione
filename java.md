@@ -932,7 +932,7 @@ public class Main{
 ```
 
 
-
+Ovviamente, se due o più classi hanno lo stesso nome, sarà necessario usare il primo modo per importare la seconda, terza e così via.
 
 
 
