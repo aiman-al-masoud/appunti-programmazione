@@ -838,7 +838,7 @@ Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia 
 * Tutti i metodi sono public e abstract, per forza.
 * Devono essere implementate da una classe (anche anonima) per farne uso.
 
-
+In Java, le interfacce "risolvono" il problema dell'ereditarietà multipla. In Java una classe può avere una sola superclasse, può invece implementare più di un'interfaccia. Il problema dell'ambiguità in caso di metodi con la stessa firma non si ripresenta in questo caso, perché essendo tutti i metodi di un'interfaccia astratti, essi dovranno essere implementati solo nella classe.
 
 
 
