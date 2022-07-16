@@ -870,7 +870,7 @@ public class PdPBankBancomat implements Bancomat{
 
 I benefici di usare delle buone interfacce, comprendono un aumento della modularità del codice, favorendo il facile scambio di implementazioni in futuro.
 
-Se una grossa parte del nostro programma conosce l'interfaccia generale, e non la classe specifica, possiamo re-implementare l'interfaccia con una nuova classe, e nessuno se ne accogerà! Risparmiadoci di riscrivere un sacco di codice...
+Se una grossa parte del nostro programma conosce solo l'interfaccia generale, e non la classe specifica, possiamo re-implementare l'interfaccia con una nuova classe, e nessuno se ne accogerà! Risparmiadoci di riscrivere un sacco di codice...
 
 
 
