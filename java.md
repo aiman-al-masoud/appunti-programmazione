@@ -834,6 +834,9 @@ Questo permette di usare le classi astratte per definire dei comportamenti comun
 
 Un'interfaccia è un contratto fra un oggetto e il mondo esterno. L'interfaccia garantisce a chi usa un oggetto la presenza di un certo metodo, nascondendone l'implementazione interna.
 
+* Non hanno costruttori, e non sono istanziabili.
+* Tutti i metodi sono public e abstract, per forza.
+* Devono essere implementate da una classe (anche anonima) per farne uso.
 
 
 
