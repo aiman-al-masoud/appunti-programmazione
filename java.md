@@ -823,6 +823,13 @@ public abstract class Gatto{
 }
 ```
 
+I metodi dichiarati `abstract` non sono implementati nella classe astratta, ma **devono** essere implementati nelle sottoclassi (a meno che non siano `abstract` pure loro).
+
+
+
+
+
+
 
 
 
