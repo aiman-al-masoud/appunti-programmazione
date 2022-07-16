@@ -786,6 +786,29 @@ public enum Giorni{
 }
 ```
 
+In questo modo potremo fare riferimento a qualsiasi giorno in modo ordinato, senza doverci ricordare il numero o il valore corrispondente.
+
+```java
+Giorni giorno = Giorni.LUNEDI;
+
+if (giorno == Giorni.LUNEDI){ // confronto con == 
+    // fai qualcosa ...
+}
+```
+
+Oppure usando un `case-switch`:
+
+```java
+
+switch(giorno){
+    case LUNEDI:
+        //fai qualcosa
+        break;
+    // ecc ...
+}
+
+```
+
 
 
 
