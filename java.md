@@ -848,7 +848,7 @@ public interface Bancomat{
 
     void ritiraDenaro(double ammontare);
 
-    String stampaBilancio();
+    String stampaEstrattoConto();
 
 }
 ```
@@ -862,7 +862,7 @@ public class PdPBankBancomat implements Bancomat{
             // implementazione ...
         }
 
-        String stampaBilancio(){
+        String stampaEstrattoConto(){
             // implementazione ...
         }
 }
