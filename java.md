@@ -887,9 +887,6 @@ Nel filesystem i packages corrispondono a folder che contengono i sorgenti. Usan
 Click destro (su cartella src) > Nuovo > Package
 ```
 
-
-
-
 Quando si crea una classe in un package, questo è dichiarato in testa con la keyword `package`:
 
 ```java
@@ -933,6 +930,11 @@ public class Main{
 
 
 Ovviamente, se due o più classi hanno lo stesso nome, sarà necessario usare il primo modo per importare la seconda, terza e così via.
+
+
+## Package e scope
+
+Come abbiamo già accenato, la keyword `protected` limita l'accesso ai memrbi di una classe al package d'apparteneza, e alle sue sottoclassi ovunque. Di default invece (senza keyword di visibilità) il membro sarà visibile solo all'interno dello stesso package. 
 
 
 
