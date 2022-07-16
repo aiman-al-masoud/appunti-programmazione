@@ -755,6 +755,23 @@ In Java una classe può ereditare direttamente **da una sola** superclasse, vale
 
 Invece, l'ereditarietà concatenata è lecita, per esempio: `Gatto` eredita da `Felino` che eredita a sua volta da `Mammifero` che eredita da `Vertebrato` ecc ... 
 
+## La keyword `final`...
+
+L'abbiamo già vista in azione per creare costanti all'interno di una classe. Si può anche utilizzare per:
+
+* rendere una classe non estendibile.
+* rendere un metodo non overridabile.
+* rendere un parametro di un metodo non riassegnabile.
+
+
+
+
+
+
+
+
+
+
 
 
 
