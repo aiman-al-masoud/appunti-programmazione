@@ -809,7 +809,7 @@ switch(giorno){
 ```
 # Classi Astratte
 
-* Possono dichiarare un costruttore, ma non sono istanziabili.
+* Possono definire costruttori, ma non sono istanziabili.
 * Possono contenere metodi `abstract`.
 * Possono contenere metodi normali.
 * Devono essere estese (o implementate da classi anonime) per farne uso.
