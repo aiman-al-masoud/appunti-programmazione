@@ -945,7 +945,7 @@ E, finalmente, saremo in grado di creare un'istanza della nostra nuova classe, p
 Qui ci possono tornare utili le classi anonime, una sintassi speciale che ci permette di risparmiare tempo e implementare un'interfaccia (o classe anonima) al volo:
 
 ```java
-componente.addActionListener(new ActionListener(){
+componenteGrafico.addActionListener(new ActionListener(){
 
     onActionPerformed(ActionEvent e){
         // fai qualcosa con l'evento e
@@ -954,7 +954,7 @@ componente.addActionListener(new ActionListener(){
 })
 ```
 
-In quest'esempio, lo scopo era solamente di implementare il metodo `onActionPerformed()`, a cui viene passato un nuovo evento `ActionEvent` ogni qualvolta che viene scatenato sul `componente`.
+In quest'esempio, lo scopo era solamente di implementare il metodo `onActionPerformed()`, a cui verrà passato un nuovo evento `ActionEvent` ogni qualvolta che accade qualcosa sul `componenteGrafico` (per esempio l'utente ci clicca sopra).
 
 
 
