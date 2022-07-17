@@ -985,11 +985,29 @@ Java ci mette a disposizione un numero di strutture dati già implementate. Abbi
 ## Array
 
 ```java
-int[] myArray = new int[10];
+int[] a1 = new int[10];
 ```
 Un array ha una dimensione fissa (10 in questo caso), per cui è una struttura dati statica. Un array non può contenere elementi di diverso tipo, in questo caso può contenere solo degli interi.
 
-## 
+Si può anche usare la sintassi sottostante per inizializzare i valori, in questo caso creando un array di 3 elementi:
+
+```java 
+int[] a2 = new int[] {1,2,3};
+```
+
+Si può accedere agli elementi o modificarli:
+
+```java
+a2[0]; // 1
+a1[0] = 222;
+a1[0]; // 222
+```
+
+## LinkedList e ArrayList
+
+Sono entrambe implementazioni dell'interfaccia `List`. Una lista in generale non ha una dimensione fissa, e può contere oggetti di tipo disomogeneo.
+
+
 
 
 
