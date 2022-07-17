@@ -1029,6 +1029,8 @@ map.put("cane",  "bau");
 map.get("gatto"); // "miao"
 ```
 
+## Consigli
+
 
 
 <!-- È -->
