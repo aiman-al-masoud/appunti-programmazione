@@ -1088,7 +1088,7 @@ Per farlo funzionare bisogna compiere un classcast:
 int i =  (Integer)li.get(1)  + 100;
 ```
 
-Ma cosa succede se per sbaglio inseriamo qualcosa che non è un numero in quella posizione della lista? Un ClassCastException in runtime!
+Ma cosa succede se per sbaglio inseriamo qualcosa che non è un numero in quella posizione della lista? Una ClassCastException in runtime!
 
 
 
