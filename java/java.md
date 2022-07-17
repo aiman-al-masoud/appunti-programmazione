@@ -1015,7 +1015,7 @@ li.add(true);
 System.out.println(li); // ["ciao", 1, true]
 ```
 
-La differenza fra `ArrayList`  e `LinkedList` è che `ArrayList` è implementata mediante un array, che viene ri-creato ogni volta che esaurisce lo spazio disponibile. La `LinkedList` invece alloca un nuovo nodo in memoria per ogni nuovo elemento, i nodi non sono necessariamente contigui, e ogni nodo punta all'indirizzo in memroia del prossimo mediante un link (o puntatore).
+La differenza fra `ArrayList`  e `LinkedList` è che `ArrayList` è implementata mediante un array, che viene ri-creato ogni volta che esaurisce lo spazio disponibile. La `LinkedList` invece alloca un nuovo nodo in memoria per ogni nuovo elemento, i nodi non sono necessariamente contigui, e ogni nodo punta all'indirizzo in memoria del prossimo mediante un "link".
 
 
 <!-- https://www.w3schools.com/java/java_linkedlist.asp -->
