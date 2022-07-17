@@ -1058,7 +1058,7 @@ Infine, una mappa è utile se si deve creare una look up table, ed è veloce com
 
 # Generics
 
-Torniamo un attimo alle liste, proviamo a crearne una e riempirla:
+Torniamo un attimo alle liste, proviamo a crearne una e riempirla di interi:
 
 ```java 
 LinkedList li = new LinkedList();
