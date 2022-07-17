@@ -1005,7 +1005,7 @@ a1[0]; // 222
 
 ## LinkedList e ArrayList
 
-Sono entrambe implementazioni dell'interfaccia `List`. Una lista in generale non ha una dimensione fissa, anzi, può variare al runtime. E può anche contere oggetti di tipo disomogeneo.
+Sono entrambe implementazioni dell'interfaccia `List`. Una lista in generale non ha una dimensione fissa, anzi, può variare al runtime. E può anche contere elementi di tipo disomogeneo.
 
 
 
