@@ -1058,6 +1058,25 @@ Infine, una mappa è utile se si deve creare una look up table, ed è veloce com
 
 # Generics
 
+Rivediamo un attimo questo pezzo di codice che crea e riempie una lista:
+
+```java 
+LinkedList li = new LinkedList();
+li.add(0);
+li.add(1);
+li.add(2);
+```
+
+Che succede se proviamo a svolgere questa operazione?
+
+```java
+int i = li.get(1) + 100;
+```
+
+Il codice non compila! Perché tutti gli oggetti nella lista sono referenziati come `Object`, e l'operatore `+` non è definito fra i tipi `int` e `Object`.  
+
+
+
 
 
 
