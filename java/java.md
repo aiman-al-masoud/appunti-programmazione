@@ -1036,7 +1036,7 @@ Un array garantisce l'accesso molto veloce agli elementi, dato che:
 * sfrutta appieno il principio di località, 
 * tutti gli elementi sono contigui e hanno lo stesso tipo, quindi la stessa dimensione, quindi la complessità di ottenere l'n-esimo elemento è O(1).
 
-è quindi consigliabile usare un array se i dati verrano letti più che scritti.
+È quindi consigliabile usare un array se i dati verrano letti più che scritti.
 
 
 Una lista, in particolare `LinkedList` fa meno fatica ad aggiungere elementi, quindi è consigliabile usarla se ci saranno tante aggiunte o cancellazioni.
