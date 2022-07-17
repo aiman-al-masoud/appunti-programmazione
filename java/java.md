@@ -1100,6 +1100,14 @@ li.add(1);
 
 Così facendo sarà il compilatore a controllare che tutti gli elementi inseriti siano di tipo intero, e il metodo `get()` della lista ci restituirà riferimenti ad interi, e non `Object` qualunque.
 
+Ci sono tipi che prendono come argomento anche più di un solo generic, come l'`HashMap`:
+
+```java
+HashMap<String, Gatto> map = new HashMap<String, Gatto>();
+```
+Questa è una `HashMap` dove le chiavi sono stringhe, e i valori sono gatti!
+
+
 
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
