@@ -1017,6 +1017,12 @@ System.out.println(li); // ["ciao", 1, true]
 
 La differenza fra `ArrayList`  e `LinkedList` è che `ArrayList` è implementata mediante un array, che viene ri-creato ogni volta che esaurisce lo spazio disponibile. La `LinkedList` invece alloca un nuovo nodo in memoria per ogni nuovo elemento, i nodi non sono necessariamente contigui, e ogni nodo punta all'indirizzo in memoria del prossimo mediante un "link".
 
+## HashMap
+
+È un'implementazione dell'interfaccia `Map`. Permette di mantenre un insieme di coppie chiave-valore, e corrisponde al concetto di "dizionario" o "array associativo" in altri linguaggi.
+
+
+<!-- È -->
 
 <!-- https://www.w3schools.com/java/java_linkedlist.asp -->
 
