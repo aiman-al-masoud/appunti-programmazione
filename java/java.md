@@ -1039,7 +1039,7 @@ Un array garantisce l'accesso molto veloce agli elementi, dato che:
 È quindi consigliabile usare un array se i dati verrano letti più che scritti.
 
 
-Una lista, in particolare `LinkedList` fa meno fatica ad aggiungere elementi, quindi è consigliabile usarla se ci saranno tante aggiunte o cancellazioni.
+Una lista, in particolare `LinkedList`, fa meno fatica ad aggiungere elementi, ma per accedere all'n-esimo elemento ci mette O(n). È quindi consigliabile usarla se ci saranno tante aggiunte o cancellazioni.
 
 
 Infine, una mappa è utile se si deve creare una look up table, ed è veloce come un array.
