@@ -1031,7 +1031,21 @@ map.get("gatto"); // "miao"
 
 ## Consigli
 
+Un array garantisce l'accesso molto veloce agli elementi, dato che:
+ 
+* sfrutta appieno il principio di località, 
+* tutti gli elementi sono contigui e hanno lo stesso tipo, quindi la stessa dimensione, quindi la complessità di ottenere l'n-esimo elemento è O(1).
 
+è quindi consigliabile usare un array se i dati verrano letti più che scritti.
+
+
+Una lista, in particolare `LinkedList` fa meno fatica ad aggiungere elementi, quindi è consigliabile usarla se ci saranno tante aggiunte o cancellazioni.
+
+
+Infine, una mappa è utile se si deve creare una look up table, ed è veloce come un array.
+
+
+<!-- https://it.wikipedia.org/wiki/Principio_di_localit%C3%A0_(informatica) -->
 
 <!-- È -->
 
