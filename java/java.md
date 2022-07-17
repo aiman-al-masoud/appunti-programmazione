@@ -1080,7 +1080,7 @@ Che succede se proviamo a svolgere questa operazione?
 int i = li.get(1) + 100;
 ```
 
-Il codice non compila! Perché tutti gli oggetti nella lista sono referenziati come `Object`, e l'operatore `+` non è definito fra i tipi `int` e `Object`.  
+Il codice non compila! Perché tutti gli oggetti nella lista sono referenziati nel ,modo più generale possibile, come `Object`, e l'operatore `+` non è definito fra i tipi `int` e `Object`.  
 
 
 
