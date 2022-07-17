@@ -1107,7 +1107,11 @@ HashMap<String, Gatto> map = new HashMap<String, Gatto>();
 ```
 Questa è una `HashMap` dove le chiavi sono stringhe, e i valori sono gatti!
 
+Possiamo ovviamente creare anche noi delle classi e interfacce che fanno uso dei generics:
 
+```
+
+```
 
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
