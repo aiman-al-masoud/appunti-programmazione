@@ -1082,8 +1082,13 @@ int i = li.get(1) + 100;
 
 Il codice non compila! Perché tutti gli oggetti nella lista sono referenziati nel modo più generale possibile, come `Object`, e l'operatore `+` non è definito fra i tipi `int` e `Object`.  
 
+Per farlo funzionare bisogna compiere un classcast:
 
+```java
+int i =  (Integer)li.get(1)  + 100;
+```
 
+Ma cosa succede se per sbaglio inseriamo qualcosa che non è un numero in quella posizione della lista? Un errore in runtime!
 
 
 
