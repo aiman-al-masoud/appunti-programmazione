@@ -1005,7 +1005,16 @@ a1[0]; // 222
 
 ## LinkedList e ArrayList
 
-Sono entrambe implementazioni dell'interfaccia `List`. Una lista in generale non ha una dimensione fissa, anzi, può variare durante il runtime. E può anche contenere elementi di tipo disomogeneo.
+Sono entrambe implementazioni dell'interfaccia `List`. Una lista non ha una dimensione fissa, anzi, può variare durante il runtime. E può anche contenere elementi di tipo disomogeneo:
+
+```java
+LinkedList li = new LinkedList();
+li.add("ciao");
+li.add(1);
+li.add(true);
+System.out.println(li); // ["ciao", 1, true]
+```
+
 
 
 
