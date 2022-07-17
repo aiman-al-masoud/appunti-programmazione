@@ -1022,6 +1022,15 @@ La differenza fra `ArrayList`  e `LinkedList` è che `ArrayList` è implementata
 È un'implementazione dell'interfaccia `Map`. Permette di mantenre un insieme di coppie chiave-valore, e corrisponde al concetto di "dizionario" o "array associativo" in altri linguaggi.
 
 
+```java 
+HashMap map = new HashMap();
+map.put("gatto",  "miao");
+map.put("cane",  "bau");
+System.out.println(map.get("gatto"));
+```
+
+
+
 <!-- È -->
 
 <!-- https://www.w3schools.com/java/java_linkedlist.asp -->
