@@ -1090,7 +1090,16 @@ int i =  (Integer)li.get(1)  + 100;
 
 Ma cosa succede se per sbaglio inseriamo qualcosa che non è un numero in quella posizione della lista? Una ClassCastException in runtime!
 
-Qui entrano in gioco i generics, 
+Qui entrano in gioco i generics:
+
+```java 
+LinkedList<Integer> li = new LinkedList<Integer>();
+li.add(1);
+// ...
+```
+
+Così facendo sarà il compilatore a controllare che tutti gli elementi inseriti siano di tipo intero, e il metodo `get()` della lista ci restituirà riferimenti ad interi, e non `Object` qualunque.
+
 
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
