@@ -1128,7 +1128,7 @@ Possiamo ovviamente creare anche noi delle classi e interfacce che fanno uso dei
 
 
 
-<!-- threding -->
+<!-- threding and synchronized -->
 
 
 
