@@ -1026,7 +1026,7 @@ La differenza fra `ArrayList`  e `LinkedList` è che `ArrayList` è implementata
 HashMap map = new HashMap();
 map.put("gatto",  "miao");
 map.put("cane",  "bau");
-System.out.println(map.get("gatto"));
+map.get("gatto"); // "miao"
 ```
 
 
