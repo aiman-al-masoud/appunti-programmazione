@@ -1228,7 +1228,7 @@ Le eccezioni si anche possono lanciare, con la keyword `throw`:
 ```java
 void metodoPericoloso() throws MyException{ 
     // ...
-    if(condizione){
+    if(condizioneAnomala){
         throw new MyException("Messaggio per te ...");
     }
     // ...
