@@ -474,7 +474,7 @@ String y = x.toUpperCase();
 
 Il programma compila ed esegue, ma termina subtio, lanciando la famigerata `NullPointerException`! Il flagello! 
 
-Nei linguaggi di programmazione che hanno succeduto Java, il problema delle null reference è stato preso molto sul serio, rendendo obbligatorio inizializzare tutte le variabili, e/o richiedendo che una variabile venga esplicitamente resa di tipo **nullable** per poterle assegnare `null`.
+Nei linguaggi di programmazione che hanno succeduto Java, il problema delle null reference è stato preso molto sul serio, rendendo obbligatorio inizializzare tutte le variabili, e richiedendo che una variabile venga esplicitamente resa di tipo **nullable** (a vostro rischio e pericolo) per poterle assegnare `null`.
 
 
 # Le Stringhe 
