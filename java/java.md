@@ -1235,6 +1235,15 @@ void metodoPericoloso() throws MyException{
 }
 ```
 
+Che senso ha farlo? 
+
+
+## Clausola finally
+
+
+## try-with-resources
+
+<!-- https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html -->
 
 
 
