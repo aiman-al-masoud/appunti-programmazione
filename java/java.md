@@ -1165,7 +1165,7 @@ Quando un'eccezione viene **lanciata** da una parte del programma (per esempio d
 
 A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni (le **checked** o controllate, appunto) al tempo di compilazione. Se vengono lanciate da un metodo, devono essere gestite o dichiarate nella clausola `throws`.
 
-Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle.
+Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle`.
 
 ## Exception Handling
 
