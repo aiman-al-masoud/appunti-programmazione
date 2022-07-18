@@ -977,7 +977,7 @@ Se una classe anonima diventa troppo lunga e complicata, o la si deve ripetere p
 # Strutture Dati
 
 
-![image ](./res/standard-data-structs.png)
+<!-- ![image ](./res/standard-data-structs.png) -->
 
 
 Java ci mette a disposizione un numero di strutture dati già implementate. Abbiamo già visto l'array, che è la struttura dati più fondamentale. Un array di interi da dieci elementi si può creare così:
