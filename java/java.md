@@ -454,7 +454,7 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 
 # Null
 
-La famigerata keyword `null` in Java serve a specificare 
+La famigerata keyword `null` in Java serve a specificare l'assenza di un oggetto. 
 
 in Java, `null` è assegnabile a qualunque reference non-primitiva
 
