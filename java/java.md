@@ -442,7 +442,7 @@ p.eta += 1; //errore! eta è final!!!!!
 
 Oltre a `public` e `private` esiste anche `protected`. `protected` vuol dire che i membri della classe saranno visibili all'interno dello stesso package, e alle sottoclassi definite ovunque. Infine, se non si dichiara esplicitamente la visibilità di una variabile, essa sarà visibile soltanto all'interno del proprio package.
 
-## Naming Conventions
+# Naming Conventions
 
 Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere il codice più familiare e leggibile agli estranei, e a se stessi del futuro. In Italiano è "lecito" trascurare la punteggiatura e le maiuscole, ma se vogliamo renderci comprensibili, è molto meglio usarle. Analogamente in Java è meglio seguire queste linee guida:
 
