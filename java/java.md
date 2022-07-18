@@ -1036,7 +1036,7 @@ map.get("gatto"); // "miao"
 Un array garantisce un accesso veloce agli elementi, dato che sfrutta appieno il principio di località, e ha un tempo d'accesso O(1); questo vuol dire che in teoria c'è poca differenza fra l'accedere all'emento 3 e accedere all'emenento 3000. È quindi consigliabile usare un array se i dati verrano **letti più che scritti**.
 
 
-Una lista, e in particolare una `LinkedList`, fa meno fatica ad aggiungere o rimuovere elementi, dato che lavora con dei link; ma ha un tempo d'accesso O(n), dato che per accedere all'n-simo elemento bisogna attraversarla, saltando n-1 link fino ad arrivare all'elemento n. È dunque consigliabile usarla se ci saranno tante aggiunte o cancellazioni, e poche letture.
+Una lista, e in particolare una `LinkedList`, fa meno fatica ad aggiungere o rimuovere elementi, dato che lavora con dei link; ma ha un tempo d'accesso O(n), dato che per accedere all'n-simo elemento bisogna attraversarla, saltando n-1 link fino ad arrivare all'elemento n. È dunque consigliabile usarla se **ci saranno tante aggiunte o cancellazioni, e poche letture**.
 
 
 Infine, una mappa è utile se si deve creare una look up table, ed è veloce come un array, essendo, dal punto di vista logico, una sua generalizzazione in cui gli indici non devono essere per forza degli interi.
