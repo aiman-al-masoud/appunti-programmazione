@@ -1190,8 +1190,18 @@ Quando un'eccezione viene **lanciata** da una parte del programma (per esempio d
 A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni al tempo di compilazione (le **checked** o controllate, appunto). Se vengono sollevate all'interno di un metodo, devono essere ivi gestite, o altrimenti dichiarate nella clausola `throws` dello stesso:
 
 ```java 
-void metodo() throws IOException{ 
+void metodoPericoloso() throws IOException{ 
     // qui c'è del codice che solleva una IOException
+}
+```
+
+E a quel punto dovrà gestirla il codice che chiama il metodo:
+
+```java 
+try{
+    obj.metodoPericoloso()
+}catch(IOException e){
+    // fai qualcosa
 }
 ```
 
