@@ -1235,7 +1235,7 @@ void metodoPericoloso() throws MyException{
 }
 ```
 
-Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione anomala in un luogo poco consono a gestirla. 
+Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione anomala in un luogo poco consono a gestirla. Allora possiamo lanciarla dal metodo "periferico" e catturarla nel blocco chiamante più in alto nella gerarchia del programma, che sarà meglio equipaggiato per gestirla.
 
 
 ## Clausola finally
