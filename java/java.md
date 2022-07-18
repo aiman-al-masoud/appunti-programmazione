@@ -1240,8 +1240,9 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 ## Clausola finally
 
-
 ## try-with-resources
+
+
 
 <!-- https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html -->
 
