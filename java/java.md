@@ -1195,7 +1195,7 @@ void metodoPericoloso() throws IOException{
 }
 ```
 
-E a quel punto dovrà gestirla il codice che chiama il metodo:
+E a quel punto dovrà **catturarla** e gestirla il codice che chiama il metodo:
 
 ```java 
 try{
@@ -1225,33 +1225,6 @@ public T pop(){
 Che succede se dopo aver inserito **3** elementi nello stack, facciamo il pop **4** volte? Al quarto pop, la lista di elementi sarà vuota, quindi: `li.size() -1` = `0 -1` = `-1`. Gli indici negativi in Java sono una brutta cosa! Perciò questo blocco di codice sollverà l'eccezione `IndexOutOfBoundsException`.
 
 Andando a controllare `IndexOutOfBoundsException` sui javadocs, ci accorgiamo che è una classe che estende `RuntimeException`, la quale è, come suggerisce il nome stesso "runtime", un'eccezione **unchecked**, ecco perché il compilatore non ci aveva avvertiti prima.
-
-## try-catch
-
-Per **catturare** un'eccezione si ricorre al blocco `try-catch`. Abbiamo due opzioni, usare `try-catch` all'interno del metodo stesso, e ritornare `null` per esempio:
-
-```java
-public T pop(){
-   try{
-        T obj = li.get(li.size()-1);
-        li.remove(li.size()-1);
-        return obj;
-   }catch(IndexOutOfBoundsException e){
-        return null;
-   }
-}
-```
-
-Oppure usare `try-catch` alla chiamata del metodo:
-
-```java 
-try{
-    stack.pop()
-}catch(IndexOutOfBoundsException e){
-    // fai qualcosa
-}
-```
-
 
 
 
