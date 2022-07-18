@@ -1205,7 +1205,6 @@ try{
 }
 ```
 
-
 ## Unchecked Exceptions
 
 Per contro, le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
