@@ -463,7 +463,7 @@ String x = null;
 // String x;
 ```
 
-Cosa succede se proviamo ad usare un metodo su un oggetto non inizializzato? 
+Cosa succede se proviamo ad usare un metodo su un oggetto non inizializzato? Il programma esegue, ma lancia la famigerata `NullPointerException` e crasha!
 
 
 
