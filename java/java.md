@@ -456,8 +456,13 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 
 La sfortunata keyword `null` in Java serve a specificare l'assenza di un oggetto. Le variabili dichiarate ma non-inizializzate hanno valore `null`, e il compiler in generale non ci avverte se non le inizializziamo. Inoltre, `null` è assegnabile anche manualmente a qualunque reference non-primitiva:
 
+
 ```java 
 String x = null;
+```
+
+```java 
+int i = null; //errore, int è primitivo!!!!!
 ```
 
 Che succede se proviamo a chiamare un metodo su un oggetto non inizializzato? 
