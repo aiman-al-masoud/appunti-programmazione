@@ -1159,7 +1159,7 @@ System.out.println(s.pop());  // uno!
 
 Un'eccezione è un evento anomalo che provoca l'interruzione del normale flusso d'esecuzione di un programma.
 
-Quando un'eccezione viene **lanciata** da una parte del programma (per esempio da un *metodo m*), essa provoca l'uscita da quel blocco di codice verso il blocco di codice esterno (per esempio dove è stato chiamato il *metodo m*). Se l'eccezione non viene **catturata** nel blocco esterno, sarà a sua volta 
+Quando un'eccezione viene **lanciata** da una parte del programma (per esempio da un *metodo m*), essa provoca l'uscita da quel blocco di codice verso il blocco di codice esterno (per esempio dove è stato chiamato il *metodo m*). Se l'eccezione non viene **catturata** nel blocco esterno, sarà a sua volta sollevata verso il blocco esterno. Se non viene catturata nel metodo `main()` del programma, a quel punto il programma 
 
 
 
