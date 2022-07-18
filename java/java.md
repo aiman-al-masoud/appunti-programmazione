@@ -1114,13 +1114,47 @@ HashMap<String, Gatto> map = new HashMap<String, Gatto>();
 Questa è una `HashMap` dove le chiavi sono stringhe, e i valori sono gatti!
 
 
-
-
 Possiamo ovviamente creare anche noi delle classi e interfacce che fanno uso dei generics:
 
+```java 
+import java.util.ArrayList;
+
+class Stack<T>{
+	
+    ArrayList<T> li;
+	
+	public Stack(){
+		li = new ArrayList<T>();
+	}
+
+    void push(T obj){
+        li.add(obj);
+    }
+
+    T pop(){
+        T obj = li.get(li.size()-1);
+        li.remove(li.size()-1);
+        return obj;
+    }
+}
 ```
 
+Questo è uno `Stack`, possiamo provare ad usarlo con delle stringhe:
+
+```java
+Stack<String> s = new Stack<String>();
+
+s.push("uno!");
+s.push("due!");
+s.push("tre!");
+
+System.out.println(s.pop());  // tre!
+System.out.println(s.pop());  // due!
+System.out.println(s.pop());  // uno!	
 ```
+
+
+
 
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
