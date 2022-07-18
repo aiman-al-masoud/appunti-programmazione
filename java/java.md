@@ -1195,7 +1195,7 @@ void metodoPericoloso() throws IOException{
 }
 ```
 
-E a quel punto dovrà gestirla (o lanciarla a sua volta) il codice che chiama il metodo:
+E a quel punto dovrà gestirla il codice che chiama il metodo:
 
 ```java 
 try{
