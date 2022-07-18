@@ -1185,7 +1185,21 @@ Andando a controllare `IndexOutOfBoundsException` sui javadocs, ci accorgiamo ch
 
 ## try-catch
 
-Per **catturare** un'eccezione si ricorre al blocco `try-catch`. 
+Per **catturare** un'eccezione si ricorre al blocco `try-catch`. Abbiamo due opzioni, usare `try-catch` all'interno del metodo, e ritornare `null` per esempio:
+
+```java
+public T pop(){
+   try{
+        T obj = li.get(li.size()-1);
+        li.remove(li.size()-1);
+        return obj;
+   }catch(IndexOutOfBoundsException){
+        return null;
+   }
+}
+```
+
+Oppure 
 
 
 
