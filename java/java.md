@@ -1187,7 +1187,14 @@ Quando un'eccezione viene **lanciata** da una parte del programma (per esempio d
 
 ## Checked vs Unchecked
 
-A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni al tempo di compilazione (le **checked** o controllate, appunto). Se vengono sollevate all'interno di un metodo, devono essere ivi gestite, o altrimenti dichiarate nella clausola `throws` dello stesso.
+A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni al tempo di compilazione (le **checked** o controllate, appunto). Se vengono sollevate all'interno di un metodo, devono essere ivi gestite, o altrimenti dichiarate nella clausola `throws` dello stesso:
+
+```java 
+void metodo() throws IOException{ 
+    // qui c'è del codice che solleva una IOException
+}
+```
+
 
 Per contro, le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle.
 
