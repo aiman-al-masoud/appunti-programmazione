@@ -1178,7 +1178,7 @@ public T pop(){
 }
 ```
 
-Che succede se dopo aver inserito **3** elementi nello stack, facciamo il pop **4** volte? 
+Che succede se dopo aver inserito **3** elementi nello stack, facciamo il pop **4** volte? Al quarto pop, la lista di elementi sarà vuota, quindi li.size()-1 = -1. 
 
 
 
