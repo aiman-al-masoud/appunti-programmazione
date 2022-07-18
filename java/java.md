@@ -468,7 +468,7 @@ String x; // non inizializzare è equivalente a  = null
 String y = x.toUpperCase();
 ```
 
-Il programma compila ed esegue, ma termina subtio lanciando la famigerata `NullPointerException`! Il flagello
+Il programma compila ed esegue, ma termina subtio lanciando la famigerata `NullPointerException`! Il flagello! 
 
 
 
