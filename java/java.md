@@ -1121,7 +1121,7 @@ import java.util.ArrayList;
 
 class Stack<T>{
 	
-    protected ArrayList<T> li;
+    private ArrayList<T> li;
 	
 	public Stack(){
 		li = new ArrayList<T>();
