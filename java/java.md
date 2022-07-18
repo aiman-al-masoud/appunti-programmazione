@@ -1268,7 +1268,7 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 # Swing 
 
 # Thread
-
+<!-- synchronized -->
 
 # Streams 
 
@@ -1276,13 +1276,6 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 # Esportare un jar
 
-<!-- I/O -->
-<!-- Swing -->
-<!-- classi locali e annidate -->
-<!-- Streams -->
-<!-- threding and synchronized -->
-<!-- Maven -->
-<!-- esportare jar -->
 
 <!-- l'interfaccia Comparable -->
 
