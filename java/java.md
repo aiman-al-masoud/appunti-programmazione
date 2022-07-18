@@ -1058,7 +1058,7 @@ Infine, una mappa è utile se si deve creare una look up table, ed è veloce com
 
 # Generics
 
-I generics sono uno strumento per definire delle classi che accettano parametri di tipo generico, e specificare quando si crea l'oggettos il tipo particolare che verrà utilizzato. 
+I generics sono uno strumento per definire delle classi che accettano parametri di tipo generico, e specificare quando ne si crea un oggetto il tipo particolare che verrà utilizzato. 
 
 Torniamo un attimo alle liste, proviamo a crearne una e riempirla di interi (senza generics):
 
