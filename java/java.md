@@ -1257,7 +1257,6 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 
 
-<!-- eccezioni -->
 <!-- I/O -->
 <!-- Swing -->
 <!-- classi locali e annidate -->
