@@ -1058,7 +1058,7 @@ Infine, una mappa è utile se si deve creare una look up table, ed è veloce com
 
 # Generics
 
-I generics sono uno strumento per definire delle classi che accettano parametri di tipo generico, e specificare in seguito (ma sempre prima del runtime) il tipo particolare che verrà utilizzato.
+I generics sono uno strumento per definire delle classi che accettano parametri di tipo generico, e specificare in seguito (ma sempre prima del runtime) il tipo particolare che verrà utilizzato. 
 
 Torniamo un attimo alle liste, proviamo a crearne una e riempirla di interi:
 
@@ -1105,6 +1105,9 @@ Così facendo sarà il compilatore a controllare che tutti gli elementi inseriti
 ```java
 int i =  li.get(1)  + 100;
 ```
+
+I generics sono dunque un'alternativa più comoda al referenziare tutto come `Object` e poi fare il casting esplicito. 
+
 
 
 Ci sono tipi che prendono come argomento più di un solo generic, come l'`HashMap`:
