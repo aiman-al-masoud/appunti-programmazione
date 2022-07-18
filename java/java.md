@@ -1253,6 +1253,13 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 
 
+# I/O
+
+## Leggere File
+
+## Scanner
+
+## Argomenti CLI
 
 
 
