@@ -454,7 +454,7 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 
 # Null
 
-La famigerata keyword `null` in Java serve a specificare l'assenza di un oggetto. Le variabili dichiarate ma non-inizializzate hanno valore `null`, e il compiler in generale non ci avverte. Inoltre, `null` è assegnabile manualmente a qualunque reference non-primitiva:
+La sfortunata keyword `null` in Java serve a specificare l'assenza di un oggetto. Le variabili dichiarate ma non-inizializzate hanno valore `null`, e il compiler in generale non ci avverte. Inoltre, `null` è assegnabile manualmente a qualunque reference non-primitiva:
 
 ```java 
 String x = null;
