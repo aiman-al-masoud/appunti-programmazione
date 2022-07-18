@@ -1033,9 +1033,7 @@ map.get("gatto"); // "miao"
 
 ## Consigli
 
-Un array garantisce un accesso veloce agli elementi, dato che sfrutta appieno il principio di località, e ha un tempo d'accesso O(1); questo vuol dire che in teoria c'è poca differenza fra l'accedere all'emento 3 e accedere all'emenento 3000.
-
-È quindi consigliabile usare un array se i dati verrano letti più che scritti.
+Un array garantisce un accesso veloce agli elementi, dato che sfrutta appieno il principio di località, e ha un tempo d'accesso O(1); questo vuol dire che in teoria c'è poca differenza fra l'accedere all'emento 3 e accedere all'emenento 3000. È quindi consigliabile usare un array se i dati verrano letti più che scritti.
 
 
 Una lista, in particolare `LinkedList`, fa meno fatica ad aggiungere elementi, ma accedere all'n-esimo è un problema O(n), perché deve saltare n-1 link. È quindi consigliabile usarla se ci saranno tante aggiunte o cancellazioni, poche letture.
