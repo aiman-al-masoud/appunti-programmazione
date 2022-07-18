@@ -1087,7 +1087,7 @@ Per farlo funzionare bisogna compiere un classcast:
 int i =  (Integer)li.get(1)  + 100;
 ```
 
-Ma cosa succede se per sbaglio inseriamo qualcosa che non è un numero in quella posizione della lista? Un errore (ClassCastException) in runtime!
+Ma cosa succede se per sbaglio inseriamo qualcosa che non è un numero in quella posizione della lista? Il compilatore non ci dirà niente, quindi... un errore (ClassCastException) in runtime!
 
 Qui entrano in gioco i generics:
 
