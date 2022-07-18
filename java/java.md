@@ -1121,17 +1121,17 @@ import java.util.ArrayList;
 
 class Stack<T>{
 	
-    ArrayList<T> li;
+    protected ArrayList<T> li;
 	
 	public Stack(){
 		li = new ArrayList<T>();
 	}
 
-    void push(T obj){
+    public void push(T obj){
         li.add(obj);
     }
 
-    T pop(){
+    public T pop(){
         T obj = li.get(li.size()-1);
         li.remove(li.size()-1);
         return obj;
