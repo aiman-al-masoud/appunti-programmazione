@@ -1235,7 +1235,7 @@ void metodoPericoloso() throws MyException{
 }
 ```
 
-Che senso ha farlo? Beh, spesso capiterà di incorrere in una situazione anomala in un luogo poco consono a gestirla. 
+Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione anomala in un luogo poco consono a gestirla. 
 
 
 ## Clausola finally
