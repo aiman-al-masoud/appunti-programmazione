@@ -1181,6 +1181,8 @@ public T pop(){
 
 Che succede se dopo aver inserito **3** elementi nello stack, facciamo il pop **4** volte? Al quarto pop, la lista di elementi sarà vuota, quindi: `li.size() -1` = `0 -1` = `-1`. Gli indici negativi in Java sono una brutta cosa! Perciò questo blocco di codice sollverà l'eccezione `IndexOutOfBoundsException`, che viene lanciata anche nel caso in cui l'indice vada oltre la dimensione della lista.
 
+Andando a controllare `IndexOutOfBoundsException` sui javadocs, ci accorgiamo che è una classe che estende `RuntimeException`, la quale è come suggerisce il nome un'eccezione **unchecked**, ecco perché il compilatore non ci aveva avvertiti prima.
+
 
 
 
