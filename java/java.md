@@ -1167,6 +1167,9 @@ A differenza di altri linguaggi, Java costringe il programmatore a gestire certi
 
 Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione.
 
+
+
+
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
 
 
