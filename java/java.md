@@ -1005,7 +1005,7 @@ a1[0]; // 222
 
 ## LinkedList e ArrayList
 
-Sono entrambe implementazioni dell'interfaccia `List`. Una lista non ha una dimensione fissa, anzi, può variare durante il runtime. E può anche contenere elementi di tipo disomogeneo:
+Sono entrambe implementazioni dell'interfaccia `List`. Una lista non ha una dimensione fissa, anzi, può variare durante il runtime, questo la rende una struttura dati **dinamica**. E può anche contenere elementi di tipo disomogeneo:
 
 ```java
 LinkedList li = new LinkedList();
@@ -1015,7 +1015,7 @@ li.add(true);
 System.out.println(li); // ["ciao", 1, true]
 ```
 
-La differenza fra `ArrayList` e `LinkedList` è che `ArrayList` è implementata mediante un array, che viene ri-creato ogni volta che esaurisce lo spazio disponibile. La `LinkedList` invece alloca un nuovo nodo in memoria per ogni nuovo elemento, i nodi non sono necessariamente contigui, e ogni nodo punta all'indirizzo in memoria del prossimo mediante un "link".
+La differenza fra `ArrayList` e `LinkedList` è che `ArrayList` è implementata mediante un array "dinamico", cioè che viene ri-creato ogni volta che esaurisce lo spazio disponibile. La `LinkedList` invece alloca un nuovo nodo in memoria per ogni nuovo elemento, i nodi non sono necessariamente contigui, e ogni nodo punta all'indirizzo in memoria del prossimo mediante un "link".
 
 ## HashMap
 
