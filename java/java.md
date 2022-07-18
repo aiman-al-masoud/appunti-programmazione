@@ -1015,7 +1015,9 @@ li.add(true);
 System.out.println(li); // ["ciao", 1, true]
 ```
 
-La differenza fra `ArrayList` e `LinkedList` è che `ArrayList` è implementata mediante un array "dinamico", cioè che viene distrutto e ri-creato da un'altra parte ogni volta che aggiungendo un elemento si esaurisce lo spazio a disposizione. La `LinkedList` invece alloca un nuovo nodo in memoria per ogni nuovo elemento, i nodi non sono necessariamente contigui, e ogni nodo punta all'indirizzo in memoria del prossimo mediante un "link".
+La differenza fra `ArrayList` e `LinkedList` è che `ArrayList` è implementata mediante un array "dinamico", cioè che viene distrutto e ri-creato da un'altra parte ogni volta che aggiungendo un elemento si esaurisce lo spazio a disposizione. 
+
+La `LinkedList`, per contro, alloca per ogni nuovo elemento un nuovo nodo nella prima posizione libera in memoria. Dato che i nodi non sono necessariamente contigui, ogni nodo deve puntare al prossimo (all'indirizzo in memoria del prossimo) mediante un "link".
 
 ## HashMap
 
