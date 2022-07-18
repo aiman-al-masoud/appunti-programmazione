@@ -1139,7 +1139,7 @@ class Stack<T>{
 }
 ```
 
-Questo è uno `Stack` con i generics, e possiamo provare ad usarlo con delles stringhe:
+Questo è uno `Stack` con i generics, e possiamo provare ad usarlo con delle stringhe:
 
 ```java
 Stack<String> s = new Stack<String>();
