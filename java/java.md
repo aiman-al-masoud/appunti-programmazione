@@ -1169,7 +1169,7 @@ Per contro le eccezioni **unchecked** non possono essere previste dal compiler a
 
 ## Gestione
 
-Ma come si gestisce un'eccezione? Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
+Ma come si **gestisce** un'eccezione? Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
 
 ```java
 public T pop(){
