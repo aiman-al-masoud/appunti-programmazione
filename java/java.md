@@ -1039,7 +1039,7 @@ Un array garantisce un accesso veloce agli elementi, dato che sfrutta appieno il
 Una lista, e in particolare una `LinkedList`, fa meno fatica ad aggiungere o rimuovere elementi, dato che lavora con dei link; ma ha un tempo d'accesso O(n), dato che per accedere all'n-simo elemento bisogna attraversarla, saltando n-1 link fino ad arrivare all'elemento n. È dunque consigliabile usarla se **ci saranno tante aggiunte o cancellazioni, e poche letture**.
 
 
-Infine, una mappa è molto utile se si devono **creare look up table**; ed è veloce come un array: ha un tempo d'accesso medio O(1). Daltronde, dal punto di vista logico, una mappa è una sua generalizzazione di un array, in cui gli indici non devono essere per forza degli interi.
+Infine, una mappa è molto utile se si devono **creare look up table**; è veloce come un array: ha un tempo d'accesso medio O(1). Daltronde, dal punto di vista logico, una mappa è una sua generalizzazione di un array, in cui gli indici non devono essere per forza degli interi.
 
 
 <!-- https://it.wikipedia.org/wiki/Principio_di_localit%C3%A0_(informatica) -->
