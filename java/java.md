@@ -460,7 +460,7 @@ La sfortunata keyword `null` in Java serve a specificare l'assenza di un oggetto
 String x = null;
 ```
 
-Che succede se proviamo ad usare un metodo su un oggetto non inizializzato? 
+Che succede se proviamo a chiamare un metodo su un oggetto non inizializzato? 
 
 ```java 
 String x; // non inizializzare è equivalente a  = null
