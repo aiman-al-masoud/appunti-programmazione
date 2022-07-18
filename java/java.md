@@ -1155,7 +1155,9 @@ System.out.println(s.pop());  // uno!
 
 <!-- missing exception handling in stack -->
 
+# Eccezioni
 
+Un'eccezione è un evento anomalo che provoca l'interruzione del normale flusso d'esecuzione di un programma.
 
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
