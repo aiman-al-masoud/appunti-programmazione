@@ -1163,7 +1163,7 @@ Quando un'eccezione viene **lanciata** da una parte del programma (per esempio d
 
 ## Checked vs Unchecked
 
-A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni (le checked appunto) al momento di compilazione.
+A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni (le **checked** appunto) al momento di compilazione.
 
 
 
