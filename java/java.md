@@ -989,7 +989,7 @@ int[] a1 = new int[10];
 ```
 Un array ha una dimensione fissa (10 in questo caso), per cui è una struttura dati **statica**. Un array non può contenere elementi di diverso tipo, in questo caso può contenere solo degli interi. In memoria, un array è composto da un unico blocco di byte contigui.
 
-Si può anche usare la sintassi sottostante per inizializzare i valori, in questo caso creando un array di 3 elementi:
+Si può anche usare la sintassi sottostante per inizializzare i valori se si conoscono già, in questo caso creando un array di 3 elementi:
 
 ```java 
 int[] a2 = new int[] {1,2,3};
