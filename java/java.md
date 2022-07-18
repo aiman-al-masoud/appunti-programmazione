@@ -1251,6 +1251,9 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
 
+# Classi Locali
+
+# Classi Annidate
 
 
 # I/O
@@ -1261,6 +1264,11 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 ## Argomenti CLI
 
+
+
+# Swing 
+
+# Thread
 
 
 
