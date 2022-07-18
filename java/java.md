@@ -1167,7 +1167,7 @@ A differenza di altri linguaggi, Java costringe il programmatore a gestire certi
 
 Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle.
 
-## Gestione
+## Exception Handling
 
 Ma come si **gestisce** un'eccezione? Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
 
