@@ -1223,7 +1223,7 @@ Andando a controllare `IndexOutOfBoundsException` sui javadocs, ci accorgiamo ch
 
 ## Lanciarle
 
-Le eccezioni si anche possono lanciare manualmente, con la keyword `throw`:
+Le eccezioni si anche possono lanciare, con la keyword `throw`:
 
 ```java
 void metodoPericoloso() throws MyException{ 
