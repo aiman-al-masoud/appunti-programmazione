@@ -463,6 +463,7 @@ String x = null;
 Che succede se proviamo a chiamare un metodo su un oggetto non inizializzato? 
 
 ```java 
+// nel main
 String x; // non inizializzare è equivalente a  = null
 String y = x.toUpperCase();
 ```
