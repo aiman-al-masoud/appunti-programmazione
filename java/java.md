@@ -1103,7 +1103,7 @@ Così facendo sarà il compilatore a controllare che tutti gli elementi inseriti
 int i =  li.get(1)  + 100;
 ```
 
-I generics sono dunque un'alternativa più comoda e sicura al referenziare tutto come `Object` e poi fare il casting esplicito. Ci sono tipi che prendono come argomento più di un solo generic, come l'`HashMap`:
+I generics sono dunque un'alternativa più comoda e sicura al trattare tutto come `Object`, e poi fare il downcasting esplicito. Ci sono tipi che prendono come argomento più di un solo generic, come l'`HashMap`:
 
 ```java
 HashMap<String, Gatto> map = new HashMap<String, Gatto>();
