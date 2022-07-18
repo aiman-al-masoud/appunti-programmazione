@@ -1201,7 +1201,7 @@ E a quel punto dovrà **catturarla** e gestirla il codice che chiama il metodo:
 try{
     obj.metodoPericoloso()
 }catch(IOException e){
-    // fai qualcosa
+    // gestisci l'eccezione
 }
 ```
 
