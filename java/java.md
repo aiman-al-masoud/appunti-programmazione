@@ -1205,10 +1205,7 @@ try{
 }
 ```
 
-
 Per contro, le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle.
-
-
 
 ## Esempio Unchecked
 
