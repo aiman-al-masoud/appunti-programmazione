@@ -1209,7 +1209,7 @@ Andando a controllare `IndexOutOfBoundsException` sui javadocs, ci accorgiamo ch
 
 ## try-catch
 
-Per **catturare** un'eccezione si ricorre al blocco `try-catch`. Abbiamo due opzioni, usare `try-catch` all'interno del metodo, e ritornare `null` per esempio:
+Per **catturare** un'eccezione si ricorre al blocco `try-catch`. Abbiamo due opzioni, usare `try-catch` all'interno del metodo stesso, e ritornare `null` per esempio:
 
 ```java
 public T pop(){
@@ -1217,13 +1217,21 @@ public T pop(){
         T obj = li.get(li.size()-1);
         li.remove(li.size()-1);
         return obj;
-   }catch(IndexOutOfBoundsException){
+   }catch(IndexOutOfBoundsException e){
         return null;
    }
 }
 ```
 
-Oppure 
+Oppure usare `try-catch` alla chiamata del metodo:
+
+```java 
+try{
+    stack.pop()
+}catch(IndexOutOfBoundsException e){
+    // fai qualcosa
+}
+```
 
 
 
