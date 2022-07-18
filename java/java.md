@@ -1212,7 +1212,7 @@ Per contro, le eccezioni **unchecked** non possono essere previste dal compiler 
 
 ## Esempio Unchecked
 
-Ma come si **gestisce** un'eccezione? Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
+Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
 
 ```java
 public T pop(){
