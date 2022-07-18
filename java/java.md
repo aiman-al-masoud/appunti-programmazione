@@ -458,6 +458,8 @@ La sfortunata keyword `null` in Java serve a specificare l'assenza di un oggetto
 
 ```java 
 String x = null;
+Object o = null;
+List l = null;
 ```
 
 ```java 
