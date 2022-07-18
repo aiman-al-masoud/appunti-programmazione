@@ -452,6 +452,13 @@ Le convenzioni di nomenclatura non sono regole sintattiche, ma servono a rendere
 * Nomi di Package: **lowercase**
 
 
+# Null
+
+La famigerata keyword `null` in Java serve a specificare 
+
+in Java, `null` è assegnabile a qualunque reference non-primitiva
+
+
 # Le Stringhe 
 
 Finora abbiamo intravisto l'utilizzo delle stringhe tramite gli *string literals*, ovvero la notazione di stringa contenuta fra doppi apici, es:
