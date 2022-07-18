@@ -1033,10 +1033,7 @@ map.get("gatto"); // "miao"
 
 ## Consigli
 
-Un array garantisce l'accesso molto veloce agli elementi, dato che:
- 
-* sfrutta appieno il principio di località, 
-* tutti gli elementi sono contigui e hanno lo stesso tipo, quindi la stessa dimensione, quindi la complessità di ottenere l'n-esimo elemento è O(1).
+Un array garantisce un accesso veloce agli elementi, dato che sfrutta appieno il principio di località, e ha un tempo d'accesso O(1); questo vuol dire che in teoria c'è poca differenza fra l'accedere all'emento 3 e accedere all'emenento 3000.
 
 È quindi consigliabile usare un array se i dati verrano letti più che scritti.
 
