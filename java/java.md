@@ -1178,7 +1178,7 @@ public T pop(){
 }
 ```
 
-
+Che succede se dopo aver inserito **3** elementi nello stack, facciamo il pop **4** volte? 
 
 
 
