@@ -1165,7 +1165,7 @@ Quando un'eccezione viene **lanciata** da una parte del programma (per esempio d
 
 A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni (le **checked** appunto) al tempo di compilazione.
 
-Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione.
+Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle.
 
 ## Gestione
 
