@@ -1098,7 +1098,12 @@ li.add(1);
 // ...
 ```
 
-Così facendo sarà il compilatore a controllare che tutti gli elementi inseriti siano di tipo intero, e il metodo `get()` della lista ci restituirà riferimenti ad interi, e non `Object` qualunque.
+Così facendo sarà il compilatore a controllare che tutti gli elementi inseriti siano di tipo intero, e il metodo `get()` della lista ci restituirà riferimenti ad interi, e non `Object` qualunque:
+
+```java
+int i =  li.get(1)  + 100;
+```
+
 
 Ci sono tipi che prendono come argomento più di un solo generic, come l'`HashMap`:
 
