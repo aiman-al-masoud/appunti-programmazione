@@ -458,12 +458,16 @@ La sfortunata keyword `null` in Java serve a specificare l'assenza di un oggetto
 
 ```java 
 String x = null;
-
-// equivalente a non inizializzare:
-// String x;
 ```
 
-Cosa succede se proviamo ad usare un metodo su un oggetto non inizializzato? Il programma esegue, ma lancia la famigerata `NullPointerException` e crasha!
+Che succede se proviamo ad usare un metodo su un oggetto non inizializzato? 
+
+```java 
+String x; // non inizializzare è equivalente a  = null
+String y = x.toUpperCase();
+```
+
+Il programma esegue, ma termina subtio lancia la famigerata `NullPointerException` e crasha!
 
 
 
