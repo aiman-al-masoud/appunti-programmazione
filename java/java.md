@@ -1139,7 +1139,7 @@ class Stack<T>{
 }
 ```
 
-Questo è uno `Stack` con le generics, e possiamo provare a specializzarlo per le stringhe:
+Questo è uno `Stack` con le generics, e possiamo provare ad usarlo con delles stringhe:
 
 ```java
 Stack<String> s = new Stack<String>();
@@ -1153,7 +1153,7 @@ System.out.println(s.pop());  // due!
 System.out.println(s.pop());  // uno!	
 ```
 
-*Ovviamente in Java è già presente un'implementazione standard dello stack, è stato implementato qui solo per fare un esempio.*
+*Ovviamente in Java è già presente un'implementazione standard dello stack, quindi non occorre implementarlo ogni volta che ci serve!*
 
 
 
