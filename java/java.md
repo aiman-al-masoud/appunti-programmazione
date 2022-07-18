@@ -1183,7 +1183,9 @@ Che succede se dopo aver inserito **3** elementi nello stack, facciamo il pop **
 
 Andando a controllare `IndexOutOfBoundsException` sui javadocs, ci accorgiamo che è una classe che estende `RuntimeException`, la quale è, come suggerisce il nome stesso "runtime", un'eccezione **unchecked**, ecco perché il compilatore non ci aveva avvertiti prima.
 
-A questo punto abbiamo due opzioni, 
+## try-catch
+
+Per **catturare** un'eccezione si ricorre al blocco `try-catch`. 
 
 
 
