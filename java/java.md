@@ -1168,6 +1168,20 @@ A differenza di altri linguaggi, Java costringe il programmatore a gestire certi
 Per contro le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione.
 
 
+Ma come si gestisce un'eccezione? Prediamo come esempio il metodo `pop()` della classe `Stack` usata come esempio prima:
+
+```java
+public T pop(){
+    T obj = li.get(li.size()-1);
+    li.remove(li.size()-1);
+    return obj;
+}
+```
+
+
+
+
+
 
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
