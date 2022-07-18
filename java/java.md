@@ -1185,7 +1185,7 @@ Un'eccezione è un evento anomalo che provoca l'interruzione del normale flusso 
 
 Quando un'eccezione viene **lanciata** da una parte del programma (per esempio da un *metodo m*), essa provoca l'uscita da quel blocco di codice verso il blocco di codice esterno (per esempio dove è stato chiamato il *metodo m*). Se l'eccezione non viene **catturata** nel blocco esterno, sarà di nuovo sollevata verso il prossimo blocco esterno. Se non viene catturata nel metodo `main()` del programma, il programma crasha e termina l'esecuzione con un errore.
 
-## Checked vs Unchecked
+## Checked Exceptions
 
 A differenza di altri linguaggi, Java costringe il programmatore a gestire certi tipi di eccezioni al tempo di compilazione (le **checked** o controllate, appunto). Se vengono sollevate all'interno di un metodo, devono essere ivi gestite, o altrimenti dichiarate nella clausola `throws` dello stesso:
 
@@ -1205,11 +1205,10 @@ try{
 }
 ```
 
-Per contro, le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle.
 
-## Esempio Unchecked
+## Unchecked Exceptions
 
-Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
+Per contro, le eccezioni **unchecked** non possono essere previste dal compiler al tempo di compilazione, e quindi il programmatore non viene obbligato a gestirle Torniamo al metodo `pop()` della classe `Stack` usata come esempio prima:
 
 ```java
 public T pop(){
