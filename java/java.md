@@ -1153,7 +1153,7 @@ System.out.println(s.pop());  // due!
 System.out.println(s.pop());  // uno!	
 ```
 
-*Ovviamente in Java è già presente un'implementazione standard dello stack, quindi non occorre implementarlo ogni volta che ci serve!*
+*Ovviamente nella libreria standard di Java è già presente un'implementazione dello stack, quindi non occorre implementarlo ogni volta che ci serve!*
 
 
 
