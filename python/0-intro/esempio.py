@@ -39,6 +39,9 @@ if True:
 
 
 
+# questo if non fa nulla
+if True:
+    pass
 
 
 
