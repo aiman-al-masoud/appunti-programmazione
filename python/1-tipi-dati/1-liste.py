@@ -71,10 +71,18 @@ print("(12)", len(l1))
 
 # SORT
 
+l2 = [3,2,1,4,5,1,8,6]
+l2.sort()
+print("(13)", l2)
+
 # COUNT 
+
+print("(14)", l2.count(1))
 
 
 # LIST COMPREHENSION
+
+
 
 
 
