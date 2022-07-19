@@ -37,8 +37,6 @@ if True:
 # questa è un'espressione
 "ciao "+str(1+(1//2)+21)+" volte"
 
-
-
 # questo if non fa nulla
 if True:
     pass
