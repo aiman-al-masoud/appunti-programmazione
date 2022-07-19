@@ -1,6 +1,6 @@
 # DIZIONARIO
 # 
-# Un dizionario è un insieme di coppie chiave-valore.
-# è modificabile.
+# Un dizionario è un insieme non-ordinato di 
+# coppie chiave-valore. è modificabile.
 #
 #
