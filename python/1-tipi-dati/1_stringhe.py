@@ -52,6 +52,8 @@ print(".".join(["www", "google", "it"]))
 # STRIP
 
 
+# F-STRINGS
+
 
 
 
