@@ -2,7 +2,7 @@
 
 Python è un linguaggio ad "altissimo" livello **dinamicamente e fortemente tipizzato**, che oggi viene usato in tantissimi campi: analisi dei dati, scripting, back-end dei siti web...
 
-Per installare Python e pip sul proprio sistema ...
+Per <a href="https://www.python.org/downloads/">installare</a> Python e pip sul proprio sistema.
 
 # Come eseguirlo
 
