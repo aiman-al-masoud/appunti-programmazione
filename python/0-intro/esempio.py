@@ -1,5 +1,5 @@
 # questo è un commento normale 
-# ok ... ?
+# questo è un altro, ok ... ?
 
 x='''
 Questa è una "stringa di documentazione" (docstring).
