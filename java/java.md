@@ -1240,7 +1240,7 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 ## Clausola finally
 
-contiene un blocco di codice che viene eseguito sempre e comunque, era utilizzata prima di Java 7 per chiudere i file aperti nel try.
+contiene un blocco di codice che viene eseguito sempre e comunque, veniva usata prima di Java 7 per chiudere i file aperti nel try.
 
 ```java 
 try{
@@ -1258,7 +1258,7 @@ il nuovo modo per chiudere automaticamente le risorse che implementano l'interfa
 
 ```java
 try(/* inizializzo risorsa AutoCloseable */){
-    
+
 }catch{
 
 }
