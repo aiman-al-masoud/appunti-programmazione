@@ -20,6 +20,8 @@ print(x)
 
 # Python è dinamico: le variabili possono cambiare tipo
 x = 1
+x = True
+x = []
 
 
 
