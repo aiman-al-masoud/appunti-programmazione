@@ -12,7 +12,7 @@
 # questo è un commento normale 
 
 x="""
-Anche questo è un commento di documentazione.
+Questo è un commento di documentazione.
 Su più righe!
 Ciao mondo!
 """
