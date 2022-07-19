@@ -18,6 +18,11 @@ Su più righe!
 print(x)
 
 
+# Python è dinamico: le variabili possono cambiare tipo
+x = 1
+
+
+
 # ESPRESSIONI vs STATEMENT
 # Le espressioni sono combinabili, si semplificano,
 # e ritornano un valore.
