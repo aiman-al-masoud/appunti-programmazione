@@ -47,11 +47,6 @@ if True:
     pass
 
 
-# FUNZIONE vs OPERATORE
-#
-# if è un esempio di operatore, print
-# è un esempio di funzione builtin.
-#
 
 
 
