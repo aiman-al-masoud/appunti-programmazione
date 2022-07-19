@@ -25,7 +25,7 @@ x = []
 # Gli statement non hanno un valore di ritorno.
 #
 
-# questa è un'espressione
+# questa è un'espressione composta
 "ciao "+str(1+(1//2)+21)+" volte"
 
 # questo è uno statement
