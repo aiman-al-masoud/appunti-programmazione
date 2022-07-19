@@ -58,13 +58,24 @@ print("(9)", l1)
 
 # DEL
 
+del l1[0]
+print("(10)", l1)
+
 # POP
+
+x = l1.pop()
+print("(11)", l1, x)
+
+# LEN
+
+print("(12)", len(l1))
+
 
 # SORT
 
 # COUNT 
 
-# LEN
+
 
 
 
