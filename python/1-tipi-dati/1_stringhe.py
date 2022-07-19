@@ -4,6 +4,7 @@
 # di lunghezza=1. (Non esiste il tipo char).
 #
 
+# questa è una stringa
 s = "ciao mondo!"
 
 # INDEXING & SLICING 
