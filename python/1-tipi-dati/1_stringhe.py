@@ -31,7 +31,7 @@ s = 'ciao mondo!'
 # codice produce un errore se eseguito:
 
 s = "ciao mondo!"
-s[5:] = "socio"
+# s[5:] = "socio"
 
 
 
