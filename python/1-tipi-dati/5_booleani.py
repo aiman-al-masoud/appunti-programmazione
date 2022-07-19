@@ -5,8 +5,27 @@
 #
 
 
-vero = True
-falso = False
+x = True
+y = False
+
+
+if x:
+    print("condizione soddisfatta")
+
+
+# AND
+
+x and y
+
+
+# OR
+
+x or y
+
+# XOR
+
+x != y
+
 
 
 # FALSY AND TRUTHY VALUES
