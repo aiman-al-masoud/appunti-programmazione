@@ -85,14 +85,14 @@ print("(14)", l2.count(1))
 # comoda sintassi per "mappare" e "filtrare" gli elementi di una lista,
 # ritorna nuova lista.
 
-# mappa: sommo uno a ciascun elemento
-print("(15)", [x+1 for x in l2])
+# mappa: sottraggo uno a ciascun elemento
+print("(15)", [x-1 for x in l2])
 
 # filtro: tengo solo gli elementi maggiori di 2
 print("(16)", [x for x in l2 if x > 2])
 
 # mappa+filtro: filtro e poi mappo
-print("(17)", [x+1 for x in l2 if x > 2])
+print("(17)", [x-1 for x in l2 if x > 2])
 
 
 
