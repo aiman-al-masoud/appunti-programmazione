@@ -20,6 +20,10 @@ d["cane"] = "grrr"
 # oppure:
 d.update({"cane":"wof"})
 
+# CANCELLAZIONE
+
+# del d["cane"]
+
 # KEYS
 
 list(d.keys()) # ["gatto", "cane", "pesce"]
@@ -36,11 +40,14 @@ list(d.items()) # [('gatto', 'miao'), ('cane', 'wof'), ('pesce', None)]
 for animale, verso in d.items():
     print(animale, "fa", verso)
 
+# DA LISTA DI TUPLE
+
+dict([('gatto', 'miao'), ('cane', 'wof'), ('pesce', None)])
+
+
+# COMPREHENSION
 
 
 
-# comprehension
 
-
-# da lista di tuple
 
