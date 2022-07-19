@@ -1271,18 +1271,18 @@ try(/* inizializzo risorsa AutoCloseable */){
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
 
+# Altri tipi di Classi
 
-
-# Classi Multiple 
+## Classi Multiple 
 
 Si possono dichiarare più top level classes nello stesso file, ma una sola può essere pubblica (e deve avere lo stesso nome del file).
 
-# Classi Annidate
+## Classi Annidate
 
 Si possono creare classi nello scope di una classe.
 
 
-# Classi Locali
+## Classi Locali
 
 Si possono creare classi nello scope di un metodo.
 
