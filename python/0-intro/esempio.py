@@ -10,7 +10,7 @@
 # ok ... ?
 
 x='''
-Questa è una stringa "di documentazione".
+Questa è una "stringa di documentazione" (docstring).
 Su più righe! Assegnata ad una variabile!
 'Ciao mondo!'
 '''
