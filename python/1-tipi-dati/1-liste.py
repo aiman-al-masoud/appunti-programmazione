@@ -50,7 +50,6 @@ print("(7)", l1)
 l1.extend([3,4,5])
 print("(8)", l1)
 
-
 # REMOVE
 
 l1.remove("mondo")
@@ -69,7 +68,6 @@ print("(11)", l1, x)
 # LEN
 
 print("(12)", len(l1))
-
 
 # SORT
 
