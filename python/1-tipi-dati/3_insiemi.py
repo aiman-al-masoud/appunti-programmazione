@@ -24,7 +24,7 @@ print(s)
 
 # INTERSEZIONE
 
-s = volatili+mammiferi
+s = volatili&mammiferi
 print(s)
 
 # DIFFERENZA
@@ -35,14 +35,10 @@ print(volatili - mammiferi)
 # c'è in mammiferi ma non in volatili
 print(mammiferi - volatili)
 
-# tutti gli elementi che mancano in entrambe i set
+# differenza simmetrica
 print(mammiferi.symmetric_difference(volatili))
-# equivale a:
-(volatili - mammiferi)|(volatili - mammiferi)
-
-
-
-
+# equivale a unione delle differenze:
+print((volatili - mammiferi)|(  mammiferi -volatili))
 
 
 
