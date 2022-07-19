@@ -4,13 +4,51 @@ installazione
 tipizzazione dinamica
 indentazione
 REPL vs file 
-moduli
-import
-venv
-pip
 funzione/builtin vs operatore
 expressions vs statements 
 comments
+import
+moduli
+
+venv
+pip
+
+
+# Principali tipi di dati
+
+stringhe  (meziona necessità typescast int a str)    IMMUTABLE
+liste MUTABLE 
+tuple IMMUTABLE
+insiemi  MUTABLE
+dizionarii  MUTABLE
+int      
+float
+boolean
+bytes
+
+## additional stuff about standard types
+FALSY AND TRUTHY VALUES
+indexing 
+slicing 
+
+
+
+## Funzioni Builtins di Aiuto
+help
+dir
+type
+
+## type casting 
+int
+float
+str
+
+## comprehensions
+list
+set
+dictionary 
+
+## zip
 
 
 
@@ -36,53 +74,9 @@ operatori di insiemi (sui set, &, |, -, >, < supersetsubset)
 
 
 
-# Principali tipi di dati
-
-stringhe  (meziona necessità typescast int a str)    IMMUTABLE
-liste MUTABLE 
-tuple IMMUTABLE
-insiemi  MUTABLE
-dizionarii  MUTABLE
-int      
-float
-boolean
-bytes
-
-## additional stuff about standard types
-FALSY AND TRUTHY VALUES
-indexing 
-slicing 
-
-
-## Funzioni Builtins di Aiuto
-help
-dir
-type
-
-## type casting 
-int
-float
-str
-
-## comprehensions
-list
-set
-dictionary 
-
-## zip
-
-
-
-
-# variabili e scope
-
-variabili locali
-variabili globali
-modificare globali da funzione
-pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
-
 
 # Flow control
+
 if
 for
 while
@@ -101,6 +95,7 @@ exc_info
 
 
 # Funzioni
+
 definire funzione 
 restituzioni valori
 param
@@ -108,6 +103,15 @@ param args
 param kwargs
 funzioni come oggetti
 lambda
+
+## variabili e scope
+
+variabili locali
+variabili globali
+modificare globali da funzione
+pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
+
+
 
 # Classi 
 creare classi
@@ -137,29 +141,7 @@ threading
 
 
 
-
-
-
-
-
-Simplify booleans 
-
-def is_adult(age):
-if age > 18:
-return True
-else:
-return False
-
-def is_adult(age):
- return age > 18:
-
-
-
-
-
-
-
-
+Librerie da esplorare:
 
 https://pyautogui.readthedocs.io/en/latest/
 
