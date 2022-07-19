@@ -109,3 +109,5 @@ list(range(inizio, fine, passo))
 
 # 2) Quanti numeri sono divisibili per 3 fra i primi 1000 interi?
 # len([x for x in range(1000) if x/3 == x//3])
+
+# 3) ...
