@@ -1,7 +1,7 @@
 # STRINGA
 #  
-# Una stringa è una sequenza immutabile di ... 
-# stringhe di lunghezza=1. (Non esiste il tipo char).
+# Una stringa è una sequenza immutabile di stringhe 
+# di lunghezza=1. (Non esiste il tipo char).
 #
 
 s = "ciao mondo!"
