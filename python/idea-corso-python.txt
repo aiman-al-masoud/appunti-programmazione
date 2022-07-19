@@ -1,12 +1,17 @@
 # Intro
 
 installazione
+
+REPL vs file 
+REPL normale vs ipython
+
 tipizzazione dinamica
 indentazione
-REPL vs file 
-funzione/builtin vs operatore
 expressions vs statements 
-comments
+funzione/builtin vs operatore
+
+commenti
+
 import
 moduli
 
@@ -31,8 +36,6 @@ FALSY AND TRUTHY VALUES
 indexing 
 slicing 
 
-
-
 ## Funzioni Builtins di Aiuto
 help
 dir
@@ -49,8 +52,6 @@ set
 dictionary 
 
 ## zip
-
-
 
 # operatori
 
@@ -74,7 +75,6 @@ operatori di insiemi (sui set, &, |, -, >, < supersetsubset)
 
 
 
-
 # Flow control
 
 if
@@ -84,7 +84,7 @@ break, continue
 return
 assert
 pass
-
+match (jolly)
 
 # Eccezioni
 
@@ -99,10 +99,13 @@ exc_info
 definire funzione 
 restituzioni valori
 param
+funzioni come oggetti
+
 param args
 param kwargs
-funzioni come oggetti
 lambda
+funzioni annidate
+decorators
 
 ## variabili e scope
 
@@ -112,8 +115,8 @@ modificare globali da funzione
 pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
 
 
-
 # Classi 
+
 creare classi
 isinstance issubclass 
 metodi
@@ -124,12 +127,14 @@ metodi dunder (speciali) e operator overloading
 super
 
 # I/O
+
 input
 file access
 sys
 argparse
 
 # Libreria standard
+
 sys
 os
 pickles
