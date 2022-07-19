@@ -10,8 +10,8 @@
 # ok ... ?
 
 x="""
-Questo è un commento "di documentazione".
-Su più righe!
+Questa è una stringa "di documentazione".
+Su più righe! Assegnata ad una variabile!
 'Ciao mondo!'
 """
 
