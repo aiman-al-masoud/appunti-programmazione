@@ -57,6 +57,8 @@ str
 
 # operatori
 
+
+
 assegnamento =, tricheco   :=
 aritmetici +, -, *, /, //, **, %
 combined operators
@@ -74,6 +76,8 @@ is (identity operator)  ... is not
 in (membership operator)
 
 operatori di insiemi (sui set, &, |, -, >, < supersetsubset)
+
+
 
 
 
