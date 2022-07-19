@@ -5,7 +5,13 @@
 #
 #
 
+d = {} # dizionario vuoto
+d = {"gatto": "miao", "cane": "bau", "pesce": None}
+
+
 # indexing
+print(d["gatto"])
+
 
 # update
 
