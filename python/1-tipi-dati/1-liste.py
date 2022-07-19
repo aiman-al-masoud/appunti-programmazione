@@ -1,10 +1,10 @@
 # LISTA
 #
 # Una lista è un insieme ordinato e mutabile di
-# di elementi eterogenei.
+# di elementi potenzialmente eterogenei.
 #
 
-l1  = [1, 2.2, "ciao", True, 1+1j]
+l1  = ["un", "due", "tre", "quatr", "cinq", "sei"]
 print("(0)", l1)
 
 # INDICIZZAZIONE
@@ -26,16 +26,17 @@ print("(3)", x)
 
 # trucco per copiare lista 
 x = l1[:] 
-x[0] = 1200102
+x[0] = 1200102 # modifico solo copia
 print("(4)", x, l1)
 
-# con inizio e fine impliciti, e step=2 (salto pari) 
+# con inizio e fine impliciti, e step=2 (salto i pari) 
 x = l1[::2]
 print("(5)", x)
 
 
 # APPEND
 
+l1.append("ciao")
 l1.append("mondo")
 print("(6)", l1)
 
@@ -46,7 +47,7 @@ print("(7)", l1)
 
 # EXTEND
 
-l1.extend([3,4,5])
+l1.extend([7,8,9])
 print("(8)", l1)
 
 # REMOVE
