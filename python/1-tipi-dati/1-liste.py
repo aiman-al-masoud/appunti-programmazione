@@ -82,7 +82,7 @@ print("(14)", l2.count(1))
 
 # LIST COMPREHENSION
 
-# comoda sintassi per "mappare" e "filtrare" gli elementi di una lista,
+# comodissima sintassi per "mappare" e "filtrare" gli elementi di una lista,
 # ritorna nuova lista.
 
 # mappa: sottraggo uno a ciascun elemento
