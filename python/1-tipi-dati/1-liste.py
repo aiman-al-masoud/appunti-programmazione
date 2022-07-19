@@ -54,8 +54,22 @@ print("(8)", l1)
 
 # REMOVE
 
-l1.remove(0)
+l1.remove("mondo")
 print("(9)", l1)
+
+# DEL
+
+# POP
+
+# SORT
+
+# COUNT 
+
+# LEN
+
+
+
+
 
 
 
