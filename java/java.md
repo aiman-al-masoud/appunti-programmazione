@@ -1273,6 +1273,8 @@ try(/* inizializzo risorsa AutoCloseable */){
 
 # Altri tipi di Classi
 
+Menzionate solo per completezza. Di solito 
+
 ## Classi Multiple 
 
 Si possono dichiarare più top level classes nello stesso file, ma una sola può essere pubblica (e deve avere lo stesso nome del file).
