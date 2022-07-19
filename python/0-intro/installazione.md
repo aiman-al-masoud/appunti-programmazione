@@ -6,7 +6,7 @@ Per <a href="https://www.python.org/downloads/">installare</a> Python e pip sul 
 
 # Come eseguirlo
 
-Vi sono due principali modalità di eseguire codice python, ossia: in modo interattivo da shell o REPL (Read Eval Print Loop), oppure scrivendo il codice su un file e eseguendo il file. Di solito si usano 
+Vi sono due principali modalità di eseguire codice python, ossia: in modo interattivo da shell o REPL (Read Eval Print Loop), oppure scrivendo il codice su un file e eseguendo il file. Di solito si usa la shell per testare espressioni o funzioni al volo.
 
 Esistono due principali shell:
 
