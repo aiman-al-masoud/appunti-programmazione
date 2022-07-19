@@ -25,9 +25,13 @@ print("(2)", x, y)
 x = l1[2:4]
 print("(3)", x)
 
+# trucco per copiare lista 
+x = l1[:] 
+print("(4)", x)
+
 # con inizio e fine impliciti, e step=2 (salto pari) 
 x = l1[::2]
-print("(4)", x)
+print("(5)", x)
 
 
 # x[0]  ="CAPRA"
