@@ -86,12 +86,6 @@ assert
 pass
 match (jolly)
 
-# Eccezioni
-
-try-except
-raise
-finally-else
-exc_info
 
 
 # Funzioni
@@ -111,9 +105,25 @@ decorators
 
 variabili locali
 variabili globali
+keyword global
 modificare globali da funzione
 pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
 
+
+# I/O
+
+input
+file access
+sys
+argparse
+
+
+# Eccezioni
+
+try-except
+raise
+finally-else
+exc_info
 
 # Classi 
 
@@ -126,12 +136,6 @@ metodi "privati"
 metodi dunder (speciali) e operator overloading
 super
 
-# I/O
-
-input
-file access
-sys
-argparse
 
 # Libreria standard
 
