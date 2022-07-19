@@ -1303,6 +1303,21 @@ System.out.println(string);
 
 ## Argomenti CLI
 
+```java 
+
+public static void main(String[] args) {
+    // args è un array di stringhe con gli argomenti.
+    // il primo argomento è il nome del programma
+}
+
+```
+
+Da Eclipse si possono inserire gli argomenti da:
+
+```
+Run > Run Configurations > Arguments > Program Arguments
+```
+
 
 # Swing 
 
