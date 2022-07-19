@@ -1,7 +1,3 @@
-# duck-typing
-
-
-
 # questo è un commento normale 
 # ok ... ?
 
