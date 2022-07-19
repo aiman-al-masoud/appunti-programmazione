@@ -1,0 +1,3 @@
+
+# booleans
+# FALSY AND TRUTHY VALUES

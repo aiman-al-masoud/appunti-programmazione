@@ -9,12 +9,10 @@ tipizzazione dinamica
 indentazione
 expressions vs statements 
 funzione/builtin vs operatore
-
 commenti
 
 import
 moduli
-
 venv
 pip
 
@@ -36,6 +34,13 @@ FALSY AND TRUTHY VALUES
 indexing 
 slicing 
 
+## comprehensions
+list
+set
+dictionary 
+
+## zip
+
 ## Funzioni Builtins di Aiuto
 help
 dir
@@ -46,12 +51,9 @@ int
 float
 str
 
-## comprehensions
-list
-set
-dictionary 
 
-## zip
+
+
 
 # operatori
 
@@ -137,13 +139,17 @@ metodi dunder (speciali) e operator overloading
 super
 
 
-# Libreria standard
+# Libreria standard (e librerie)
+
+import
+moduli
+venv
+pip
 
 sys
 os
 pickles
 threading 
-
 
 
 
