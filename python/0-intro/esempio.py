@@ -21,8 +21,7 @@ x = []
 # Le espressioni sono combinabili, si semplificano,
 # e ritornano un valore.
 #
-# Gli statement non hanno un valore e non 
-# ritornano niente.
+# Gli statement non hanno un valore di ritorno.
 #
 
 # questo è uno statement
