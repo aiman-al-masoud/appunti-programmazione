@@ -18,7 +18,7 @@ Esistono due principali shell:
 * python 
 * ipython (installabile con pip install ipython)
 
-Esiste anche la terza possibilità di eseguire il codice Python su un notebook Jupyter interattivo, solitamente usata .
+Esiste anche la terza possibilità di eseguire il codice Python su un notebook Jupyter interattivo, solitamente usata per analisi dei dati.
 
 # Python 3 vs Python 2
 
