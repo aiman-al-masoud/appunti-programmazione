@@ -82,16 +82,17 @@ print("(14)", l2.count(1))
 
 # LIST COMPREHENSION
 
-# comoda sintassi per "mappare" e "filtrare" gli elementi di una lista.
+# comoda sintassi per "mappare" e "filtrare" gli elementi di una lista,
+# ritorna nuova lista.
 
-# mappa
+# mappa: sommo uno a ciascun elemento
+print("(15)", [x+1 for x in l2])
 
+# filtro: tengo solo gli elementi maggiori di 2
+print("(16)", [x for x in l2 if x > 2])
 
-# filtro
-
-# mappa+filtro
-
-
+# mappa+filtro: filtro e poi mappo
+print("(17)", [x+1 for x in l2 if x > 2])
 
 
 
