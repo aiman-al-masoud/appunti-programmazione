@@ -4,3 +4,17 @@
 # coppie chiave-valore. è mutabile.
 #
 #
+
+# indexing
+
+# update
+
+# comprehension
+
+# values
+
+# items
+
+# keys
+
+
