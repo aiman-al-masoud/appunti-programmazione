@@ -25,6 +25,10 @@ print("(2)", x, y)
 x = l1[2:4]
 print("(3)", x)
 
+# con inizio e fine impliciti, e step=2 (salto pari) 
+x = l1[::2]
+print("(4)", x)
+
 
 # x[0]  ="CAPRA"
 # print(x)
