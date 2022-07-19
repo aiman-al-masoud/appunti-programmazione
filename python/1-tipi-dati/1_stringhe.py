@@ -55,6 +55,3 @@ print(".".join(["www", "google", "it"]))
 
 
 
-
-# indexing 
-# slicing 
