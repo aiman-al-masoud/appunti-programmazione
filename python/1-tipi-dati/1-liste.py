@@ -54,6 +54,8 @@ print("(8)", l1)
 
 # REMOVE
 
+l1.remove(0)
+print("(9)", l1)
 
 
 
