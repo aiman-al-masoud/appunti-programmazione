@@ -49,6 +49,7 @@ print("(7)", l1)
 
 l1.extend([7,8,9])
 print("(8)", l1)
+# oppure: l1 = l1 + [7, 8, 9]
 
 # REMOVE
 
