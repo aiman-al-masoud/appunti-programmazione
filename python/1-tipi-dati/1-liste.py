@@ -44,7 +44,6 @@ print("(6)", l1)
 l1.insert(1, "mondo")
 print("(7)", l1)
 
-
 # EXTEND
 
 l1.extend([3,4,5])
