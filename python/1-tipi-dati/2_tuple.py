@@ -24,7 +24,7 @@ t = ("Mario") # ="Mario"
 
 # INDICI PER DIZIONARIO
 
-# gli indici di un dizionario devono essere immutabili.
+# le chiavi di un dizionario devono essere immutabili.
 # quindi una stringhe o una tuple (se non contiene oggetti mutabili) 
 # possono fungere da indici, ma le liste no! 
 
