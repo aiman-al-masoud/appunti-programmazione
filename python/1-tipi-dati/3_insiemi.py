@@ -6,7 +6,7 @@
 #
 
 
-# PRIVA DI DUPLICATI
+# PRIVO DI DUPLICATI
 
 set("caciocavallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
 
