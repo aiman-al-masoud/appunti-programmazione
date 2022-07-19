@@ -46,6 +46,7 @@ if True:
 if True:
     pass
 
+
 # FUNZIONE vs OPERATORE
 #
 # if è un esempio di operatore, print
