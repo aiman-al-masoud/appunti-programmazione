@@ -25,7 +25,6 @@ x = True
 x = []
 
 
-
 # ESPRESSIONI vs STATEMENT
 # Le espressioni sono combinabili, si semplificano,
 # e ritornano un valore.
