@@ -9,8 +9,7 @@ print("(0)", l1)
 
 # INDICIZZAZIONE
 
-x = l1[0]
-y = l1[1]
+x, y = l1[0], l1[1]
 print("(1)", x, y)
 
 # INDICIZZAZIONE NEGATIVA
