@@ -1240,7 +1240,7 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 ## Clausola finally
 
-contiene un blocco di codice che viene eseguito sempre e comunque 
+contiene un blocco di codice che viene eseguito sempre e comunque, era utilizzata prima di Java 7 per chiudere i file aperti nel try.
 
 ```java 
 try{
