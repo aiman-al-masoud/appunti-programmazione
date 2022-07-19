@@ -37,6 +37,12 @@ if True:
 # questa è un'espressione
 "ciao "+str(1+(1//2)+21)+" volte"
 
+
+# PASS
+# pass serve per tenere il posto e non fare
+# nulla.
+#
+
 # questo if non fa nulla
 if True:
     pass
