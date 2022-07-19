@@ -1280,6 +1280,19 @@ try(/* inizializzo risorsa AutoCloseable */){
 
 ## Leggere File
 
+```java 
+try (BufferedReader r = new BufferedReader(new FileReader("file.txt"))){
+        
+        String line;
+        while( (line = r.readLine()) != null ) {
+            System.out.println(line);
+        }
+        
+} catch (IOException e) {
+        
+}
+```
+
 ## Scanner
 
 ## Argomenti CLI
