@@ -95,8 +95,17 @@ print("(16)", [x for x in l2 if x > 2])
 print("(17)", [x-1 for x in l2 if x > 2])
 
 
+# LA FUNZIONE RANGE
+inizio=0
+fine=100
+passo=2
+list(range(inizio, fine, passo))
+
 
 # SFIDA!
+
+
+
 
 
 
