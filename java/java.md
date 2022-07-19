@@ -1333,10 +1333,13 @@ Run > Run Configurations > Arguments > Program Arguments
 ```
 
 
-# Swing 
-
 # Thread
 <!-- synchronized -->
+
+
+# Swing 
+
+
 
 # Streams 
 
