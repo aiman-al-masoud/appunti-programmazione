@@ -8,6 +8,7 @@
 
 # questo è un commento normale 
 
+
 x="""
 Questo è un commento "di documentazione".
 Su più righe!
