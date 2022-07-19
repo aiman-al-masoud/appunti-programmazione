@@ -1,9 +1,5 @@
-# tipizzazione dinamica
 # duck-typing
-# import
-# moduli
-# venv
-# pip
+
 
 
 # questo è un commento normale 
