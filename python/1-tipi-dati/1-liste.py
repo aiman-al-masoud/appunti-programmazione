@@ -35,9 +35,27 @@ x = l1[::2]
 print("(5)", x)
 
 
-# x[0]  ="CAPRA"
-# print(x)
-# print(l1)
-# indexing 
-# slicing 
+# APPEND
+
+l1.append("mondo")
+print("(6)", l1)
+
+# INSERT
+
+l1.insert(1, "mondo")
+print("(7)", l1)
+
+
+# EXTEND
+
+l1.extend([3,4,5])
+print("(8)", l1)
+
+
+# REMOVE
+
+
+
+
+
 
