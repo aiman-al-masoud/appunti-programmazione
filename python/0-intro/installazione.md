@@ -1,8 +1,3 @@
-installazione
-
-REPL vs file 
-REPL normale vs ipython
-
 # Python 
 
 Python è un linguaggio **dinamicamente e fortemente tipizzato**, che oggi viene usato in tantissimi campi: analisi dei dati, scripting, back-end dei siti ...
