@@ -28,4 +28,6 @@ t = ("Mario") # ="Mario"
 # quindi una stringhe o una tuple (se non contiene oggetti mutabili) 
 # possono fungere da indici, ma le liste no! 
 
-
+hash([]) # TypeError: unhashable type
+hash( (1, 2) ) # -3550055125485641917
+hash( (1, 2, []) ) # TypeError: unhashable type
