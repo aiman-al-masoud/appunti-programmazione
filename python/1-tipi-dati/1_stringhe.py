@@ -10,9 +10,8 @@ s = "ciao mondo!"
 # INDEXING & SLICING 
 
 # proprio come nelle liste
-print(s[0])
-print(s[3:7])
-print(s[1:7:2])
+s[0] # 'c'
+s[5:] # 'mondo'
 
 # APICI DOPPI == APICI SINGOLI
 
