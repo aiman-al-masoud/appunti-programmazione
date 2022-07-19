@@ -15,7 +15,7 @@ print("(1)", x, y)
 
 # Indicizzazione negativa
 
-x = l1[-1]
+x = l1[-1] # ultimo elemento
 y = l1[-2]
 print("(2)", x, y)
 
