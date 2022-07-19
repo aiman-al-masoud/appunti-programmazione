@@ -1271,9 +1271,22 @@ try(/* inizializzo risorsa AutoCloseable */){
 
 <!-- https://it.wikipedia.org/wiki/Generics_Java -->
 
-# Classi Locali
+
+
+# Classi Multiple 
+
+
+Si possono dichiarare più top level classes nello stesso file, ma una sola può essere pubblica (e deve avere lo stesso nome del file).
 
 # Classi Annidate
+
+Si possono creare classi nello scope di una classe.
+
+
+# Classi Locali
+
+Si possono creare classi nello scope di un metodo.
+
 
 
 # I/O
