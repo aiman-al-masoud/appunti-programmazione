@@ -28,7 +28,7 @@ print("(3)", x)
 # trucco per copiare lista 
 x = l1[:] 
 x[0] = 1200102
-print("(4)", x, li)
+print("(4)", x, l1)
 
 # con inizio e fine impliciti, e step=2 (salto pari) 
 x = l1[::2]
