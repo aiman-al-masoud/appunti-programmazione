@@ -14,7 +14,7 @@
 x="""
 Questo è un commento "di documentazione".
 Su più righe!
-Ciao mondo!
+'Ciao mondo!'
 """
 
 # chiamata a funzione builtin 
