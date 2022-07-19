@@ -7,7 +7,7 @@
 
 
 # questo è un commento normale 
-
+# ok ... ?
 
 x="""
 Questo è un commento "di documentazione".
