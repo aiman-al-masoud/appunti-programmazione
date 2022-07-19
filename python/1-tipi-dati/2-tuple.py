@@ -5,3 +5,9 @@
 #
 
 
+# queste sono tuple:
+p1 = ("Pinko", 32, "marinaio")
+p2 = ("Tizio", 43, "lattaio")
+
+
+
