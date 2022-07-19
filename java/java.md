@@ -1256,6 +1256,13 @@ try{
 
 il nuovo modo per chiudere automaticamente le risorse che implementano l'interfaccia `AutoClosable`.
 
+```java
+try(/* inizializzo risorsa AutoCloseable */){
+    
+}catch{
+
+}
+```
 
 <!-- https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html -->
 
