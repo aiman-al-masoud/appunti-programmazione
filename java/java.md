@@ -1287,13 +1287,19 @@ try (BufferedReader r = new BufferedReader(new FileReader("file.txt"))){
         while( (line = r.readLine()) != null ) {
             System.out.println(line);
         }
-        
+
 } catch (IOException e) {
         
 }
 ```
 
 ## Scanner
+
+```java 
+Scanner scanner = new Scanner(System.in);
+String string = scanner.nextLine();
+System.out.println(string);
+```
 
 ## Argomenti CLI
 
