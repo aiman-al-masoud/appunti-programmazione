@@ -8,3 +8,12 @@
 # moduli
 # venv
 # pip
+
+
+
+
+
+
+
+
+
