@@ -30,7 +30,7 @@ x = []
 
 # questo è uno statement
 if True:
-    # ( l'indentazione è sintattica! )
+    # ( l'indentazione è sintattica!! )
     print("ciao mondo")
 
 
