@@ -23,7 +23,7 @@ print(x)
 
 # questo è uno statement
 if x:
-    # l'indentazione è sintattica
+    # l'indentazione è sintattica!
     print("ciao mondo")
 
 # questa è un'espressione
