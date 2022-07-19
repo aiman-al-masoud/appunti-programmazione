@@ -36,6 +36,15 @@ s = "ciao mondo!"
 # s[5:] = "socio"
 
 
+# REPLACE
+
+print(s.replace("mondo", "socio"))
+
+
+# JOIN
+# concatena le stringhe di una lista con un separatore
+print(".".join(["www", "google", "it"]))
+
 
 
 
