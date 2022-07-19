@@ -1,6 +1,4 @@
 # tipizzazione dinamica
-# expressions vs statements 
-# funzione/builtin vs operatore
 # duck-typing
 # import
 # moduli
