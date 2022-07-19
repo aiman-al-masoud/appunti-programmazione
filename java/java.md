@@ -1240,6 +1240,18 @@ Che senso ha farlo? Beh, spesso capiterà di poter incorrere in una situazione a
 
 ## Clausola finally
 
+contiene un blocco di codice che viene eseguito sempre e comunque 
+
+```java 
+try{
+    // eseguo se tutto va bene
+}catch{
+    // eseguo se eccezione
+}finally{
+    // eseguo sempre e comunque
+}
+```
+
 ## try-with-resources
 
 
