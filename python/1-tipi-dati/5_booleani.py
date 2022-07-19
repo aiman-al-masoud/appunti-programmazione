@@ -46,7 +46,7 @@ else:
 # SHORTCIRCUITING
 
 # catena di or non esegue tutta, ma si ferma non appena trova un 
-# valore non-falsy:
+# valore truthy:
 x = False or None or 0 or 2 or 1
 print(x) # 2
 
