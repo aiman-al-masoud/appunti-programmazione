@@ -15,7 +15,6 @@ Su più righe! Assegnata ad una variabile!
 'Ciao mondo!'
 '''
 
-
 # chiamata a funzione builtin 
 print(x)
 
