@@ -20,6 +20,15 @@ Su più righe!
 # chiamata a funzione builtin 
 print(x)
 
+
+# ESPRESSIONI vs STATEMENT
+# Le espressioni sono combinabili, si semplificano,
+# e ritornano un valore.
+#
+# Gli statement non hanno un valore e non 
+# ritornano niente.
+#
+
 # questo è uno statement
 if True:
     # l'indentazione è sintattica!
@@ -27,6 +36,7 @@ if True:
 
 # questa è un'espressione
 "ciao "+str(1+(1//2)+21)+" volte"
+
 
 
 
