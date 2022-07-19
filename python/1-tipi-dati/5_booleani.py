@@ -27,9 +27,16 @@ x or y
 x != y
 
 
-
 # FALSY AND TRUTHY VALUES
 
-# if 
+x = 0
+x = 1
+x = ""
+
+if x:
+    print(f"x={x} è truthy")
+
+
+# SHORTCIRCUITING
 
 
