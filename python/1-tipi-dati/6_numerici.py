@@ -9,5 +9,8 @@ print(y)
 
 # FLOATS
 
+y  = 1.2
 
 # COMPLESSI
+
+z = 1+3j
