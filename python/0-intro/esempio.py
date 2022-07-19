@@ -9,11 +9,12 @@
 # questo è un commento normale 
 # ok ... ?
 
-x="""
+x='''
 Questa è una stringa "di documentazione".
 Su più righe! Assegnata ad una variabile!
 'Ciao mondo!'
-"""
+'''
+
 
 # chiamata a funzione builtin 
 print(x)
