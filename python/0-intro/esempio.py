@@ -19,7 +19,7 @@ x = []
 
 # ESPRESSIONI vs STATEMENT
 # 
-# Le espressioni sono combinabili, si semplificano,
+# Le espressioni sono combinabili, si semplificano
 # (simile a matematica), e ritornano un valore.
 #
 # Gli statement non hanno un valore di ritorno.
