@@ -20,6 +20,10 @@ Esistono due principali shell:
 
 Esiste anche la terza possibilità di eseguire il codice Python su un notebook Jupyter interattivo, solitamente usata .
 
+# Python 3 vs Python 2
+
+Python 2 è una versione vecchia e a tratti incompatibile, deprecata dal 2020. Tutti gli esempi trattati in seguito si riferiscono esclusivamente a Python 3.
+
 
 
 
