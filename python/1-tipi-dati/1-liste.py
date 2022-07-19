@@ -104,10 +104,11 @@ list(range(inizio, fine, passo))
 
 # SFIDA!
 
+# 1) Crea una lista con le prime 20 potenze di due (tip: l'operatore esponenziale è **)
+# [2**x for x in range(20)]
 
-
-
-
+# 2) Quanti numeri sono divisibili per 3 fra i primi 1000 interi?
+# len([x for x in range(1000) if x/3 == x//3])
 
 
 
