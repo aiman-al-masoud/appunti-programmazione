@@ -1275,7 +1275,6 @@ try(/* inizializzo risorsa AutoCloseable */){
 
 # Classi Multiple 
 
-
 Si possono dichiarare più top level classes nello stesso file, ma una sola può essere pubblica (e deve avere lo stesso nome del file).
 
 # Classi Annidate
