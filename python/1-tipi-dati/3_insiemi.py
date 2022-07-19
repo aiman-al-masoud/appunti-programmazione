@@ -11,9 +11,32 @@
 set("caciocavallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
 
 
+# OPERAZIONI SUGLI INSIEMI
 
 volatili = {"barbagianni","oca","pipistrello"}
 mammiferi = {"gatto","pipistrello", "elefante"}
+
+
+# UNIONE
+
+s = volatili|mammiferi
+print(s)
+
+# INTERSEZIONE
+
+s = volatili&mammiferi
+print(s)
+
+# DIFFERENZA
+
+print(volatili - mammiferi)
+print(mammiferi - volatili)
+
+
+
+
+
+
 
 
 
