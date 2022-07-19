@@ -1,0 +1,168 @@
+# Intro
+
+installazione
+tipizzazione dinamica
+indentazione
+REPL vs file 
+moduli
+import
+venv
+pip
+funzione/builtin vs operatore
+expressions vs statements 
+comments
+
+
+
+# operatori
+
+assegnamento =, tricheco   :=
+aritmetici +, -, *, /, //, **, %
+combined operators
+
+comparison operators, ==, >= ...
+
+boolean operators: and, or, not. 
+FALSY AND TRUTHY VALUES, ALTERNATE USAGE OF OR and AND
+
+bitwise operators, & | ... 
+
+ternary operator
+
+is (identity operator)  ... is not
+in (membership operator)
+
+operatori di insiemi (sui set, &, |, -, >, < supersetsubset)
+
+
+
+# Principali tipi di dati
+
+stringhe  (meziona necessità typescast int a str)    IMMUTABLE
+liste MUTABLE 
+tuple IMMUTABLE
+insiemi  MUTABLE
+dizionarii  MUTABLE
+int      
+float
+boolean
+bytes
+
+## additional stuff about standard types
+FALSY AND TRUTHY VALUES
+indexing 
+slicing 
+
+
+## Funzioni Builtins di Aiuto
+help
+dir
+type
+
+## type casting 
+int
+float
+str
+
+## comprehensions
+list
+set
+dictionary 
+
+## zip
+
+
+
+
+# variabili e scope
+
+variabili locali
+variabili globali
+modificare globali da funzione
+pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
+
+
+# Flow control
+if
+for
+while
+break, continue
+return
+assert
+pass
+
+
+# Eccezioni
+
+try-except
+raise
+finally-else
+exc_info
+
+
+# Funzioni
+definire funzione 
+restituzioni valori
+param
+param args
+param kwargs
+funzioni come oggetti
+lambda
+
+# Classi 
+creare classi
+isinstance issubclass 
+metodi
+ereditarietà
+proprietà
+metodi "privati"
+metodi dunder (speciali) e operator overloading
+super
+
+# I/O
+input
+file access
+sys
+argparse
+
+# Libreria standard
+sys
+os
+pickles
+threading 
+
+
+
+
+
+
+
+
+
+
+
+
+Simplify booleans 
+
+def is_adult(age):
+if age > 18:
+return True
+else:
+return False
+
+def is_adult(age):
+ return age > 18:
+
+
+
+
+
+
+
+
+
+https://pyautogui.readthedocs.io/en/latest/
+
+
+
+
