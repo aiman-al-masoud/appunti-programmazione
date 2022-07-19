@@ -1273,7 +1273,7 @@ try(/* inizializzo risorsa AutoCloseable */){
 
 # Altri tipi di Classi
 
-Menzionate solo per completezza. Di solito 
+Menzionate solo per completezza. Nella stragrande maggioranza dei casi è meglio attenersi alla convenzione di dichiarare una sola classe per file.
 
 ## Classi Multiple 
 
