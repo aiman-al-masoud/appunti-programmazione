@@ -74,6 +74,14 @@ print("(12)", len(l1))
 # COUNT 
 
 
+# LIST COMPREHENSION
+
+
+
+
+# SFIDA!
+
+
 
 
 
