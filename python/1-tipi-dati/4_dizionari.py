@@ -47,7 +47,7 @@ dict([('gatto', 'miao'), ('cane', 'wof'), ('pesce', None)])
 
 # COMPREHENSION
 
-
-
+l1 = [('gatto', 'miao'), ('cane', 'wof'), ('pesce', None)]
+print({x[0]:x[1] for x in l1 })
 
 
