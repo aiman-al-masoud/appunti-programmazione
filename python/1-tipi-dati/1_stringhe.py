@@ -46,6 +46,13 @@ print(s.replace("mondo", "socio"))
 print(".".join(["www", "google", "it"]))
 
 
+# SPLIT
+
+
+# STRIP
+
+
+
 
 
 
