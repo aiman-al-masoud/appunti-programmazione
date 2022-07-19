@@ -29,7 +29,10 @@ print(s)
 
 # DIFFERENZA
 
+# c'è in volatili ma non in mammiferi
 print(volatili - mammiferi)
+
+# c'è in mammiferi ma non in volatili
 print(mammiferi - volatili)
 
 
