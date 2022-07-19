@@ -1,7 +1,6 @@
 # tipizzazione dinamica
 # expressions vs statements 
 # funzione/builtin vs operatore
-# commenti
 # duck-typing
 # import
 # moduli
@@ -46,6 +45,12 @@ if True:
 # questo if non fa nulla
 if True:
     pass
+
+# FUNZIONE vs OPERATORE
+#
+# if è un esempio di operatore, print
+# è un esempio di funzione builtin.
+#
 
 
 
