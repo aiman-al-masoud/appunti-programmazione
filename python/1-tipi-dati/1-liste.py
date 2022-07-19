@@ -4,6 +4,10 @@
 # di elementi eterogenei.
 #
 
+l1  = [1, 2, "ciao", True, 2.3]
+
+
+
 
 
 # indexing 
