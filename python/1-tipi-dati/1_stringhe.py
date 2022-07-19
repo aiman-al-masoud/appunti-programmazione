@@ -47,9 +47,11 @@ print(".".join(["www", "google", "it"]))
 
 # SPLIT
 
+print("www.google.it".split("."))
 
 # STRIP
 
+print("["+"  toglie gli spazi ai lati  ".strip()+"]")
 
 # F-STRINGS
 
