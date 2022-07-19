@@ -21,7 +21,7 @@ Ciao mondo!
 print(x)
 
 # questo è uno statement
-if False or True:
+if True:
     # l'indentazione è sintattica!
     print("ciao mondo")
 
