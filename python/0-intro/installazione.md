@@ -17,7 +17,7 @@ Esiste anche la terza possibilità di eseguire il codice Python su un notebook J
 
 # Python 3 vs Python 2
 
-Python 2.x.x è la versione vecchia e a tratti incompatibile, deprecata dal 2020. Tutti gli esempi trattati in seguito fanno riferimento esclusivamente a Python 3.x.x
+Python 2.x.x è la versione vecchia e a tratti incompatibile del linguaggio, deprecata dal 2020. Tutti gli esempi trattati in seguito fanno riferimento esclusivamente a Python 3.x.x
 
 
 
