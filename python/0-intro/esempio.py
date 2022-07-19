@@ -9,7 +9,7 @@
 # pip
 
 
-# questo è un commento normale
+# questo è un commento normale 
 
 x="""
 Anche questo è un commento di documentazione.
