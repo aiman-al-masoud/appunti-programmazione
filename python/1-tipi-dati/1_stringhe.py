@@ -30,7 +30,8 @@ s = 'ciao mondo!'
 # le stringhe sono un tipo immutabile, questo
 # codice produce un errore se eseguito:
 
-# s[1:2] = "ciao"
+s = "ciao mondo!"
+s[5:] = "socio"
 
 
 
