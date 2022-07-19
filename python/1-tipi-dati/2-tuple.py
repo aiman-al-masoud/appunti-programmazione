@@ -9,6 +9,17 @@
 p1 = ("Pinko", 32, "marinaio")
 p2 = ("Tizio", 43, "lattaio")
 
+# errore:
+# p1[0] = "Pallino"
+
+
+# CREARE TUPLE DA UN ELEMENTO
+
+# sì 
+t = ("Mario",)
+
+# no!
+t = ("Mario") # ="Mario"
 
 
 
