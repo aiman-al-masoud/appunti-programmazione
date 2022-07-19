@@ -25,13 +25,13 @@ x = []
 # Gli statement non hanno un valore di ritorno.
 #
 
+# questa è un'espressione
+"ciao "+str(1+(1//2)+21)+" volte"
+
 # questo è uno statement
 if True:
     # ( l'indentazione è sintattica! )
     print("ciao mondo")
-
-# questa è un'espressione
-"ciao "+str(1+(1//2)+21)+" volte"
 
 
 # PASS
