@@ -60,3 +60,14 @@ oggi = datetime.today()
 s=f"Oggi è il {oggi.day}/{oggi.month}/{oggi.year}"
 print(s)
 
+# PRESENZA SOTTOSTRINGHE
+
+"ciao" in "ciao mondo" # true
+"miao" in "ciao mondo" # false
+
+# ESPRESSIONI REGOLARI (REGEX)
+
+import re
+
+
+
