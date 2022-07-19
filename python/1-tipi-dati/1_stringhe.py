@@ -25,6 +25,15 @@ s = 'ciao mondo!'
 'ho detto "ciao mondo!"'
 
 
+# IMMUTABILITÀ
+
+# le stringhe sono un tipo immutabile, questo
+# codice produce un errore se eseguito:
+
+# s[1:2] = "ciao"
+
+
+
 
 
 
