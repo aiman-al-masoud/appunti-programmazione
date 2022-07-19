@@ -11,3 +11,8 @@ p2 = ("Tizio", 43, "lattaio")
 
 
 
+
+# INDICI PER DIZIONARIO
+
+# gli indici di un dizionario devono essere immutabili.
+# quindi le tuple possono fungere da indici, ma le liste no! 
