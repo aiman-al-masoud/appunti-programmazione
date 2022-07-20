@@ -19,7 +19,7 @@ def saluta(fx):
 
 # questa sintassi per fare riferimento,
 # da notare che non non si usano le (), perché 
-# non vogliamo chiamare la funzione!
+# NON vogliamo chiamare la funzione!
 
 fx = get_nome
 
