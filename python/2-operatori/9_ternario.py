@@ -1,8 +1,7 @@
 #
 # Si chiama ternario perché prende 3 operandi,
 # una condizione, un valore se la condizione 
-# è soddisfatta, e un valore se la condizione 
-# non è soddisfatta.
+# è soddisfatta, e un valore se non lo è.
 #
 #
 
