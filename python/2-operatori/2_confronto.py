@@ -1,5 +1,5 @@
 # Sono operatori di equivalenza o confronto LOGICO 
-# fra oggetti, possono essere definiti per le 
+# fra oggetti, li possiamo definire noi per le 
 # nuove classi che creiamo.
 
 # ==
