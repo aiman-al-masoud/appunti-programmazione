@@ -20,5 +20,5 @@ class Foresta:
 
 f = Foresta()
 "cinghiale" in f # True
+"leone" in f # False
 
-print("cinghiale" in f)
