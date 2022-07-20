@@ -13,3 +13,8 @@ elif altra_condizione2:
     pass # fai qualcos'altro 2
 else: 
     pass # se tutto il resto fallisce, fai questo 
+
+
+# Consiglio: non usare troppi elif, e non annidarli, 
+# diventa difficile ragionare sul programma.
+#
