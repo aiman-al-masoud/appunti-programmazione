@@ -1,3 +1,7 @@
+# Sono operatori di confronto LOGICO fra oggetti,
+# possono essere definiti per le nuove classi
+# che creiamo.
+
 # ==
 # !=
 # >
