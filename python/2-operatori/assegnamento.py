@@ -17,7 +17,7 @@ y = x = "ciao mondo"
     # print("capra")
 
 if x := 0: #non esegue. Assegno 0 a x e ritorno 0, 0 falsy. 
-    print("capra")
+    print("ciao")
 
 # utile per while loop dove x è sia condizione fine,
 # sia letta nel corpo del loop.
