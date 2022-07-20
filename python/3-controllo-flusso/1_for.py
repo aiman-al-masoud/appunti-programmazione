@@ -1,16 +1,16 @@
-# iterare su una lista
+# per iterare su una lista
 for i in [1,2,3]:
     print(i)
 
-# iterare su una stringa
+# per iterare su una stringa
 for c in "ciao mondo!":
     print(c)
 
-# iterare su una lista, con indice
+# per iterare su una lista, con indice
 for i, val in enumerate(["un", "due", "tre"]):
     print(i, val)
 
-# iterare su una "lista di tuple"
+# per iterare su una "lista di tuple"
 d = {"gatto":"miao", "cane":"bau"}
 for key, val in d.items():
     print(key, val)
