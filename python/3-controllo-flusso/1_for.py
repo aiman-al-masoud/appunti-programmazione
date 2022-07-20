@@ -27,7 +27,7 @@ for i in range(start, stop, step):
     print(i)
 
 
-# molto spesso conviene sostituire il for con una 
+# spesso conviene sostituire il for con una 
 # list comprehension, eg:
 
 l = [1,2,3,4] # voglio moltiplicare per 2 ciascun elem
