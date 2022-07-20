@@ -2,7 +2,7 @@
 for i in [1,2,3]:
     print(i)
 
-
+# iterare su una "lista di tuple"
 d = {"gatto":"miao", "cane":"bau"}
 for key, val in d.items():
     print(key, val)
