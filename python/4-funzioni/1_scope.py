@@ -8,8 +8,20 @@
 
 # VARIABILI GLOBALI
 
+# Sono dichiarate a livello di modulo, cioè al di fuori
+# di qualunque funzione, classe, oggetto. Sono 
+# visibili in lettura dappertutto nel modulo.
+x = 10
+
 
 # VARIABILI LOCALI
+
+# Sono dichiarate all'interno di una funzione, non
+# sono visibili all'esterno.
+
+def func():
+    y = 10
+
 
 
 # LETTURA GLOBALI DA FUNZIONE
