@@ -6,11 +6,11 @@ altra_condizione2 = True
 # la prima per cui la condizione vale:
 
 if condizione:
-    pass # fai qualcosa
-elif altra_condizione:
-    pass # fai qualcos'altro 1
+    pass # fai qualcosa se condizione
+elif altra_condizione: 
+    pass # fai qualcos'altro se altra_condizione
 elif altra_condizione2:
-    pass # fai qualcos'altro 2
+    pass # fai qualcos'altro se altra_condizione2
 else: 
     pass # se tutto il resto fallisce, fai questo 
 
