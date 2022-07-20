@@ -1,7 +1,7 @@
 #
 # Scope di una Variabile
 #
-# È la regione del programma nella quale si può 
+# È la regione del programma in cui si può 
 # fare riferimento alla variabile. 
 #  
 #
