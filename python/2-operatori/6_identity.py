@@ -30,6 +30,7 @@ x == y # True
 
 x = None 
 x is None 
+x == None # NON FARLO!
 
 # perché logica del metodo di confronto (==) potrebbe 
 # provare ad accedere agli attributi di None, provocando
