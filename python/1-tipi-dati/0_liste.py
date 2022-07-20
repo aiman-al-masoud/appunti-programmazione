@@ -30,7 +30,7 @@ x[0] = 1200102 # modifico solo copia
 print("(4)", x, l1)
 
 # Shallow Copy:
-# Questo 'trucco' crea una nuova lista, duplica la struttura. 
+# Questo 'trucco' duplica la struttura della lista. 
 # Ma i riferimenti degli elementi sono gli stessi degli oggetti originali. 
 # Quindi riassegnare un un indice non modifica ambo le liste (struttura duplicata). 
 # Ma modificare un oggetto lo fa (oggetti identici).
