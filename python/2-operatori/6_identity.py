@@ -17,6 +17,11 @@ y = x
 x is y # True
 
 
+x = {"gatto":"miao"}
+y = {"gatto":"miao"}
+
+x is y # False
+
 
 
 
