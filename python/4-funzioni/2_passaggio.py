@@ -23,7 +23,9 @@ def foo(x):
 foo(x)
 print(x)
 
-# Gli oggetti immutabili non possono mutare:
+# Gli oggetti immutabili (numeri, stringhe, tuple) 
+# non possono mutare, né nelle funzioni, 
+# né da nessun'altra parte:
 
 y = 1
 
