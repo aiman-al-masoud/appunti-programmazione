@@ -29,7 +29,7 @@ x == y # True
 # sia non definito (None)
 
 x = None 
-x is None 
+x is None # Ok 
 x == None # NON FARLO!
 
 # perché logica del metodo di confronto (==) potrebbe 
