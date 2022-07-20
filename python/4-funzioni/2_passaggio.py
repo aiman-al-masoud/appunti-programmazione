@@ -21,6 +21,15 @@ def foo(x):
 foo(x)
 print(x)
 
+# Gli oggetti immutabili non possono mutare:
+
+y = 1
+
+def foobar(y):
+    y.imag = 1
+
+# foobar(y)
+
 
 # Invece, se il tipo dell'argomento è mutabile e lo si 
 # modifica senza riassegnarlo, si sta modificando 
