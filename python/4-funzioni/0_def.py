@@ -13,9 +13,17 @@ def func():
 x = func()
 print(x, "")
 
-# funzione che prende un argomento 
-# e ritorna un valore.
-# è ricorsiva perché chiama sé stessa.
+
+# funzione che ritorna il doppio dell'argomento.
+def per_due(n):
+    return 2*n 
+
+
+print(per_due(10))
+print(per_due("ciao ")) # che succede qui?
+
+
+# funzione che prende un argomento e ritorna un valore.
 def fib(n):
     
     """
@@ -28,6 +36,7 @@ def fib(n):
     if n == 2:
         return 2
 
+    # è 'ricorsiva' perché chiama sé stessa:
     if n > 2:
         return fib(n-2) + fib(n-1)
 
