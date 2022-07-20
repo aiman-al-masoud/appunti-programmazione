@@ -28,7 +28,17 @@ for i in range(start, stop, step):
 
 
 # molto spesso conviene sostituire il for con una 
-# list comprehension
+# list comprehension, eg:
+
+l = [1,2,3,4] # voglio moltiplicare per 2 ciascun elem
+
+# tradizionale:
+for i in range(len(l)):
+    l[i] *= 2
+
+# meglio:
+l = [2*x for x in l]
+
 
 
 
