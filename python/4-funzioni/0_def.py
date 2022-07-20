@@ -33,11 +33,3 @@ def fib(n):
 
 
 print([fib(n) for n in range(10)])
-
-
-# funzione che ritorna più valori!
-
-
-
-
-# documentation comment
