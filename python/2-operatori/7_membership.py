@@ -13,7 +13,7 @@
 
 class Foresta:
     def __init__(self):
-        self.l = ["cinghiale", "gufo", "trota", "lince"]
+        self.l = ["cinghiale", "gufo", "lince"]
 
     def __contains__(self, o):
         return o in self.l
