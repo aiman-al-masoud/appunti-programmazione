@@ -1,4 +1,3 @@
-
 for i in [1,2,3]:
     print(i)
 
@@ -16,7 +15,6 @@ for c in "ciao mondo!":
 
 for i in range(0, 100): # for(i=0;i<100;i++)
     print(i)
-
 
 
 # molto spesso conviene sostituire il for con una 
