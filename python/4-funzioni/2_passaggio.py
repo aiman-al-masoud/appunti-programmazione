@@ -9,4 +9,15 @@
 #
 #
 
+
+x = 10
+def foo(x):
+    x = 11
+    x.imag = 1
+
+
+print(x)
+
+
+
 # pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
