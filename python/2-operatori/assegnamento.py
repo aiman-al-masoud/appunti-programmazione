@@ -17,6 +17,8 @@ y = x = "ciao mondo"
 if x := 0: #non esegue. Assegno 0 a x e ritorno 0, 0 falsy. 
     print("capra")
 
+# utile per while loop dove x è sia condizione fine,
+# sia letta nel corpo del loop.
 x = 11
 def countdown():
     global x
@@ -25,8 +27,6 @@ def countdown():
 
 while x := countdown():
     print(x)
-
-
 
 
 import sys
