@@ -8,7 +8,7 @@ y = x = "ciao mondo"
 # assegnamento di valori all'interno di espressioni.
 # (a partire da Python 3.8)
 
-# errore
+# errore:
 # "ciao "+(x = 10)+" mondo"
 
 "ciao "+(x := 10)+" mondo" # va bene
