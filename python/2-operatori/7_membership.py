@@ -11,6 +11,9 @@
 "gatto" in {"gatto":"miao", "cane":"bau"} # True
 
 
+# Si può overridare implementando il metodo speciale
+# __contains__() di una nuova classe.
+
 class Foresta:
     def __init__(self):
         self.l = ["cinghiale", "gufo", "lince"]
