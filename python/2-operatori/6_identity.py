@@ -11,4 +11,12 @@
 # Ma non viceversa.
 #
 
+x = {"gatto":"miao"}
+y = x
+
+x is y # True
+
+
+
+
 
