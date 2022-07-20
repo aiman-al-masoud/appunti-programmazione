@@ -1,6 +1,5 @@
 # Sono operatori di equivalenza o confronto LOGICO 
-# fra oggetti, li possiamo definire noi per le 
-# nuove classi che creiamo.
+# fra oggetti.
 
 # ==
 # !=
@@ -15,3 +14,9 @@
 "accumulare" > "abbondare" # True
 
 "ciao" != "CIAO" # True
+
+
+
+# li possiamo definire noi per le nuove classi 
+# che creiamo, implementando il metodo speciale
+# __eq__()
