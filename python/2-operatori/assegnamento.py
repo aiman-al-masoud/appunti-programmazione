@@ -1,7 +1,7 @@
 y = x = "ciao mondo"
 
 
-# if x = 0:
+# if x = 0: # errore
     # print("capra")
 
 
