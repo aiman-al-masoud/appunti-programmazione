@@ -1,3 +1,21 @@
+#
+# Scope di una Variabile
+#
+# È la regione del programma nella quale si può 
+# fare riferimento alla variabile. 
+#  
+#
+
+# VARIABILI GLOBALI
+
+
+# VARIABILI LOCALI
+
+
+# LETTURA GLOBALI DA FUNZIONE
+
+
+
 
 # variabili locali
 # variabili globali
