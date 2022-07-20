@@ -37,6 +37,15 @@ def print_x():
 print_x()
 
 
+# MODIFICA DI GLOBALI DA FUNZIONE 
+def change_x():
+    x+=1 # UnboundLocalError: local variable 'x' referenced before assignment
+
+# change_x()
+
+
+
+
 
 
 # variabili locali
