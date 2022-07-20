@@ -31,7 +31,7 @@ li = [1,2]
 def bar(li):
     li.append(3)
     
-    # li = li + [4] # non modifica arg, perché riassegnamento
+    # li = li + [4] # non modifica arg, perché chiaramente riassegnamento
     # li+=[4] # strano comportamento! https://stackoverflow.com/questions/2347265/why-does-behave-unexpectedly-on-lists
 
 bar(li)
