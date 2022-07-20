@@ -9,4 +9,7 @@
 
 "dica" in "abdicazione" # True
 
+"gatto" in {"gatto":"miao", "cane":"bau"} # True
+
+
 
