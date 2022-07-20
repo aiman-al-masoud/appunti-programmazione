@@ -7,7 +7,7 @@ d = {"gatto":"miao", "cane":"bau"}
 for key, val in d.items():
     print(key, val)
 
-
+# iterare su una stringa
 for c in "ciao mondo!":
     print(c)
 
