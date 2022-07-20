@@ -13,7 +13,7 @@ def func():
 x = func()
 print(x, "")
 
-# funzione che ritorna un valore
+# funzione che prende un argomento e ritorna un valore
 def fib(n):
     """
     Implementazione ricorsiva di fibonacci
