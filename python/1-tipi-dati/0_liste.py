@@ -28,6 +28,8 @@ print("(3)", x)
 x = l1[:] 
 x[0] = 1200102 # modifico solo copia
 print("(4)", x, l1)
+
+# Shallow Copy:
 # questo metodo crea una nuova lista. Ma i riferimenti degli elementi sono gli 
 # stessi degli oggetti originali. Quindi riassegnare un un indice non modifica
 # ambo le liste. Ma modificare un oggetto lo fa.
