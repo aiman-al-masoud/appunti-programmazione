@@ -10,13 +10,20 @@
 #
 
 
+# Riassegnare un argomento funzionera solo sulla 
+# copia locale.
 x = 10
 def foo(x):
     x = 11
-    x.imag = 1
 
-
+foo(x)
 print(x)
+
+
+
+
+
+
 
 
 
