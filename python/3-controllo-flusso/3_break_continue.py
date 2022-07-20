@@ -4,8 +4,6 @@
 #
 
 
-# es: 
-
 db = [{"nome":"Tizio", "eta":30},
       {}, # vuoto
       {"nome":"Caio", "eta":40},
