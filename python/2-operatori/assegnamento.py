@@ -27,6 +27,6 @@ def countdown():
     x -= 1
     return x
 
-while x := countdown():
+while x := countdown(): # si ferma quando x è falsy
     print(x)
 
