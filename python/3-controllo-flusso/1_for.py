@@ -36,7 +36,7 @@ l = [1,2,3,4] # voglio moltiplicare per 2 ciascun elem
 for i in range(len(l)):
     l[i] *= 2
 
-# meglio:
+# molto meglio:
 l = [2*x for x in l]
 
 
