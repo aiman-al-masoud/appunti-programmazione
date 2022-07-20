@@ -12,7 +12,7 @@ else:
     x = "minorenne"
 
 
-# NB: se devi assegnare valori booleani, allora
+# NB: se devi ottenere valori booleani, allora
 # basta usare gli operatori 
 
 
