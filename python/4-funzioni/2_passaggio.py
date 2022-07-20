@@ -7,6 +7,8 @@
 # By Reference: la funzione riceve un riferimento
 # all'oggetto originale che le si passa.
 #
+# 
+#
 #
 
 
@@ -48,10 +50,8 @@ print(li)
 
 
 #
-# globals(): ritorna dizionario di oggetti nello scope globale.
-# locals(): ritorna dizionario di oggetti nello scope locale (di una funzione).
 #
-#
+# Ufficialmente Python passa "By Assignment"
 # https://realpython.com/python-pass-by-reference/
 # https://stackoverflow.com/questions/50534394/what-does-it-mean-by-passed-by-assignment
 #

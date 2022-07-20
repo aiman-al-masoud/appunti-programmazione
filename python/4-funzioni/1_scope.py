@@ -57,3 +57,7 @@ def change_x_ok():
 
 change_x_ok()
 print(x)
+
+
+# globals(): ritorna dizionario di oggetti nello scope globale.
+# locals(): ritorna dizionario di oggetti nello scope locale (di una funzione).
