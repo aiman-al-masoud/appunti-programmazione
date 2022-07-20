@@ -57,7 +57,3 @@ def change_x_ok():
 
 change_x_ok()
 print(x)
-
-
-
-
