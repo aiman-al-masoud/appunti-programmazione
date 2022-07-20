@@ -16,7 +16,6 @@ y = x
 
 x is y # True
 
-
 x = {"gatto":"miao"}
 y = {"gatto":"miao"}
 
@@ -24,4 +23,15 @@ x is y # False
 x == y # True
 
 
+# CON NONE
+
+# usa sempre (is) per controllare che un oggetto 
+# sia non definito (None)
+
+x = None 
+x is None 
+
+# perché logica del metodo di confronto (==) potrebbe 
+# provare ad accedere agli attributi di None, provocando
+# un'eccezione in runtime.
 
