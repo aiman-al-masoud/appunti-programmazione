@@ -9,7 +9,7 @@ y = x = "ciao mondo"
 # errore
 # "ciao "+(x = 10)+" mondo"
 
-"ciao "+(x := 10)+" mondo"
+"ciao "+(x := 10)+" mondo" # va bene
 
 
 
