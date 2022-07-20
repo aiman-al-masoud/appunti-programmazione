@@ -11,13 +11,19 @@ for key, val in d.items():
 for c in "ciao mondo!":
     print(c)
 
+
+# iterare su una lista, con indice
+for i, val in enumerate(["un", "due", "tre"]):
+    print(i, val)
+
+
 # per emulare il for tradizionale del C:
-for i in range(0, 100): # for(i=0;i<100;i++)
+for i in range(0, 10): # for(i=0;i<10;i++)
     print(i)
 
 # più in generale:
 start=0  # default=0 
-stop=100 # param obbligatorio
+stop=10 # param obbligatorio
 step=1   # default=1
 for i in range(start, stop, step):
     print(i)
