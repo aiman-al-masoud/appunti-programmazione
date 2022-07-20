@@ -17,7 +17,7 @@ x = 10
 # VARIABILI LOCALI
 
 # Sono dichiarate all'interno di una funzione, non
-# sono visibili all'esterno.
+# sono visibili al suo esterno.
 
 def func():
     y = 10
