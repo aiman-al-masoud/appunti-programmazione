@@ -8,7 +8,7 @@
 
 eta = 25
 x = "maggiorenne" if eta >= 18 else "minorenne"
-x # "maggiorenne"
+x # 'maggiorenne'
 
 # MOLTO meglio che:
 
