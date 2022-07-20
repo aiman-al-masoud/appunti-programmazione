@@ -34,7 +34,7 @@ print("(4)", x, l1)
 # puntano a quelli originali in memoria. 
 #
 # Quindi riassegnare un un indice non modifica ambo le liste (struttura duplicata). 
-# Ma modificare un oggetto lo fa (oggetti identici).
+# Ma modificare un elemento lo fa (oggetti identici).
 
 
 
