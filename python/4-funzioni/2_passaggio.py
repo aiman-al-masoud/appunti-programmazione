@@ -13,7 +13,7 @@
 
 
 # Riassegnare (con =) una variabile argomento 
-# funzionera solo sulla copia locale:
+# funzionera sullo scope locale:
 
 x = 10
 
