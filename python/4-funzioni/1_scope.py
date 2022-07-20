@@ -23,7 +23,7 @@ def func():
     y = 10
 
 func()
-print(y) # NameError: name 'y' is not defined
+# print(y) # NameError: name 'y' is not defined
 
 
 # LETTURA GLOBALI DA FUNZIONE
