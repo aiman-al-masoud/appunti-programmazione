@@ -6,6 +6,7 @@ y = x = "ciao mondo"
 
 # WARLUS (TRICHECO)
 # assegnamento di valori all'interno di espressioni.
+# (a partire da Python 3.8)
 
 # errore
 # "ciao "+(x = 10)+" mondo"
