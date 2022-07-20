@@ -59,3 +59,9 @@ print(x) # 0
 
 # all()
 # any()
+
+
+# 
+# Nota: la classe bool è una sottoclasse di int!
+# True è mappato a 1 
+# False è mappato a 0
