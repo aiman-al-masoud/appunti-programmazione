@@ -33,7 +33,7 @@ x is None
 
 # perché logica del metodo di confronto (==) potrebbe 
 # provare ad accedere agli attributi di None, provocando
-# un'eccezione in runtime.
+# un'eccezione in runtime perché None non ha attributi.
 
 class Persona:
     def __init__(self, nome):
