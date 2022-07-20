@@ -1,3 +1,7 @@
+#
+# Sono immutabili.
+#
+
 # INTERI
 
 # gli interi NON vanno in overflow, possono crescere 
