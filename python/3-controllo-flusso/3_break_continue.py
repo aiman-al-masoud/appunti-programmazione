@@ -12,9 +12,19 @@ db = [{"nome":"Tizio", "eta":30},
       {"nome":"Sempronio", "eta":50}]
 
 
+# se trovi record vuoto, salta alla prossima iterazione
 for r in db:
     
     if not r: # è vuoto
         continue
+
+    print(r)
+
+
+# se trovi record vuoto, interrompi il loop
+for r in db:
+    
+    if not r: # è vuoto
+        break
 
     print(r)
