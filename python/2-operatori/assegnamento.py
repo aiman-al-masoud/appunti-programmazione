@@ -1,5 +1,6 @@
-
 # ASSEGNAMENTO
+
+a = 1 + 1 
 y = x = "ciao mondo"
 
 
