@@ -55,3 +55,7 @@ print(x) # 2
 
 x = True and 1 and "ciao" and 0 and None 
 print(x) # 0
+
+
+# all()
+# any()
