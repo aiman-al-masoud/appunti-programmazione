@@ -28,6 +28,6 @@ else:
 
 # diventa:
 
-x = eta>=18
+x = eta >= 18
 
 
