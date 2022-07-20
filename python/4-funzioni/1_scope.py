@@ -23,7 +23,6 @@ def func():
     y = 10
 
 
-
 # LETTURA GLOBALI DA FUNZIONE
 
 
