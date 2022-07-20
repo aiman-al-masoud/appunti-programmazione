@@ -9,7 +9,7 @@ def funzione():
 
     """
     NB: anche se non fa niente, questa funzione 
-    ritorna None comunque.
+    ritorna comunque None.
     """
     pass
 
