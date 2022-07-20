@@ -13,20 +13,22 @@ def func():
 x = func()
 print(x, "")
 
-# funzione che prende un argomento e ritorna un valore
+# funzione che prende un argomento 
+# e ritorna un valore.
+# è ricorsiva perché chiama sé stessa.
 def fib(n):
     
     """
     Implementazione ricorsiva di fibonacci
     """
 
-    if 0 <= n <=1:
+    if n in [0, 1]:
         return 1
-
-    if n == 1:
-        return 2
     
-    if n > 1:
+    if n == 2:
+        return 2
+
+    if n > 2:
         return fib(n-2) + fib(n-1)
 
 
