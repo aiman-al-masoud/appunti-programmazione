@@ -13,7 +13,7 @@ else:
 
 
 # NB: se devi ottenere valori booleani, allora puoi
-# semplificare ulteriormente:
+# semplificare ulteriormente, es:
 
 if eta >= 18:
     x = True
