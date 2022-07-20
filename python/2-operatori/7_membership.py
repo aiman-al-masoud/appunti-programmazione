@@ -11,4 +11,14 @@
 "gatto" in {"gatto":"miao", "cane":"bau"} # True
 
 
+class Foresta:
+    def __init__(self):
+        self.l = ["cinghiale", "gufo", "trota", "lince"]
 
+    def __contains__(self, o):
+        return o in self.l
+
+f = Foresta()
+"cinghiale" in f # True
+
+print("cinghiale" in f)
