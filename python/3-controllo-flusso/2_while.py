@@ -11,3 +11,5 @@ while condizione:
     pass # fai qualcosa
 
 
+# es utilizzo con tricheco:
+# ../2-operatori/assegnamento.py
