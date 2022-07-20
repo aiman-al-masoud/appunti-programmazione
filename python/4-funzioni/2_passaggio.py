@@ -12,8 +12,8 @@
 #
 
 
-# Riassegnare un argomento funzionera solo sulla 
-# copia locale:
+# Riassegnare (con =) una variabile argomento 
+# funzionera solo sulla copia locale:
 
 x = 10
 
