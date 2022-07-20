@@ -11,8 +11,14 @@ class Colors(Enum):
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
  
+class Kwargs(dict):
+    color = ""
 
 def color_print(text, **kwargs):
+    '''
+    @param text: text to be printed out
+    @kwarg color: color of the printed text
+    '''
     params = {"color" : Colors.OKBLUE}
     params.update(kwargs)
     print( params["color"].value + text+Colors.ENDC.value)
@@ -21,4 +27,5 @@ def color_print(text, **kwargs):
 color_print("ciao")
 
 color_print("ciao mondo", color=Colors.UNDERLINE)
+color_print("ciao mondo", color="")
 
