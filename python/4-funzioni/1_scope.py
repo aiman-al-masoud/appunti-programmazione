@@ -37,7 +37,7 @@ def print_x():
 print_x()
 
 
-# MODIFICA DI GLOBALI DA FUNZIONE 
+# MODIFICA GLOBALI DA FUNZIONE 
 
 # Se si prova a modificare una var globale dall'interno
 # di una funzione, Python crederà che si tratti di 
