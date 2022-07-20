@@ -12,5 +12,4 @@
 "ciao mondo" == "ciao "+"mondo"  # True
 
 "zorro" > "aereo" # True
-
-
+"accumulare" > "abbondare" # True
