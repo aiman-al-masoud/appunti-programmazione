@@ -28,6 +28,14 @@ func()
 
 # LETTURA GLOBALI DA FUNZIONE
 
+# come già detto, non necessita di accorgimenti
+# particolari.
+
+def print_x():
+    print(x)
+
+print_x()
+
 
 
 
