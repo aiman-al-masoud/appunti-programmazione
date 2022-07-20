@@ -1,4 +1,10 @@
-
+#
+# Si chiama ternario perché prende 3 operandi,
+# una condizione, un valore se la condizione 
+# è soddisfatta, e un valore se la condizione 
+# non è soddisfatta.
+#
+#
 
 eta = 25
 x = "maggiorenne" if eta >= 18 else "minorenne"
