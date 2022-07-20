@@ -9,7 +9,7 @@
 # VARIABILI GLOBALI
 
 # Sono dichiarate a livello di modulo, cioè al di fuori
-# di qualunque funzione, classe, oggetto. Sono 
+# di qualunque funzione, classe o oggetto. Sono 
 # visibili in lettura dappertutto nel modulo.
 x = 10
 
