@@ -36,7 +36,7 @@ def foobar(y):
 
 
 # Invece, se il tipo dell'argomento è mutabile e lo si 
-# modifica senza riassegnarlo, si sta modificando 
+# modifica senza riassegnarlo, si sta proprio modificando 
 # l'originale:
 
 li = [1,2]
