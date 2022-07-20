@@ -26,7 +26,7 @@ x == y # True
 # CONFRONTO NONE
 
 # usa sempre (is) per controllare che un oggetto 
-# sia non definito (None)
+# sia non-definito (None)
 
 x = None 
 x is None # Ok 
