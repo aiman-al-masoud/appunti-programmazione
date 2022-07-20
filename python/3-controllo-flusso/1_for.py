@@ -16,7 +16,7 @@ for i in range(0, 100): # for(i=0;i<100;i++)
     print(i)
 
 # più in generale:
-start = 1
+start=1
 stop=10
 step=2
 for i in range(start, stop, step):
