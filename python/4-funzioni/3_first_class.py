@@ -33,7 +33,7 @@ print(saluta(fx))
 # altre funzioni. 
 # https://it.wikipedia.org/wiki/Funzione_di_ordine_superiore
 # 
-# saluta() qui è una funzione di ordine superiore.
+# saluta() è una funzione di ordine superiore.
 #
 
 
