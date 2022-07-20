@@ -48,8 +48,15 @@ def change_x():
 
 # change_x()
 
+# Per modificarla, bisogna dichiarare esplicitamente
+# che si sta usando una var globale:
 
+def change_x_ok():
+    global x
+    x+=1 
 
+change_x_ok()
+print(x)
 
 
 
