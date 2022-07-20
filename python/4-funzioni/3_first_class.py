@@ -9,3 +9,23 @@
 #
 #
 
+def get_nome():
+    return "Mario"
+
+def saluta(fx):
+    return "Ciao "+fx()+", come stai?"
+
+
+# questa sintassi per fare riferimento,
+# da notare che non non si usano le (), perché 
+# non vogliamo chiamare la funzione!
+
+fx = get_nome
+
+print(saluta(fx))
+
+
+
+
+
+
