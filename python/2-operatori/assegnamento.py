@@ -1,4 +1,16 @@
+
+# ASSEGNAMENTO
 y = x = "ciao mondo"
+
+
+# WARLUS (TRICHECO)
+# assegnamento di valori all'interno di espressioni.
+
+# errore
+# "ciao "+(x = 10)+" mondo"
+
+"ciao "+(x := 10)+" mondo"
+
 
 
 # if x = 0: # errore
