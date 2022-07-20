@@ -15,13 +15,11 @@
 # __contains__() di una nuova classe.
 
 class Foresta:
-    def __init__(self):
-        self.l = ["cinghiale", "gufo", "lince"]
-
     def __contains__(self, o):
-        return o in self.l
+        return o in ["cinghiale", "gufo", "lince"]
 
 f = Foresta()
 "cinghiale" in f # True
 "leone" in f # False
+
 
