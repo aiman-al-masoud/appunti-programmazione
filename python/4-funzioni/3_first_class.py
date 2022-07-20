@@ -8,4 +8,3 @@
 # di prima classe".
 #
 #
-#
