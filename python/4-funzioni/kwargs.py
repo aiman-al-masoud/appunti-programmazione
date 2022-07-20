@@ -13,12 +13,12 @@ class Colors(Enum):
  
 
 def color_print(text, **kwargs):
-    params = {"color" : Colors.OKBLUE.value}
+    params = {"color" : Colors.OKBLUE}
     params.update(kwargs)
-    print( params["color"] + text+Colors.ENDC.value)
+    print( params["color"].value + text+Colors.ENDC.value)
 
 
 color_print("ciao")
 
-color_print("ciao mondo", color=Colors.UNDERLINE.value)
+color_print("ciao mondo", color=Colors.UNDERLINE)
 
