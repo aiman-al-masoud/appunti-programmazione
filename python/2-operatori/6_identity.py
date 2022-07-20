@@ -23,7 +23,7 @@ x is y # False
 x == y # True
 
 
-# CON NONE
+# CONFRONTO NONE
 
 # usa sempre (is) per controllare che un oggetto 
 # sia non definito (None)
