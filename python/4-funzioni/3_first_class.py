@@ -31,9 +31,9 @@ print(saluta(fx))
 # Funzioni di ordine superiore:
 # sono funzioni che prendono come argomento, o ritornano
 # altre funzioni. 
-# 
-# saluta() è una funzione di ordine superiore.
 # https://it.wikipedia.org/wiki/Funzione_di_ordine_superiore
+# 
+# saluta() qui è una funzione di ordine superiore.
 #
 
 
