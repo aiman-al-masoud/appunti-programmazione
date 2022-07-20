@@ -31,7 +31,7 @@ print("(4)", x, l1)
 
 # Shallow Copy:
 # Questo 'trucco' duplica la struttura della lista, ma i gli elementi
-# puntano sempre a quelli originali in memoria. 
+# puntano a quelli originali in memoria. 
 #
 # Quindi riassegnare un un indice non modifica ambo le liste (struttura duplicata). 
 # Ma modificare un oggetto lo fa (oggetti identici).
