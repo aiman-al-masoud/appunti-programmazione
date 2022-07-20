@@ -16,3 +16,9 @@ def countdown():
 
 while x := countdown():
     print(x)
+
+
+
+
+import sys
+print(sys.version)
