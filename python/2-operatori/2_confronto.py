@@ -1,6 +1,6 @@
-# Sono operatori di confronto LOGICO fra oggetti,
-# possono essere definiti per le nuove classi
-# che creiamo.
+# Sono operatori di equivalenza o confronto LOGICO 
+# fra oggetti, possono essere definiti per le 
+# nuove classi che creiamo.
 
 # ==
 # !=
