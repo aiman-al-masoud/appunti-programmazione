@@ -35,3 +35,12 @@ x is None
 # provare ad accedere agli attributi di None, provocando
 # un'eccezione in runtime.
 
+class Persona:
+    def __init__(self, nome):
+        self.nome = nome 
+    
+    def __eq__(self, o):
+        return self.nome == o.nome
+
+p = Persona("Mario")
+p == None # AttributeError: 'NoneType' object has no attribute 'nome'
