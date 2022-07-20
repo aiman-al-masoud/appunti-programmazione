@@ -12,6 +12,7 @@
 def get_nome():
     return "Mario"
 
+# funzione di ordine superiore
 def saluta(fx):
     return "Ciao "+fx()+", come stai?"
 
@@ -25,6 +26,13 @@ fx = get_nome
 print(saluta(fx))
 
 
+
+#
+# Funzioni di ordine superiore:
+# sono funzioni che prendono come argomento, o ritornano 
+# altre funzioni. 
+#
+#
 
 
 
