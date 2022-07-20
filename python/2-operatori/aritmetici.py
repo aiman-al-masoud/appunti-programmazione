@@ -12,17 +12,19 @@ a = 21*12.2
 ["ciao"]*10 # molti riferimenti allo stesso oggetto
 
 # DIVISIONE
-4/5
+4/5 # 0.8
 
 # DIVISIONE INTERI
-4//5
+4//5 # 0
 
 # POTENZA
 2**8
 
 # MODULO
-10%9
-
+10%9 # 1
+11%9 # 2
+18%9 # 0
+19%9 # 1
 
 
 
