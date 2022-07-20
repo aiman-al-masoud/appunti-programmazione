@@ -21,7 +21,7 @@ x = {"gatto":"miao"}
 y = {"gatto":"miao"}
 
 x is y # False
-
+x == y # True
 
 
 
