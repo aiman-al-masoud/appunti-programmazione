@@ -17,7 +17,7 @@ for i in range(0, 100): # for(i=0;i<100;i++)
 
 # più in generale:
 start=0  # default=0 
-stop=100 # obbligatorio
+stop=100 # param obbligatorio
 step=1   # default=1
 for i in range(start, stop, step):
     print(i)
