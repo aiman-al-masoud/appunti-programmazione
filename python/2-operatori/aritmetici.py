@@ -9,7 +9,7 @@ a = 1 - .2
 a = 21*12.2
 
 "ciao "*10
-["ciao"]*10 # molti riferimenti allo stesso oggetto
+["ciao"]*10 # molti riferimenti allo STESSO oggetto
 
 # DIVISIONE
 4/5 # 0.8
