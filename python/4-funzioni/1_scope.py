@@ -22,6 +22,8 @@ x = 10
 def func():
     y = 10
 
+print(y) # NameError: name 'y' is not defined
+
 
 # LETTURA GLOBALI DA FUNZIONE
 
