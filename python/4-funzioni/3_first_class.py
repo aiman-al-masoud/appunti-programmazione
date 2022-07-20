@@ -29,7 +29,7 @@ print(saluta(fx))
 
 #
 # Funzioni di ordine superiore:
-# sono funzioni che prendono come argomento, o ritornano 
+# sono funzioni che prendono come argomento, o ritornano
 # altre funzioni. 
 # 
 # saluta() è una funzione di ordine superiore.
