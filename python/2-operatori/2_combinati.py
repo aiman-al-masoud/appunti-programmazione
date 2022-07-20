@@ -11,6 +11,6 @@ li+=[4, 5, 6] # li = li + 1
 
 
 s = "ciao "
-s*=3 
+s*=3 # s = s * 3
 s # "ciao ciao ciao "
 
