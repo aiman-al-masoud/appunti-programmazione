@@ -15,13 +15,13 @@ Sono definite alcune delle tipiche operazioni matematiche sugli insiemi, prendia
 
 ```python
 volatili = {"barbagianni","papero","pipistrello"}
-mammiferi = {"gatto","pipistrello", "elefante"}
+mammiferi = {"gatto","pipistrello", "yeti"}
 ```
 
 ## Unione
 
 ```python
-volatili|mammiferi # {'barbagianni','papero','pipistrello', 'gatto', 'elefante'}
+volatili|mammiferi # {'barbagianni','papero','pipistrello', 'gatto', 'yeti'}
 ```
 
 ## Intersezione
@@ -40,12 +40,12 @@ volatili - mammiferi # {'barbagianni', 'papero' }
 
 ### c'è in mammiferi ma non in volatili
 ```python
-mammiferi - volatili # { 'gatto', 'elefante'}
+mammiferi - volatili # { 'gatto', 'yeti'}
 ```
 ## Differenza Simmetrica
 
 ```python
-mammiferi.symmetric_difference(volatili) # {'barbagianni','papero', 'gatto', 'elefante'}
+mammiferi.symmetric_difference(volatili) # {'barbagianni','papero', 'gatto', 'yeti'}
 ```
 
 Equivale a unione delle differenze, o unione meno intersezione.
