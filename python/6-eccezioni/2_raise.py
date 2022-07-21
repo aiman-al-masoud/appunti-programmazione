@@ -17,7 +17,7 @@ def servizio_web():
 
     connessione = choice([True, False])
     if not connessione:
-        raise ConnectionError("Connessione assente, perché errore ...")
+        raise ConnectionError("No Internet")
     
 
 def main():
@@ -29,7 +29,9 @@ def main():
     try:
         x = servizio_web()
         # ...
-    except :
-        print("La ")
+    except ConnectionError as e:
+        print("Siamo spiacenti, si è verificato un errore:", e, "riconnettersi e riprovare!")
+        exit()
+
 
 
