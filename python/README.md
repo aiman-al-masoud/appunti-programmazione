@@ -18,8 +18,8 @@
 
 1. [Liste](o1_tipi_dati/o0_liste/README.md)
 1. [Stringhe](o1_tipi_dati/o1_stringhe.py)
-1. [Tuple](o1_tipi_dati/o2_tuple.py)
-1. [Insiemi](o1_tipi_dati/o3_insiemi.py)
+1. [Tuple](o1_tipi_dati/o2_tuple/README.md)
+1. [Insiemi](o1_tipi_dati/o3_insiemi/README.md)
 1. [Dizionari](o1_tipi_dati/o4_dizionari.py)
 1. [Booleani](o1_tipi_dati/o5_booleani.py)
 1. [Numerici](o1_tipi_dati/o6_numerici.py)
