@@ -1,6 +1,7 @@
 #
-# Il modo più semplice di passare argomenti ad una 
-# funzione è tramite gli argomenti posizionali.
+# Il modo più semplice, che abbiamo già intravisto, 
+# di passare argomenti ad una funzione è tramite 
+# gli argomenti posizionali:
 #
 
 def stampa(text, ripetiz):
