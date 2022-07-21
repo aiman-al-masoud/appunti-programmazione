@@ -12,7 +12,7 @@ p2 = ("Tizio", 43, "lattaio")
 Questo è un errore:
 
 ```python
-p1[0] = "Pallino"
+p1[0] = "Pallino" # TypeError: 'tuple' object does not support item assignment
 ```
 
 ## Tuple da un elemento
