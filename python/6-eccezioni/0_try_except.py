@@ -32,6 +32,10 @@ except Exception as e: # tutte le altre eccezioni
     print(e)
     
 
-
-
-
+# 
+# Duck Typing: come altri linguaggi di scripting, Python esegue un metodo
+# su un oggetto "se ne trova uno con lo stesso nome". 
+# 
+# 
+# 
+# 
