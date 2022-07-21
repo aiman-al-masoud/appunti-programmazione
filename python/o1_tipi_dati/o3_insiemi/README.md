@@ -11,7 +11,7 @@ set("caciocavallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
 
 # Operazioni
 
-Sono definite alcune delle tipiche operazioni matematiche sugli insiemi, prendiamo come esempio:
+Sono definite alcune delle tipiche operazioni matematiche sugli insiemi, prendiamo come esempio questi due:
 
 ```python
 volatili = {"barbagianni","oca","pipistrello"}
