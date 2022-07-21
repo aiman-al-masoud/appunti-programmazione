@@ -21,6 +21,6 @@ except:
 else:
     print("tutto bene!")
 finally:
-    print("finally...")
+    print("in ogni caso...")
 
 
