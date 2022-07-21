@@ -4,3 +4,7 @@
 # superiore.
 #
 
+c = map(lambda x : str(x) , [1, True, "ciao", {}])
+c = list(c)
+
+print(c)
