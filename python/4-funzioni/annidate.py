@@ -30,6 +30,8 @@ f = get_finder(r"\d+")
 print(f("3 4"))
 
 
-
+#
+# Closures ... 
+#
 
 
