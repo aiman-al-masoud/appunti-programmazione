@@ -19,7 +19,7 @@ stampa("ciao",3)
 
 #
 # Si possono anche impostare valori di default
-# degli argomenti, così:
+# degli argomenti posizionali, così:
 #
 
 def stampa(text, ripetiz=2):
