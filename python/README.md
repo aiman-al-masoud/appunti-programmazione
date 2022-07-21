@@ -56,8 +56,7 @@
 1. [Match](o3_controllo_flusso/o7_match.py)
 
 
-
-# Funzioni
+# 4. Funzioni
 
 definire funzione 
 restituzioni valori
