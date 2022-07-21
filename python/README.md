@@ -70,12 +70,16 @@
 1. [Funzioni Annidate](o4_funzioni/o9_annidate.py)
 
 
-# I/O
+# 5. I/O
 
-input
-file access
-sys
-argparse
+[Input](o5_io/o0_input.py)
+[Argomenti CLI (sys.argv)](o5_io/o1_arg_cli.py)
+[Argomenti CLI (argparse)](o5_io/o2_argparse_module.py)
+[File di Testo](o5_io/o3_file_testo.py)
+[Web](o5_io/o4_web.py)
+[Immagini](o5_io/o5_immagini.py)
+[Audio](o5_io/o6_audio.py)
+
 
 
 # Eccezioni
