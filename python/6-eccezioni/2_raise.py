@@ -17,7 +17,7 @@ def servizio_web1(x=""):
 
     connessione = choice([True, False])
     if not connessione:
-        raise ConnectionError("No Internet")
+        raise ConnectionError(choice([400, 500 ]))
 
 
 # idem
