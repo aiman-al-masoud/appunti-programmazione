@@ -38,6 +38,6 @@ except Exception as e: # tutte le altre eccezioni
 # non viene trovato su un dato oggetto, viene sollevata un'eccezione 
 # in runtime, al momento della chiamata, e non prima.
 # 
-# 
+# "If it looks like a duck, and it quacks like a duck, it's a duck".
 #
 #
