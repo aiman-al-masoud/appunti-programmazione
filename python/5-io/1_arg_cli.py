@@ -3,7 +3,8 @@
 # ad uno script quando viene lanciato.
 # 
 # Il modo più semplice di leggere argomenti da linea di 
-# comando, è di usare l'argv del modulo sys.
+# comando, è di usare l'argv (argument vector) del 
+# modulo sys.
 #
 
 import sys
