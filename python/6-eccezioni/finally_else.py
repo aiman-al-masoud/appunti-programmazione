@@ -17,7 +17,7 @@ x = int(input())
 try:
     1/x
 except:
-    print("eccezione!")
+    print("problema!")
 else:
     print("tutto bene!")
 finally:
