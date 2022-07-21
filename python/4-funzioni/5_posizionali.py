@@ -12,7 +12,7 @@ stampa("ciao",3)
 
 #
 # Gli argomenti posizionali (se ci sono) sono i primi
-# che devono essere inseriti, e l'ordine è importante
+# che devono essere inseriti, e il loro ordine è importante:
 #
 
 # stampa(3, "") # TypeError: 'str' object cannot be interpreted as an integer
