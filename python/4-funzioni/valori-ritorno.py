@@ -19,11 +19,11 @@ def get_web_source(url):
     return html, css, js
 
 # i valori vengono ritornati come una tupla
-t = get_web_source()
+t = get_web_source("www.google.com")
 print(t, type(t))
 
 # ma si possono "spacchettare" usando questa comoda sintassi:
-h, c, j = get_web_source()
+h, c, j = get_web_source("www.google.com")
 print(h, c, j)
 
 
