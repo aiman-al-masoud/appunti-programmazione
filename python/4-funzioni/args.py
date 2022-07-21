@@ -27,3 +27,5 @@ my_sum(1,2,3,4) # 10
 # applica la funzione g a due elementi della lista alla volta, partendo da sinistra,
 # e accumulando il risultato.
 #
+
+
