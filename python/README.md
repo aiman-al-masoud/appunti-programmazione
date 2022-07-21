@@ -82,12 +82,12 @@
 
 
 
-# Eccezioni
+# 6. Eccezioni
 
-try-except
-raise
-finally-else
-exc_info
+[Try-Except](o6_eccezioni/o0_try_except.py)
+[Else-Finally](o6_eccezioni/o1_finally_else.py)
+[Raise](o6_eccezioni/o2_raise.py)
+
 
 # Classi 
 
