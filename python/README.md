@@ -16,7 +16,7 @@
 
 # 1. Tipi di Dati 
 
-1. [Liste](o1_tipi_dati/o0_liste.py)
+1. [Liste](o1_tipi_dati/o0_liste/README.md)
 1. [Stringhe](o1_tipi_dati/o1_stringhe.py)
 1. [Tuple](o1_tipi_dati/o2_tuple.py)
 1. [Insiemi](o1_tipi_dati/o3_insiemi.py)
