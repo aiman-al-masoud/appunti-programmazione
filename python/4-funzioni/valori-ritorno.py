@@ -12,7 +12,7 @@ def func():
 # qualsiasi tipo di valori!
 #
 
-def get_web_source():
+def get_web_source(url):
     html = "<h1></h1>"
     css = "h1{ color: red; }"
     js = "alert('hello world!')"
