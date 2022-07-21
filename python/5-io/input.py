@@ -12,7 +12,7 @@ print(x)
 # direttamente nella funzione input()
 
 x = input("Inserisci il tuo nome:\n")
-print("ciao", x, "!")
+print("ciao", x+"!")
 
 # Nota che il valore di ritorno di input() è sempre
 # una stringa! Se ci si aspetta un valore numerico
