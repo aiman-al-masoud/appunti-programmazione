@@ -14,7 +14,7 @@
 * funzione/builtin vs operatore
 * commenti
 
-# 1. Tipi Dati 
+# 1. Tipi di Dati 
 
 1. [Liste](o1_tipi_dati/o0_liste.py)
 1. [Stringhe](o1_tipi_dati/o1_stringhe.py)
@@ -44,40 +44,16 @@
 1. [Spread](o2_operatori/o10_spread.py)
 
 
+# 3. Controllo di Flusso
 
-
-assegnamento =, tricheco   :=
-aritmetici +, -, *, /, //, **, %
-combined operators
-
-comparison operators, ==, >= ...
-
-boolean operators: and, or, not. 
-FALSY AND TRUTHY VALUES, ALTERNATE USAGE OF OR and AND
-
-bitwise operators, & | ... 
-
-ternary operator
-
-is (identity operator)  ... is not
-in (membership operator)
-
-operatori di insiemi (sui set, &, |, -, >, < supersetsubset)
-
-
-
-
-
-# Flow control
-
-if
-for
-while
-break, continue
-return
-assert
-pass
-match (jolly)
+1. [If](o3_controllo_flusso/o0_if.py)
+1. [For](o3_controllo_flusso/o1_for.py)
+1. [While](o3_controllo_flusso/o2_while.py)
+1. [Break/Continue](o3_controllo_flusso/o3_break_continue.py)
+1. [Return](o3_controllo_flusso/o4_return.py)
+1. [Assert](o3_controllo_flusso/o5_assert.py)
+1. [Pass](o3_controllo_flusso/o6_pass.py)
+1. [Match](o3_controllo_flusso/o7_match.py)
 
 
 
