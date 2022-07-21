@@ -8,7 +8,8 @@ def func():
     pass # return 
 
 #
-# Una funzione può ritornare qualsiasi numero di valori!
+# Una funzione può ritornare qualsiasi numero e 
+# qualsiasi tipo di valori!
 #
 
 def get_web_source():
@@ -17,7 +18,13 @@ def get_web_source():
     js = "alert('hello world!')"
     return html, css, js
 
+# i valori vengono ritornati come una tupla
+t = get_web_source()
+print(t, type(t))
+
+# ma si possono "spacchettare" usando questa comoda sintassi:
 h, c, j = get_web_source()
-
-
 print(h, c, j)
+
+
+
