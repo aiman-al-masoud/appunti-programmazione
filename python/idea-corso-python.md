@@ -16,10 +16,6 @@
 * funzione/builtin vs operatore
 * commenti
 
-import
-moduli
-venv
-pip
 
 
 # Principali tipi di dati
@@ -164,6 +160,10 @@ threading
 
 
 
+import
+moduli
+venv
+pip
 
 
 
