@@ -1,15 +1,20 @@
 # Intro
 
-installazione
 
-REPL vs file 
-REPL normale vs ipython
+## [intro](0-intro/installazione.md)
 
-tipizzazione dinamica
-indentazione
-expressions vs statements 
-funzione/builtin vs operatore
-commenti
+* installazione
+* REPL vs file 
+* REPL normale vs ipython
+
+
+## [esempio](0-intro/esempio.py)
+
+* tipizzazione dinamica
+* indentazione
+* expressions vs statements 
+* funzione/builtin vs operatore
+* commenti
 
 import
 moduli
@@ -18,6 +23,8 @@ pip
 
 
 # Principali tipi di dati
+
+
 
 stringhe  (meziona necessità typescast int a str)    IMMUTABLE
 liste MUTABLE 
