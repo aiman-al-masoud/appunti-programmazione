@@ -30,8 +30,9 @@ def main():
         x = servizio_web()
         # ...
     except ConnectionError as e:
-        print("Siamo spiacenti, si è verificato un errore:", e, "riconnettersi e riprovare!")
+        print("Siamo spiacenti, si è verificato un errore:", e, ", riconnettersi e riprovare!")
         exit()
 
 
 
+main()
