@@ -1,6 +1,6 @@
 # F-strings
 
-Schemi fissi, ma valori che cambiano spesso? Niente paura, per creare stringhe **template** (aka: formattate) ci sono diversi modi.
+Schemi fissi, ma valori che cambiano spesso? Niente paura, per creare stringhe **template** (aka: formattate) ci sono diversi modi. Uno di questi:
 
 ```python
 from datetime import datetime
