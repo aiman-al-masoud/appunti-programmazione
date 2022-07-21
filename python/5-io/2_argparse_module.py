@@ -5,7 +5,7 @@
 # in qualsiasi ordine, come facciamo con i kwargs in Python. 
 #
 # Usando sys.argv, questo richiederebbe molto lavoro
-# da parte nostra. Fortunatamente in Python c'è già 
+# da parte nostra. Fortunatamente, in Python c'è già 
 # una libreria standard che fa a caso nostro.
 #
 #
