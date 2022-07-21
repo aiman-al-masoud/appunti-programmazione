@@ -24,6 +24,6 @@ my_sum(1,2,3,4) # 10
 
 #
 # Reduce è una funzione di ordine superiore. Prende una funzione g e una lista,
-# applica la funzione g a due elementi della lista alla volta partendo da sinistra,
+# applica la funzione g a due elementi della lista alla volta, partendo da sinistra,
 # accumulando il risultato.
 #
