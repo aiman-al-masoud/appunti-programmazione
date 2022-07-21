@@ -11,6 +11,8 @@ set("caciocavallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
 
 # Operazioni
 
+Sono definite alcune delle tipiche operazioni matematiche sugli insiemi, prendiamo come esempio:
+
 ```python
 volatili = {"barbagianni","oca","pipistrello"}
 mammiferi = {"gatto","pipistrello", "elefante"}
@@ -19,14 +21,13 @@ mammiferi = {"gatto","pipistrello", "elefante"}
 ## Unione
 
 ```python
-s = volatili|mammiferi
-print(s)
+volatili|mammiferi # {'barbagianni','oca','pipistrello', 'gatto', 'elefante'}
 ```
 
 ## Intersezione
 
 ```python
-s = volatili&mammiferi
+volatili&mammiferi # {'pipistrello'}
 ```
 
 ## Differenza
@@ -34,25 +35,19 @@ s = volatili&mammiferi
 ### c'è in volatili ma non in mammiferi
 
 ```python
-print(volatili - mammiferi)
+volatili - mammiferi # {'barbagianni', 'oca' }
 ```
 
 ### c'è in mammiferi ma non in volatili
 ```python
-print(mammiferi - volatili)
+mammiferi - volatili # { 'gatto', 'elefante'}
 ```
 ### differenza simmetrica
 
 ```python
-print(mammiferi.symmetric_difference(volatili))
+mammiferi.symmetric_difference(volatili) # {'barbagianni','oca', 'gatto', 'elefante'}
 ```
 
-equivale a unione delle differenze:
-
-```python
-print((volatili - mammiferi)|(  mammiferi -volatili))
-```
-
-
+Equivale a unione delle differenze, o unione meno intersezione.
 
 
