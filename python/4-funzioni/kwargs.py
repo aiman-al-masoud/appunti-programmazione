@@ -1,6 +1,20 @@
+#
+# Se una funzione comincia ad avere troppi argomenti posizionali,
+# può diventare difficile ricordare l'ordine esatto in cui inserirli,
+# specie se molti sono opzionali.
+# 
+# Qui entrano in gioco i keyword args (o kwargs), che si possono passare
+# in qualsiasi ordine e opzionalmente.
+#
 
+def stampa(**kwargs):
+    params = {"text":"ciao mondo", "ripetiz":2}
+    params.update(kwargs)
 
+    for i in range(params["ripetiz"]):
+        print(params["text"])
 
+stampa( ripetiz=4, text="the quick brown fox ...")
 
 
 
