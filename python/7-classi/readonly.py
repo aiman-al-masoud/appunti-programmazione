@@ -1,1 +1,0 @@
-# https://www.pythonmorsels.com/making-read-only-attribute/
