@@ -1,5 +1,4 @@
-
-# IMMUTABILITÀ
+# Immutabilità
 
 Le stringhe sono un tipo **immutabile**. L'immutabilità di un oggetto vuol dire che una volta creato, non ne si possono modificare gli attributi. 
 
