@@ -4,9 +4,8 @@
 # o tupla di argomenti. Un'altra opzione, in Python, è di passare un numero 
 # smodato di argomenti!
 # 
-# Bisogna usare la sintassi speciale con singolo asterisco.
-#
-# La funzione riceverà tutti gli argomenti in ordine in una singola tupla.
+# Bisogna usare la sintassi speciale con singolo asterisco. La funzione 
+# riceverà tutti gli argomenti in ordine in una singola tupla.
 #
 #
 
