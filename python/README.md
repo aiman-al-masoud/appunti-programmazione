@@ -14,7 +14,7 @@
 * funzione/builtin vs operatore
 * commenti
 
-# Tipi Dati 
+# 1. Tipi Dati 
 
 1. [Liste](o1_tipi_dati/o0_liste.py)
 1. [Stringhe](o1_tipi_dati/o1_stringhe.py)
@@ -28,7 +28,7 @@
 1. [Aiuto](o1_tipi_dati/oaiuto.py)
 
 
-# Operatori
+# 2. Operatori
 
 
 1. [Assegnamento](o2_operatori/o0_assegnamento.py)
