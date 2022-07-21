@@ -1,6 +1,6 @@
 #
 # In Python una funzione senza un return esplicito,
-# o con un return vuoto ritorna None.
+# o con un return vuoto, ritorna None.
 #
 #
 
