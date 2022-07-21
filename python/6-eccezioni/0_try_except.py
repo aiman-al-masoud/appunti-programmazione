@@ -34,8 +34,10 @@ except Exception as e: # tutte le altre eccezioni
 
 # 
 # Duck Typing: come altri linguaggi di scripting, Python esegue un metodo
-# su un oggetto "se ne trova uno con lo stesso nome". 
+# su un oggetto "se ne trova uno con lo stesso nome". Se invece quel nome 
+# non viene trovato su un dato oggetto, viene sollevata un'eccezione 
+# in runtime, al momento della chiamata, e non prima.
 # 
 # 
-# 
-# 
+#
+#
