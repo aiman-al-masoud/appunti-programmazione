@@ -1,14 +1,14 @@
 # Intro
 
 
-## [intro](0-intro/installazione.md)
+## [intro](o0_intro/installazione.md)
 
 * installazione
 * REPL vs file 
 * REPL normale vs ipython
 
 
-## [esempio](0-intro/esempio.py)
+## [esempio](o0_intro/esempio.py)
 
 * tipizzazione dinamica
 * indentazione
