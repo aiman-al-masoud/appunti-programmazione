@@ -1,6 +1,2 @@
-
-"""
 # già visti in:
-../1-tipi-dati/5_booleani.py
-"""
-
+import o1_tipi_dati.o5_booleani
