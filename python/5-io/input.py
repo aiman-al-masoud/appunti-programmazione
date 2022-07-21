@@ -11,7 +11,7 @@ print(x)
 # si può anche opzionalmente specificare un messaggio
 # direttamente nella funzione input()
 
-x = input("inserisci il tuo nome:\n")
+x = input("Inserisci il tuo nome:\n")
 print(x)
 
 # Nota che il valore di ritorno di input() è sempre
