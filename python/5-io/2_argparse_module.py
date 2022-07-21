@@ -18,8 +18,6 @@ p =argparse.ArgumentParser()
 p.add_argument("-n", "--ripetizioni", help="numero di stampe ripetute.")
 p.add_argument("-c", "--colore", help="colore della stampa.")
 
-
-
 d = p.parse_args()
 
 print(d)
