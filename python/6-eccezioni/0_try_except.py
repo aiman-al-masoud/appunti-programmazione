@@ -26,7 +26,7 @@ except Exception as e: #viene eseguito solo in caso di eccezione
 duck = {}
 try:
     duck.quack()
-except AttributeError as e: # solo eccezioni AttributeError
+except AttributeError as e: # cattura solo eccezioni AttributeError
     print(e)
 except Exception as e: # tutte le altre eccezioni
     print(e)
