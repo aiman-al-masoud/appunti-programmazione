@@ -4,7 +4,7 @@
 # specie se molti sono opzionali.
 # 
 # Qui entrano in gioco i keyword args (o kwargs), che si possono passare
-# in qualsiasi ordine e opzionalmente.
+# in qualunque ordine e opzionalmente.
 #
 
 def stampa(**kwargs):
