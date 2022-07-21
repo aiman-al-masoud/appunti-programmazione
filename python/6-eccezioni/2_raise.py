@@ -28,7 +28,7 @@ def main():
 
     try:
         x = servizio_web()
-        # fai qualcos'altro ...
+        # ...
     except :
         print("La ")
 
