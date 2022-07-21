@@ -72,21 +72,21 @@
 
 # 5. I/O
 
-[Input](o5_io/o0_input.py)
-[Argomenti CLI (sys.argv)](o5_io/o1_arg_cli.py)
-[Argomenti CLI (argparse)](o5_io/o2_argparse_module.py)
-[File di Testo](o5_io/o3_file_testo.py)
-[Web](o5_io/o4_web.py)
-[Immagini](o5_io/o5_immagini.py)
-[Audio](o5_io/o6_audio.py)
+1. [Input](o5_io/o0_input.py)
+1. [Argomenti CLI (sys.argv)](o5_io/o1_arg_cli.py)
+1. [Argomenti CLI (argparse)](o5_io/o2_argparse_module.py)
+1. [File di Testo](o5_io/o3_file_testo.py)
+1. [Web](o5_io/o4_web.py)
+1. [Immagini](o5_io/o5_immagini.py)
+1. [Audio](o5_io/o6_audio.py)
 
 
 
 # 6. Eccezioni
 
-[Try-Except](o6_eccezioni/o0_try_except.py)
-[Else-Finally](o6_eccezioni/o1_finally_else.py)
-[Raise](o6_eccezioni/o2_raise.py)
+1. [Try-Except](o6_eccezioni/o0_try_except.py)
+1. [Else-Finally](o6_eccezioni/o1_finally_else.py)
+1. [Raise](o6_eccezioni/o2_raise.py)
 
 
 # Classi 
