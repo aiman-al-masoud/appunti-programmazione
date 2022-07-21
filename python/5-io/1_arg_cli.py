@@ -9,5 +9,6 @@
 
 import sys
 
+# il primo argomento è sempre il "nome del programma".
 print(sys.argv)
 
