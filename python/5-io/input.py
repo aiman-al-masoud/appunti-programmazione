@@ -16,5 +16,5 @@ print("ciao", x+"!")
 
 # Nota che il valore di ritorno di input() è sempre
 # una stringa! Se ci si aspetta un valore numerico
-# dall'utente, bisognerà poi fare il casting esplicito.BlockingIOError()
+# dall'utente, bisognerà poi fare il casting esplicito.
 
