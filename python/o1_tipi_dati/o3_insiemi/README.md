@@ -6,7 +6,7 @@ Un insieme è una lista **non-ordinata** e **priva di duplicati**. È mutabile.
 # No Duplicati
 
 ```python
-set("caciocavallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
+set("cacipaperovallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
 ```
 
 # Operazioni
@@ -14,14 +14,14 @@ set("caciocavallo") # {'a', 'v', 'l', 'c', 'o', 'i'}
 Sono definite alcune delle tipiche operazioni matematiche sugli insiemi, prendiamo come esempio questi due:
 
 ```python
-volatili = {"barbagianni","oca","pipistrello"}
+volatili = {"barbagianni","papero","pipistrello"}
 mammiferi = {"gatto","pipistrello", "elefante"}
 ```
 
 ## Unione
 
 ```python
-volatili|mammiferi # {'barbagianni','oca','pipistrello', 'gatto', 'elefante'}
+volatili|mammiferi # {'barbagianni','papero','pipistrello', 'gatto', 'elefante'}
 ```
 
 ## Intersezione
@@ -35,7 +35,7 @@ volatili&mammiferi # {'pipistrello'}
 ### c'è in volatili ma non in mammiferi
 
 ```python
-volatili - mammiferi # {'barbagianni', 'oca' }
+volatili - mammiferi # {'barbagianni', 'papero' }
 ```
 
 ### c'è in mammiferi ma non in volatili
@@ -45,7 +45,7 @@ mammiferi - volatili # { 'gatto', 'elefante'}
 ## Differenza Simmetrica
 
 ```python
-mammiferi.symmetric_difference(volatili) # {'barbagianni','oca', 'gatto', 'elefante'}
+mammiferi.symmetric_difference(volatili) # {'barbagianni','papero', 'gatto', 'elefante'}
 ```
 
 Equivale a unione delle differenze, o unione meno intersezione.
