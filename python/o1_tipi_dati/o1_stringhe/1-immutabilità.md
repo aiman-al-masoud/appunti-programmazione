@@ -6,7 +6,7 @@ Questo codice produce un errore se eseguito:
 
 ```python
 s = "ciao mondo!"
-s[5:10] = "socio"
+s[5:10] = "socio" # TypeError: 'str' object does not support item assignment
 ```
 
 Dovremo ricorrere alla **creazione di una nuova** stringa, così:
