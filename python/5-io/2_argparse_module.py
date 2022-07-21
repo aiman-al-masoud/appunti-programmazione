@@ -10,4 +10,18 @@
 #
 #
 
+import argparse
+
+
+p =argparse.ArgumentParser()
+
+p.add_argument("-n", "--ripetizioni")
+p.add_argument("-c", "--colore")
+
+
+
+d = p.parse_args()
+
+print(d)
+
 
