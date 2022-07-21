@@ -5,7 +5,7 @@
 # smodato di argomenti!
 # 
 # Bisogna usare la sintassi speciale con singolo asterisco. La funzione 
-# riceverà tutti gli argomenti in ordine in una singola tupla.
+# riceverà tutti gli argomenti, in ordine, in una singola tupla.
 #
 #
 
