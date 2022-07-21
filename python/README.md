@@ -58,7 +58,19 @@
 
 # 4. Funzioni
 
-definire funzione 
+1. [Definire Funzioni](o4_funzioni/o0_def.py)
+1. [Scope](o4_funzioni/o1_scope.py)
+1. [Passaggio Valori](o4_funzioni/o2_passaggio.py)
+1. [Cittadine di Prima Classe](o4_funzioni/o3_first_class.py)
+1. [Lambda](o4_funzioni/o4_lambda.py)
+1. [Argomenti Posizionali](o4_funzioni/o5_posizionali.py)
+1. [Args](o4_funzioni/o6_args.py)
+1. [Kwargs](o4_funzioni/o7_kwargs.py)
+1. [Ritorno Valori](o4_funzioni/o8_valori_ritorno.py)
+1. [Funzioni Annidate](o4_funzioni/o9_annidate.py)
+
+
+
 restituzioni valori
 param
 funzioni come oggetti
