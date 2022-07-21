@@ -19,4 +19,4 @@ im2.show()
 im2 = im2.filter(ImageFilter.GaussianBlur(radius=2))
 im2.show()
 
-print(im2.getdata())
+print(len(im.histogram()))
