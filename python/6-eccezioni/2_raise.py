@@ -9,7 +9,7 @@
 from random import choice
 
 
-def servizio_web():
+def servizio_web1(x=""):
 
     """
     Questa è una funzione non interagisce con l'utente
@@ -18,7 +18,11 @@ def servizio_web():
     connessione = choice([True, False])
     if not connessione:
         raise ConnectionError("No Internet")
-    
+
+
+# idem
+servizio_web2 = servizio_web1
+
 
 def main():
 
@@ -27,12 +31,15 @@ def main():
     """
 
     try:
-        x = servizio_web()
+        x = servizio_web1()
+        y = servizio_web2(x)
         # ...
     except ConnectionError as e:
         print("Siamo spiacenti, si è verificato un errore:", e, ", riconnettersi e riprovare!")
         exit()
 
 
+# 
+if __name__ == "__main__":
+    main()
 
-main()
