@@ -42,7 +42,7 @@ volatili - mammiferi # {'barbagianni', 'oca' }
 ```python
 mammiferi - volatili # { 'gatto', 'elefante'}
 ```
-### differenza simmetrica
+### Differenza Simmetrica
 
 ```python
 mammiferi.symmetric_difference(volatili) # {'barbagianni','oca', 'gatto', 'elefante'}
