@@ -49,5 +49,3 @@ mammiferi.symmetric_difference(volatili) # {'barbagianni','papero', 'gatto', 'ye
 ```
 
 Equivale a unione delle differenze, o unione meno intersezione.
-
-
