@@ -1,5 +1,5 @@
 #
-# Ma spesso risulterà più comodo passare degli argomenti
+# Spesso risulterà più comodo passare degli argomenti
 # ad uno script quando viene lanciato, perché è più
 # facile da integrare con altri programmi.
 # 
