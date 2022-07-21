@@ -4,7 +4,8 @@
 # aperta in precedenza.
 #
 # La clausola else dopo except contiene codice da eseguire solo
-# se è andato tutto bene (potrebbe anche stare direttamente nel try). 
+# se è andato tutto bene e non ci sono state eccezioni (potrebbe anche 
+# stare direttamente nel try). 
 #
 #
 
