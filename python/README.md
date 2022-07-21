@@ -70,26 +70,6 @@
 1. [Funzioni Annidate](o4_funzioni/o9_annidate.py)
 
 
-
-restituzioni valori
-param
-funzioni come oggetti
-
-param args
-param kwargs
-lambda
-funzioni annidate
-decorators
-
-## variabili e scope
-
-variabili locali
-variabili globali
-keyword global
-modificare globali da funzione
-pass by val vs pass "by ref": ovvero quando i parametri vengono modificati da funzione
-
-
 # I/O
 
 input
