@@ -1,6 +1,6 @@
 #
 # Ottenere un input testuale dall'utente durante 
-# l'esecuzione del programma è molto semplice in Python.
+# l'esecuzione del programma è molto facile in Python.
 #
 
 # il programma va in pausa, finché l'utente non preme invio.
