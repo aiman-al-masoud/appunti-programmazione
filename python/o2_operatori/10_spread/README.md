@@ -3,7 +3,7 @@
 Per svolgere lo 'spacchettamento' (unpacking) di un **tipo iterabile**
 (lista, dizionario, insieme, tupla ...). 
 
-**Spacchettamento** vuol dire: poter usare gli elementi dell'iterabile come argomenti di una funzione, oppure al posto dei literals quando si crea una nuova lista, dizionario etc...
+**Spacchettamento** vuol dire: poter usare gli elementi dell'iterabile come argomenti di una funzione, oppure al posto dei literals quando si crea una nuova lista, dizionario ecc...
 
 ## Lista
 
