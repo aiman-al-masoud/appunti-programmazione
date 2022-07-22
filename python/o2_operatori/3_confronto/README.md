@@ -58,7 +58,7 @@ def uno():
 La funzione esegue!
 ```
 
-### Qui no
+### Qui invece no
 
 ```python
 0.2 < 0.1 < uno() # False
