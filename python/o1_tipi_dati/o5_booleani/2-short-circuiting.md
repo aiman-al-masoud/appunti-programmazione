@@ -20,7 +20,7 @@ x = True and 1 and "ciao" and 0 and None
 x # 0
 ```
 
-Il trucchetto dell'`or` è utilizzato  
+Il trucchetto dell'`or` è utilizzato per 
 
 
 
