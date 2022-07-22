@@ -2,7 +2,7 @@
 
 Il type casting è la conversione da un tipo di dato ad un altro.
 
-In tanti casi, si può fare affidamento a queste funzioni bultin:
+In tanti casi, si può fare affidamento a queste funzioni builtin:
 
 * `int()`
 * `float()`
