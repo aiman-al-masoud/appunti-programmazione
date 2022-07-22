@@ -27,7 +27,9 @@ funzione?
 In questo caso non dobbiamo nemmeno quittare con Q.
 
 
+## Documentazione
 
+Le funzioni builtin e standard sono ben documentate, ma 
 
 
 
