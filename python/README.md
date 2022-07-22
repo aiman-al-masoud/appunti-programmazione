@@ -31,9 +31,9 @@
 # 2. Operatori
 
 
-1. [Assegnamento](o2_operatori/o0_assegnamento.py)
-1. [Aritmetici](o2_operatori/o1_aritmetici.py)
-1. [Combinati](o2_operatori/o2_combinati.py)
+1. [Assegnamento](o2_operatori/0_assegnamento/README.md)
+1. [Aritmetici](o2_operatori/1_aritmetici/README.md)
+1. [Combinati](o2_operatori/2_combinati/README.md)
 1. [Confronto](o2_operatori/o3_confronto.py)
 1. [Booleani](o2_operatori/o4_booleani.py)
 1. [Bitwise](o2_operatori/o5_bitwise.py)
