@@ -3,7 +3,7 @@
 Ritorna il tipo dell'oggetto su cui viene invocato.
 
 ```python
-s = "questa è una stringa"
+s = "questa è una stringa, ma verifichiamolo"
 t = type(s)
 t # str
 ```
