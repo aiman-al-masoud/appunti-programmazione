@@ -20,7 +20,7 @@ x = True and 1 and "ciao" and 0 and None
 x # 0
 ```
 
-Il trucchetto dell'`or` è utilizzato per fornire valori di default quando si teme che una variabile sia `None`.
+Il trucchetto dell'`or` è utilizzato per fornire valori di default quando si teme che una variabile sia `None`. Il `None` è una null reference, cioè un modo per dire che una variabile non è stata inizializzata. 
 
 
 
