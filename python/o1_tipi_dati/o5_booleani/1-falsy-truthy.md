@@ -6,7 +6,7 @@ Abbiamo già visto che `bool` è una sottoclasse di `int`, e che `False` corrisp
 if 0:
     print("non stampo mai")
 ```
-Si dice che lo zero è **falsy**. Tutti gli altri numeri invece, non soltanto l'`1`, hanno valore `True`, e si dice che sono **truthy**. Questa proprietà di fungere da valore booleano all'occorrenza non è esclusiva ai numeri, ma è pervasiva. 
+Si dice che lo zero è **falsy**. Tutti gli altri numeri invece, non soltanto l'`1`, hanno valore `True`, e si dice che sono **truthy**. Questa proprietà di fungere da valore booleano all'occorrenza non è esclusiva ai numeri, ma è pervasiva. Per esempio, la lista vuota è falsy, le liste con almeno un elemento sono truthy, e così via. Qui c'è un breve elenco di valori da sperimentare:
 
 
 ```python
