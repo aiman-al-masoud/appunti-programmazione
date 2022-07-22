@@ -10,7 +10,7 @@ if x:
     print("condizione soddisfatta")
 ```
 
-Una nota a parte: la classe `bool` è una sottoclasse di `int`. True corrisponde ad 1, e False corrisponde a 0.
+Una nota a parte: la classe `bool` è una sottoclasse di `int`. `True` corrisponde ad `1`, e `False` corrisponde a `0`.
 
 
 1. [Operatori](./0-operatori.md)
