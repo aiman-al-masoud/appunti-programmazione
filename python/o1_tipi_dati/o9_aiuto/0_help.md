@@ -7,7 +7,7 @@ help(funzione)
 ```
 
 ```
-Help on function do_something in module __main__:
+Help on function funzione in module __main__:
 
 funzione()
     Questa funzione serve a bla bla bla ...
@@ -32,7 +32,7 @@ In questo caso non dobbiamo nemmeno quittare con Q.
 Le funzioni builtin e standard sono già ben documentate, ma se vogliamo ottenere lo stesso effetto per quelle che scriviamo noi, ci dobbiamo servire delle stringhe di documentazione, per esempio la funzione di sopra poteva essere definita così:
 
 ```python
-def function():
+def funzione():
     
     """
     Questa funzione serve a bla bla bla ...
