@@ -5,7 +5,7 @@ Una lista è un insieme **ordinato** e **mutabile** di di elementi potenzialment
 Per creare una lista, usare la notazione con le parentesi quadre:
 
 ```python
-l1  = ["un", "due", "tre", "quatr", "cinq", "sei"]
+l1  = ["un", "due", 3, True, [], 3.14]
 ```
 
 
