@@ -2,6 +2,8 @@
 
 Abbiamo già visto che `bool` è una sottoclasse di `int`, e che `False` corrisponde ad uno `0`. 
 
+
+```python
 x = 0
 # x = 1
 # x = ""
@@ -15,3 +17,4 @@ if x:
     print(f"x={x} è truthy")
 else:
     print(f"x={x} è falsy")
+```
