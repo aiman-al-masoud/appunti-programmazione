@@ -23,7 +23,7 @@ Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non
 
 ### ipython
 
-È una shell (più) ***i***nterattiva della normale python shell. Permette di eseguire 
+È una shell (più) ***i***nterattiva della normale python shell. Permette di eseguire comandi bash sul proprio sistema *nix, e addirittura di  
 
 ### Jupyter Notebooks
 Esiste anche la terza possibilità, che è un po' una via di mezzo fra le prime due, di eseguire il codice Python su un notebook Jupyter interattivo (che usa la shell ipython come 'kernel'). Questa modalità permette di presentare i propri ragionamenti agli altri in formato grafico, ed è solitamente usata per analisi dei dati esplorative.
