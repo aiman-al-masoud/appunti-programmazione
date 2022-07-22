@@ -7,13 +7,15 @@ L'operatore "tricheco" (presente a partire da Python 3.8) serve ad assegnare val
 Con l'assegnamento normale, questo è un errore:
 
 ```python
-"ciao "+(x = 10)+" mondo"
+s = "ciao "+(x = 'a te')+" mondo"
 ```
 
 Col tricheco, funziona:
 
 ```python
-"ciao "+(x := 10)+" mondo" 
+s = "ciao "+(x := 'a te')+" mondo"
+s # 'ciao a te mondo'
+x # 'a te'
 ```
 
 
