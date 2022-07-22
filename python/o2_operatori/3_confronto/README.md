@@ -36,7 +36,7 @@ che equivale a:
 (0 <= 0.1) and (0.1 <= 1)  # True
 ```
 
-Attenzione però, proprio per via di questa equivalenza, vale la regola della pigrizia; non si va fino alla fine se l'esito della catena è già chiaro:
+Attenzione però, proprio per via di questa equivalenza, vale la regola della pigrizia; [non si va fino alla fine se l'esito della catena è già chiaro](../../o1_tipi_dati/o5_booleani/2-short-circuiting.md#shortcircuting):
 
 ```python
 def uno():
