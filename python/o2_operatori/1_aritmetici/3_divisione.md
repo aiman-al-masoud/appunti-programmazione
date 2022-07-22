@@ -1,6 +1,6 @@
 # Divisione
 
-L'operatore di divisione "standard" (`/`) ritorna un float all'occorrenza:
+L'operatore di divisione "standard" (`/`) ritorna un float:
 
 ```python
 4/5 # 0.8
