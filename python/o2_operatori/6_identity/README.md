@@ -9,6 +9,4 @@ proprietà **equivalenti**.
 allo **stesso** oggetto in memoria.
 
 
-
-Identità implica Uguaglianza.
-Ma non viceversa.
+L'identità implica l'uguaglianza ovviamente, perché un oggetto è equivalente a se stesso. Ma non vale il viceversa.
