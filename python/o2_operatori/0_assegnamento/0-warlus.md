@@ -21,7 +21,7 @@ x # 'a te'
 
 ## Caso d'uso
 
-Utile per while loop dove x è sia condizione fine, sia letta nel corpo del loop:
+Utile per while loop dove x è sia condizione di fine, sia letta nel corpo del loop:
 
 ```python
 
