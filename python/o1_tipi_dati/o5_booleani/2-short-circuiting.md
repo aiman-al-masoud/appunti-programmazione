@@ -25,7 +25,7 @@ Il trucchetto dell'`or` è utilizzato per fornire valori di default quando si te
 ```python
 quantita = None
 # ...
-ordina_spedizione(quantita or 1) # se quantità non specificata, default=1
+ordina_spedizione(quantita or 1) # se quantità non specificata da utente, default=1
 ```
 
 
