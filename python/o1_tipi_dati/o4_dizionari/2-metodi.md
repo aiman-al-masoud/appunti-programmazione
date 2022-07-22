@@ -1,13 +1,13 @@
 # KEYS
 
 ```python
-list(d.keys()) # ["gatto", "cane", "pesce"]
+list(d.keys()) # ['gatto', 'cane', 'pesce']
 ```
 
 # Values
 
 ```python
-list(d.values()) # ["miao", "wof", None]
+list(d.values()) # ['miao', 'wof', None]
 ```
 
 # Items (lista di tuple)
