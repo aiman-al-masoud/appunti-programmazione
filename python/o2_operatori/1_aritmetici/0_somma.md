@@ -8,5 +8,9 @@ Somma fra interi, float, complessi:
 0+1j + 1 # (1+1j)
 ```
 
-a = 1 + 1.8 
-b = "ciao "+"mondo"
+Ma anche fra stringhe, liste ecc...
+
+```python
+"ciao "+"mondo" # 'ciao mondo'
+[1,2]+[3,4] # [1, 2, 3, 4]
+```
