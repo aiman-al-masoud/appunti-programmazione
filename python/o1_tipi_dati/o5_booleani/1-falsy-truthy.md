@@ -18,6 +18,7 @@ x = 0
 # x = {"a":1}
 # x = []
 # x = [""]
+# x = None
 
 if x:
     print(f"x={x} è truthy")
