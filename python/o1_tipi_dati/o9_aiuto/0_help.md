@@ -29,7 +29,7 @@ In questo caso non dobbiamo nemmeno quittare con Q.
 
 ## Documentazione
 
-Le funzioni builtin e standard sono ben documentate, ma 
+Le funzioni builtin e standard sono già ben documentate, ma se vogliamo ottenere lo stesso effetto per quelle che scriviamo noi, ci dobbiamo servire delle stringhe di documentazione
 
 
 
