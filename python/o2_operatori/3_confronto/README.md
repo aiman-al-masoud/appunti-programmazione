@@ -69,6 +69,6 @@ La funzione esegue!
 
 
 ## Overload
-li possiamo definire noi per le classi che creiamo, implementando i metodi speciali `__eq__()`, `__gt__()`...
+Possiamo definire noi i confronti per le classi che creiamo, implementando i metodi speciali `__eq__()`, `__gt__()`...
 
 
