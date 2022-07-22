@@ -1,6 +1,7 @@
 # Booleani
 
-Vero o Falso.
+Due valori (vero e falso) per rappresentare una condizione e il suo opposto. Sono ritornati dagli operatori di confronto, e si possono combinare tramite gli operatori booleani. 
+
 
 
 ```python
