@@ -1,14 +1,21 @@
 # Python 
 
-Python è un linguaggio ad "altissimo" livello **dinamicamente e fortemente tipizzato**, che oggi viene usato in tantissimi campi: analisi dei dati, scripting, back-end dei siti web...
+Python è un linguaggio di programmazione ad ["altissimo" livello](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione_ad_altissimo_livello), **dinamicamente e fortemente tipizzato**, che oggi viene usato nei campi più disparati: analisi dei dati, scripting, back-end dei siti web... E risulta sempre al [top delle classifiche fra i linguaggi più amati dagli sviluppatori](https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-language-want).
+
+
+
+
 
 Per <a href="https://www.python.org/downloads/">installare</a> Python e pip sul proprio sistema.
 
 # Come eseguirlo
 
-Vi sono due principali modalità di eseguire codice python, ossia: in modo interattivo da shell o REPL (Read Eval Print Loop), oppure scrivendo il codice su un file e eseguendo il file. Di solito si usa la shell per testare espressioni o funzioni al volo.
+Due modalità principali:
 
-Esistono due principali shell:
+1. Scrivi programma su file di testo, ed esegui il file.
+1. Esegui riga per riga da shell interattiva.
+
+Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non una, ma tante shell a disposizione. Di solito si usa la shell per testare espressioni o funzioni al volo, anche nota come modalità REPL (Read Eval Print Loop). Esistono due principali shell:
 
 * python 
 * ipython (installabile con pip install ipython)
