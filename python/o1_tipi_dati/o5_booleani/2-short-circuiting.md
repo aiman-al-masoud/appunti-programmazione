@@ -32,7 +32,7 @@ L'uncia cosa è stare attenti quando lo `0` (o la lista vuota `[]`, o la stringa
 
 # Builtin `all()` & `any()`
 
-Da menzionare anche le builtin `all()` e `any()`, che prendono una lista di condizioni e restituiscono sempre un booleano. `all()` è `True` se tutte le condizioni sono vere, `any()` se almeno una è vera.
+Da menzionare anche le builtin `all()` e `any()`, che prendono una lista di condizioni e restituiscono un booleano. La `all()` è `True` se tutte le condizioni sono vere, `any()` se almeno una è vera.
 
 ```python
 all([True, 1, 22, "ciao"]) # True
