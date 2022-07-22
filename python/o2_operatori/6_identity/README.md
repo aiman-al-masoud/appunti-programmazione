@@ -10,3 +10,17 @@ allo **stesso** oggetto in memoria.
 
 
 L'identità implica l'uguaglianza ovviamente, perché un oggetto è equivalente a se stesso. Ma non vale il viceversa.
+
+
+```python
+x = {"gatto":"miao"}
+y = x
+
+x is y # True
+
+x = {"gatto":"miao"}
+y = {"gatto":"miao"}
+
+x is y # False
+x == y # True
+```
