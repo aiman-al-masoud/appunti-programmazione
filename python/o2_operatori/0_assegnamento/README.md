@@ -11,7 +11,21 @@ La variabile `a` contiene l'intero `2`. Possiamo far puntare un'altra variabile 
 b = a
 ```
 
+Possiamo riassegnare la variabile anche con un tipo diverso:
 
+```python
 a = "ciao"
+```
 
+Possiamo anche fare assegnamenti a catena:
+
+```python
 y = x = "ciao mondo"
+```
+
+Equivale a:
+
+```python
+x = "ciao mondo"
+y = x
+```
