@@ -24,7 +24,7 @@ Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non
 
 ### pip
 
-**P**ackage **I**nstaller for **P**ython, è un manager di pacchetti che permette di installare librerie opensource Python scritte da terzi.
+**P**ackage **I**nstaller for **P**ython, è un manager di pacchetti che permette di installare librerie e programmi opensource Python scritte da terzi.
 
 
 ### ipython
