@@ -2,13 +2,21 @@
 
 Questo nome buffo deriva dalla forma dell'operatore `:=` che rammenta gli occhi e zanne di un trichecho sdraiato.
 
-# assegnamento di valori all'interno di espressioni.
-# (a partire da Python 3.8)
+L'operatore "tricheco" (presente a partire da Python 3.8) serve ad assegnare valori all'interno di espressioni.
 
-# errore:
-# "ciao "+(x = 10)+" mondo"
+Con l'assegnamento normale, questo è un errore:
 
-"ciao "+(x := 10)+" mondo" # va bene
+```python
+"ciao "+(x = 10)+" mondo"
+```
+
+Col tricheco, funziona:
+
+```python
+"ciao "+(x := 10)+" mondo" 
+```
+
+
 
 # if x = 0: # errore
     # print("ciao")
