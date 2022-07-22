@@ -11,7 +11,7 @@ La variabile `a` punta all'intero `2`. Possiamo far puntare un'altra variabile a
 b = a
 ```
 
-Possiamo riassegnare la variabile anche con un tipo diverso:
+Possiamo riassegnare la variabile `a`, anche con un tipo di dati diverso:
 
 ```python
 a = "ciao"
