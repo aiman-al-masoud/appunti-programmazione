@@ -10,9 +10,10 @@ Per svolgere lo 'spacchettamento' (unpacking) di un **tipo iterabile**
 ```python
 l = [1,2,3]
 l = [*l, 4, 5, 6]
+l # [1, 2, 3, 4, 5, 6]
 ```
 
-### Usare elementi lista come argomenti
+### Come Argomenti
 
 ```python
 def tre_arg(a,b,c):
@@ -27,7 +28,6 @@ tre_arg(*[1,2,3]) # 6
 d = {"gatto":"miao", "cane":"bau"}
 d = {**d, "tigre":"ciuff"}
 ```
-
 
 
 https://how.wtf/spread-operator-in-python.html
