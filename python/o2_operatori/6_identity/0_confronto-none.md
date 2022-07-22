@@ -1,16 +1,16 @@
+# Confronto con None
 
-# CONFRONTO NONE
+usa sempre (`is`) per controllare che un oggetto sia non-definito (`None`).
 
-# usa sempre (is) per controllare che un oggetto 
-# sia non-definito (None)
-
+```python
 x = None 
 x is None # Ok 
 x == None # NON FARLO!
+```
 
-# perché logica del metodo di confronto (==) potrebbe 
-# provare ad accedere agli attributi di None, provocando
-# un'eccezione in runtime perché None non ha attributi.
+## Motivo
+
+Perché logica del metodo di confronto (==) potrebbe provare ad accedere agli attributi di None, provocando un'eccezione in runtime perché None non ha attributi.
 
 class Persona:
     def __init__(self, nome):
