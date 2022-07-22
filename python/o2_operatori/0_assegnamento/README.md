@@ -3,7 +3,8 @@
 Gli operatori di assegnamento associano una variabile (vecchia o nuova) ad un oggetto. 
 
 ```python
-foo = "string"
+foo = "bar"
+foo # 'bar'
 ```
 
 1. [Assegnamento (classico)](./0-assegnamento.md)
