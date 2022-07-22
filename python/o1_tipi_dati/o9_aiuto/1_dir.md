@@ -1,6 +1,6 @@
 # Dir
 
-Ritorna una lista con i nomi degli attributi contenuti in un oggetto, di una funzione, o di un modulo.
+Ritorna una lista con i nomi degli attributi contenuti in un oggetto, in una funzione, o in un modulo.
 
 Per esempio sul modulo delle funzioni builtin, che si chiama `__builtin__`:
 
