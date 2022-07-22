@@ -27,4 +27,4 @@ x == y # True
 
 ## Sul confronto con `None`
 
-vai qui: [confronto con None](./0_confronto-none.md).
+vai qui: [confronto con None](./0_confronto-none.md#confronto-con-none).
