@@ -21,6 +21,10 @@ Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non
 * python  (già inclusa)
 * ipython (installabile col comando `pip install ipython`)
 
+### ipython
+
+È una shell (più) ***i***nterattiva della normale python shell. Permette di eseguire 
+
 ### Jupyter Notebooks
 Esiste anche la terza possibilità, che è un po' una via di mezzo fra le prime due, di eseguire il codice Python su un notebook Jupyter interattivo (che usa la shell ipython come 'kernel'). Questa modalità permette di presentare i propri ragionamenti agli altri in formato grafico, ed è solitamente usata per analisi dei dati esplorative.
 
