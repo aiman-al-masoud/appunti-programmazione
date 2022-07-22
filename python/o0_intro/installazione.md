@@ -20,7 +20,7 @@ Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non
 
 * python  (da terminale, già inclusa)
 * idle    (da GUI, già inclusa)
-* ipython (da terminale, installabile col comando `pip install ipython`)
+* ipython (da terminale, installabile col comando: `pip install ipython`)
 
 ### ipython
 
