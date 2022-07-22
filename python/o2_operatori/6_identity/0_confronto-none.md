@@ -12,6 +12,7 @@ x == None # NON FARLO!
 
 Come abbiamo accennato, `==` è implementato da un metodo speciale. Potrebbe essere che la logica di questo metodo provi ad accedere agli attributi di `None`, provocando un'eccezione in runtime, perché `None` non ha attributi.
 
+```python
 class Persona:
     def __init__(self, nome):
         self.nome = nome 
@@ -21,3 +22,4 @@ class Persona:
 
 p = Persona("Mario")
 p == None # AttributeError: 'NoneType' object has no attribute 'nome'
+```
