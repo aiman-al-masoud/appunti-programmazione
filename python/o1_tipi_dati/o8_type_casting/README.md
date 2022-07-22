@@ -30,7 +30,7 @@ int("0101", 2) # 5
 
 ```python
 x = 100
-"ciao mondo, "+str(x)+" volte!"
+"ho mangiato "+str(x)+" torte" # 'ho mangiato 100 torte'
 ```
 
 
