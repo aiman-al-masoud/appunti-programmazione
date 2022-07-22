@@ -21,11 +21,7 @@ Possiamo anche fare assegnamenti a catena:
 
 ```python
 y = x = "ciao mondo"
-```
-
-Equivale a:
-
-```python
+# equivale a:
 x = "ciao mondo"
 y = x
 ```
