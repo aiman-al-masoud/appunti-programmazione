@@ -21,18 +21,20 @@ else:
 x # 'maggiorenne'
 ```
 
-## 
+## Semplificazione Ulteriore
 
-# NB: se devi ottenere valori booleani, allora puoi
-# semplificare ulteriormente, es:
+Se devi ottenere valori booleani, allora puoi semplificare ulteriormente, es:
 
+```python
 if eta >= 18:
     x = True
 else:
     x = False
+```
 
-# diventa:
+Diventa:
 
+```python
 x = eta >= 18
-
+```
 
