@@ -13,11 +13,12 @@ x # 2
 Da notare che quello che verrà assegnato alla x è proprio un `2`, il primo valore truthy trovato nella catena.
 
 
-Al contrario, una catena di `and` si ferma non appena trova un valore falsy
+Al contrario, una catena di `and` si ferma non appena trova un valore falsy:
 
+```python
 x = True and 1 and "ciao" and 0 and None 
-print(x) # 0
-
+x # 0
+```
 
 # all()
 # any()
