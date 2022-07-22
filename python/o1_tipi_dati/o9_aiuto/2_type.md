@@ -1,0 +1,15 @@
+# Type
+
+Ritorna il tipo dell'oggetto su cui viene invocato.
+
+```python
+s = "questa è una stringa"
+t = type(s)
+t # str
+```
+
+Questa è proprio la builtin `str()`, o costruttore delle stringhe.
+
+```python
+t(1) # '1'
+```
