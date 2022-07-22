@@ -22,7 +22,7 @@ x = 0
 # x = None
 
 if x:
-    print(f"x={x} è truthy")
+    print(f"x={x} è truthy!")
 else:
-    print(f"x={x} è falsy")
+    print(f"x={x} è falsy!")
 ```
