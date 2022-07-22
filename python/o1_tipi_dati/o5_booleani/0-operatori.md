@@ -28,7 +28,7 @@ not x
 
 # Xor
 
-Vero se una sola condizione è vera. Ossia, se le condizioni sono diverse.
+Vero se una sola condizione è vera. Ossia, se le condizioni sono diverse. *A dire il vero `!=` è un operatore di confronto, non booleano.*
 
 ```python
 x != y
