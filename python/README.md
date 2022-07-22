@@ -22,10 +22,10 @@
 1. [Insiemi](o1_tipi_dati/o3_insiemi/README.md)
 1. [Dizionari](o1_tipi_dati/o4_dizionari/README.md)
 1. [Booleani](o1_tipi_dati/o5_booleani/README.md)
-1. [Numerici](o1_tipi_dati/o6_numerici.py)
-1. [Bytes](o1_tipi_dati/o7_bytes.py)
-1. [Type Casting](o1_tipi_dati/o8_type_casting.py)
-1. [Aiuto](o1_tipi_dati/oaiuto.py)
+1. [Numerici](o1_tipi_dati/o6_numerici/README.md)
+1. [Bytes](o1_tipi_dati/o7_bytes/README.md)
+1. [Type Casting](o1_tipi_dati/o8_type_casting/README.md)
+1. [Aiuto](o1_tipi_dati/o9_aiuto/README.md)
 
 
 # 2. Operatori
