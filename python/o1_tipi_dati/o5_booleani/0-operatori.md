@@ -10,9 +10,9 @@ Vero se ambo le condizioni sono vere
 x and y 
 ```
 
-Vero se almeno una condizione (o tutte e due) sono vere.
-
 # Or
+
+Vero se almeno una condizione (o tutte e due) sono vere.
 
 ```python
 x or y
@@ -28,7 +28,9 @@ not x
 
 # Xor
 
-Vero se una sola condizione è vera. Ossia, se le condizioni sono diverse. *A dire il vero, `!=` è un operatore di confronto, non booleano.*
+Vero se una sola condizione è vera. Ossia, se le condizioni sono diverse. 
+
+*A dire il vero, `!=` è un operatore di confronto, non booleano.*
 
 ```python
 x != y
