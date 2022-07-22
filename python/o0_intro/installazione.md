@@ -18,8 +18,8 @@ Due (o tre) modalità principali:
 
 Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non una, ma tante shell a disposizione. Di solito si usa una shell per testare espressioni o funzioni al volo, per sperimentare, per imparare. L'utilizzo da shell è anche noto come modalità REPL (Read Eval Print Loop). Esistono due principali shell:
 
-* python  (la shell normale)
-* ipython (installabile con pip install ipython)
+* python  (già inclusa)
+* ipython (installabile col comando `pip install ipython`)
 
 ### Jupyter Notebooks
 Esiste anche la terza possibilità, che è un po' una via di mezzo fra le prime due, di eseguire il codice Python su un notebook Jupyter interattivo (che usa la shell ipython come 'kernel'). Questa modalità permette di presentare i propri ragionamenti agli altri in formato grafico, ed è solitamente usata per analisi dei dati esplorative.
