@@ -1,6 +1,6 @@
 # Confronto
 
-Sono operatori di "equivalenza" o confronto "logico" fra oggetti.
+Sono operatori di "equivalenza" o confronto "logico" fra oggetti. Ritornano un bool.
 
 * `==`
 * `!=`
@@ -10,17 +10,26 @@ Sono operatori di "equivalenza" o confronto "logico" fra oggetti.
 * `<=`
 
 ```python
+3 > 2 # True
+```
+
+```python
 "ciao mondo" == "ciao "+"mondo"  # True
 ```
 
+```python
 "zorro" > "aereo" # True
 "accumulare" > "abbondare" # True
-
+```
 "ciao" != "CIAO" # True
 
-# possono anche essere concatenati
-n = 0.1
-0 <= n <=1 # True
+## Concatenazione
+
+possono anche essere concatenati, come in notazione matematica standard:
+
+```python
+0 <= 0.1 <=1  # True
+```
 
 ## Overload
 li possiamo definire noi per le classi che creiamo, implementando i metodi speciali `__eq__()`, `__gt__()`...
