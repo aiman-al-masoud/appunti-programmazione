@@ -18,4 +18,3 @@ Una nota a parte: la classe `bool` è una sottoclasse di `int`. True corrisponde
 1. [Short Circuiting](./2-short-circuiting.md)
 1. [Esercizi](./3-esercizi.md)
 1. [Soluzioni](./soluzioni.py)
-
