@@ -6,12 +6,13 @@ Fra interi, float e complessi ...
 2 * 1.2 # 2.4
 ```
 
-Ma anche fra interi e stringhe o interi e liste!
+Ma anche fra interi e stringhe o interi e liste! 
 
 ```python
-"ciao "*10
-["ciao"]*10 # molti riferimenti allo STESSO oggetto
+"ciao "*3 # 'ciao ciao ciao ' 
+["ciao"]*3 # ['ciao', 'ciao', 'ciao'] 
 ```
+Gli elementi della lista non vengono copiati, vengono solo creati più riferimenti allo stesso oggetto originale.
 
 ## Overloading 
 
