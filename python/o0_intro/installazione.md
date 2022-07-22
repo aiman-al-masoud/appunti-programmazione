@@ -22,6 +22,11 @@ Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non
 * idle    (da GUI, già inclusa)
 * ipython (da terminale, installabile col comando: `pip install ipython`)
 
+### pip
+
+Package Installer for Python, è un manager di pacchetti che permette di installare librerie opensource Python scritte da terzi.
+
+
 ### ipython
 
 È una shell (più) ***i***nterattiva della normale python shell. Permette di eseguire comandi bash sul proprio sistema *nix, e addirittura di interfacciarli a python. 
