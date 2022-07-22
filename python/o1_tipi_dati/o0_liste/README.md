@@ -14,4 +14,4 @@ l1  = ["un", "due", "tre", "quatr", "cinq", "sei"]
 1. [Metodi ](./o2_metodi.md)
 1. [Comprehension](./o3_comprehension.md)
 1. [Esercizi](./o4_esercizi.md)
-1. [Soluzioni](./o5_soluzioni.py)
+1. [Soluzioni](./soluzioni/README.md)
