@@ -33,6 +33,7 @@ Le funzioni builtin e standard sono già ben documentate, ma se vogliamo ottener
 
 ```python
 def function():
+    
     """
     Questa funzione serve a bla bla bla ...
     """
