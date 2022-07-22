@@ -6,7 +6,7 @@ Python è un linguaggio di programmazione ad ["altissimo" livello](https://it.wi
 
 
 
-Per <a href="https://www.python.org/downloads/">installare</a> Python e pip sul proprio sistema.
+Per <a href="https://www.python.org/downloads/">installare</a> Python e pip sul proprio sistema seguire il link.
 
 # Come eseguirlo
 
