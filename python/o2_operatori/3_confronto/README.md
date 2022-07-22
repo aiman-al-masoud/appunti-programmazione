@@ -21,17 +21,50 @@ Sono operatori di "equivalenza" o confronto "logico" fra oggetti. Ritornano un b
 "zorro" > "aereo" # True
 "accumulare" > "abbondare" # True
 ```
-"ciao" != "CIAO" # True
 
 ## Concatenazione
 
-Possono anche essere concatenati, "come in notazione matematica standard":
+Possono anche essere concatenati, "come in notazione matematica":
 
 ```python
 0 <= 0.1 <=1  # True
 ```
 
-Attenzione però che vale la stessa regola delle catene di `and` esplicite, cioè non per forza 
+che equivale a:
+
+```python
+(0 <= 0.1) and ( 0.1 <= 1)  # True
+```
+
+Attenzione però, proprio per via di questa equivalenza, vale il fatto che non per forza si va fino alla fine, se l'esito della catena è già chiaro:
+
+```python
+def uno():
+
+    """
+    Una funzione che stampa un messaggio e ritorna 1.
+    """
+    print("La funzione esegue!")
+    return 1 
+```
+
+### Qui eseguo tutta la catena:
+
+```python
+0.2 < 0.5 < uno() # True
+```
+
+```
+La funzione esegue!
+```
+
+### Qui no
+
+è già chiaro che `0.2` non è minore di `0.1` e quindi tutta la disuguaglianza è falsa. La funzione `uno()` non viene nemmeno eseguita.
+
+```python
+0.2 < 0.1 < uno() # False
+```
 
 
 ## Overload
