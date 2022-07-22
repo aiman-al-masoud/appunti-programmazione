@@ -37,4 +37,3 @@ Diventa:
 ```python
 x = eta >= 18
 ```
-
