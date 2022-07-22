@@ -12,6 +12,7 @@ Si dice che lo zero è **falsy**. Tutti gli altri numeri invece, non soltanto l'
 ```python
 x = 0
 # x = 1
+# x = 999999
 # x = ""
 # x = "ciao"
 # x = {}
