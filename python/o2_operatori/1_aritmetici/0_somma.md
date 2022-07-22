@@ -14,3 +14,6 @@ Ma anche fra stringhe, liste ecc...
 "ciao "+"mondo" # 'ciao mondo'
 [1,2]+[3,4] # [1, 2, 3, 4]
 ```
+
+## Overloading 
+Si può overloadare usando il metodo magico `__add__()`.
