@@ -1,6 +1,6 @@
 # Truthy and Falsy Values
 
-Abbiamo già visto che `bool` è una sottoclasse di `int`, e che `False` corrisponde ad uno `0` "speciale". Ma ci accorgiamo che anche lo `0` "normale" ha valore `False` se inserito in un if, o trattato da condizione:
+Abbiamo già visto che `bool` è una sottoclasse di `int`, e che `False` corrisponde ad uno `0` "speciale". Ma ci accorgiamo che anche lo `0` "normale" ha valore `False` se inserito in un if, o trattato alla stregua di un booleano:
 
 ```python
 if 0:
