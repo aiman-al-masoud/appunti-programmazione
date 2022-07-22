@@ -31,6 +31,3 @@ d = {"gatto":"miao", "cane":"bau"}
 d = {**d, "tigre": "ciuff"}
 d # {'gatto': 'miao', 'cane' : 'bau', 'tigre' : 'ciuff'}
 ```
-
-
-https://how.wtf/spread-operator-in-python.html
