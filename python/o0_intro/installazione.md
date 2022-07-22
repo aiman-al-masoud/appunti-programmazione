@@ -16,7 +16,7 @@ Due (o tre) modalità principali:
 1. Esegui riga per riga da shell interattiva.
 1. [Jupyter Notebooks](#jupyter-notebooks).
 
-Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non una, ma tante shell a disposizione. Di solito si usa una shell per testare espressioni o funzioni al volo, per sperimentare, per imparare. L'utilizzo da shell è anche noto come modalità REPL (Read Eval Print Loop). Esistono due principali shell:
+Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non una, ma tante shell a disposizione. Di solito si usa la shell per testare espressioni o funzioni al volo, per sperimentare, per imparare. L'utilizzo da shell è anche noto come modalità REPL (Read Eval Print Loop). Esistono due principali shell:
 
 * python  (già inclusa)
 * ipython (installabile col comando `pip install ipython`)
