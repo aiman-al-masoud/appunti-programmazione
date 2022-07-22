@@ -1,4 +1,4 @@
-# SOMMA
+# Somma
 
 Somma fra interi, float, complessi:
 
