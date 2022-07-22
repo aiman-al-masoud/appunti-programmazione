@@ -14,7 +14,7 @@ Una nota a parte: la classe `bool` è una sottoclasse di `int`. `True` corrispon
 
 
 1. [Operatori Booleani](./0-operatori.md)
-1. [Falsy Truthy](./1-falsy-truthy.md)
+1. [Truthy Falsy](./1-falsy-truthy.md)
 1. [Short Circuiting](./2-short-circuiting.md)
 1. [Esercizi](./3-esercizi.md)
 1. [Soluzioni](./soluzioni.py)

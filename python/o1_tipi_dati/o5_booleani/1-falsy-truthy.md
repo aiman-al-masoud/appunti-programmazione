@@ -1,5 +1,4 @@
-
-# FALSY AND TRUTHY VALUES
+# Truthy and Falsy Values
 
 x = 0
 # x = 1
