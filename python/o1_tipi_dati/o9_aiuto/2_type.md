@@ -14,4 +14,11 @@ Cos'è `str`? Ma è proprio la builtin `str()`, o costruttore delle stringhe, a 
 t(1) # '1'
 ```
 
+Come fare:
+
+
+```python
+str(1) # '`'
+```
+
 Nel caso di oggetti di una classe custom, type ritornerà proprio il costruttore di quella classe.
