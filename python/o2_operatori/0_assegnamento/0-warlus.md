@@ -1,6 +1,6 @@
 # Warlus (Tricheco)
 
-Questo nome buffo deriva dalla forma dell'operatore `:=` che assogmiglia un po' agli occhi e zanne di un trichecho sdraiato.
+Questo nome buffo deriva dalla forma dell'operatore `:=` che rammenta gli occhi e zanne di un trichecho sdraiato.
 
 # assegnamento di valori all'interno di espressioni.
 # (a partire da Python 3.8)
