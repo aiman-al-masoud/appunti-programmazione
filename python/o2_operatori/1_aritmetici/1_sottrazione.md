@@ -6,7 +6,7 @@ Fra interi, float e complessi ...
 1 - .2 # 0.8
 ```
 
-Ma anche insiemi, come abbiamo visto.
+Ma anche fra [insiemi](../../o1_tipi_dati/o3_insiemi/README.md), come abbiamo già visto.
 
 
 ## Overloading 
