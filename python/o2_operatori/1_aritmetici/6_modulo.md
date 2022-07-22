@@ -1,6 +1,6 @@
 # Modulo
 
-Per calcolare `a % b`, si sottrae `b` da `x= a` fino a quando `x` non diventa minore di `b`.
+Per calcolare `a % b`, si sottrae `b` da `x=a` fino a quando `x` non diventa minore di `b`.
 
 ```python
 10%9 # 1
@@ -9,12 +9,15 @@ Per calcolare `a % b`, si sottrae `b` da `x= a` fino a quando `x` non diventa mi
 19%9 # 1
 ```
 
+
 Esempio `19 % 9`:
+
+```
 x = 19
 x = x - 9 # x è 10 > 9
 x = x - 9  # x è 1 < 9
 risultato = x = 1
-
+```
 
 
 ## Overloading 
