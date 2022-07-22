@@ -18,6 +18,15 @@ Vero se almeno una condizione (o tutte e due) sono vere.
 x or y
 ```
 
+# Not
+
+Vero se la condizione è falsa
+
+```python
+not x
+```
+
+
 # Xor
 
 Vero se una sola condizione è vera. Ossia, se le condizioni sono diverse.
