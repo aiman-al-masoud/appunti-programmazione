@@ -1,0 +1,1 @@
+In questa cartella trovate le soluzioni agli esercizi sulle liste.
