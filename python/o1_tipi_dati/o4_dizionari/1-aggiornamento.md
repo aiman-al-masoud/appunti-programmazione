@@ -1,9 +1,17 @@
-# AGGIORNAMENTO
+# Aggiornamento
 
+```python
 d["cane"] = "grrr"
-# oppure:
+```
+
+Oppure:
+
+```python
 d.update({"cane":"wof"})
+```
 
-# CANCELLAZIONE
+# Cancellazione
 
-# del d["cane"]
+```python
+del d["cane"]
+```
