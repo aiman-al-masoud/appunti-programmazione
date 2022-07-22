@@ -16,7 +16,6 @@ t(1) # '1'
 
 Come fare:
 
-
 ```python
 str(1) # '`'
 ```
