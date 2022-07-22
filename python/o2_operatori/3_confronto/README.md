@@ -60,11 +60,12 @@ La funzione esegue!
 
 ### Qui no
 
-è già chiaro che `0.2` non è minore di `0.1` e quindi tutta la disuguaglianza è falsa. La funzione `uno()` non viene nemmeno eseguita.
-
 ```python
 0.2 < 0.1 < uno() # False
 ```
+
+è già chiaro che `0.2` non è minore di `0.1` e quindi tutta la disuguaglianza è falsa. La funzione `uno()` non viene nemmeno eseguita.
+
 
 
 ## Overload
