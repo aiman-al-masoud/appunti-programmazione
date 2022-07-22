@@ -6,9 +6,7 @@ Abbiamo già visto che `bool` è una sottoclasse di `int`, e che `False` corrisp
 if 0:
     print("non stampo mai")
 ```
-
-
-Tutti gli altri numeri invece, non soltanto `1`, hanno valore `True`
+Si dice che lo zero è **falsy**. Tutti gli altri numeri invece, non soltanto `1`, hanno valore `True`, e si dice che sono **truthy**.
 
 
 ```python
