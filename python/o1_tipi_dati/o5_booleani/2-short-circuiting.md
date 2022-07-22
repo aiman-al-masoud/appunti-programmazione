@@ -1,5 +1,6 @@
+# Shortcircuting
 
-# SHORTCIRCUITING
+Cosa succede se si concatenano tanti valori booleani 
 
 # catena di or non esegue tutta, ma si ferma non appena trova un 
 # valore truthy:
