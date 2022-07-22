@@ -1,6 +1,6 @@
 # Shortcircuting
 
-Cosa succede se si concatenana una sfilza di valori booleani (o falsy/truthy) tramite gli operatori `and` o `or`? L'interprete, inguaribile pigrone, prova a fermarsi prima di aver completato la catena di `and`/`or`, se vede che il risultato finale è già chiaro.
+Cosa succede se si concatenana una sfilza di valori booleani (o falsy/truthy) tramite gli operatori `and` o `or`? L'interprete, inguaribile pigrone, prova a fermarsi prima di aver completato l'intera catena di `and`/`or`, se vede che il risultato finale è già chiaro.
 
 
 
