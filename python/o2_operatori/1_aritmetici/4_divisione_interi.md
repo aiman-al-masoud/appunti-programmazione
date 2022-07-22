@@ -1,6 +1,6 @@
 # Divisione Interi
 
-Questa invece ritorna un intero:
+L'operatore `//` invece ritorna un intero:
 
 ```python
 4//5 # 0
