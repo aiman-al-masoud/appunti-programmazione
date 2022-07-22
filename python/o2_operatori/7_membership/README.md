@@ -17,7 +17,7 @@ Viene usato per verificare l'appartenenza di un oggetto ad un altro, o ad un "in
 
 ## Disambiguazione
 
-"L'altra" keyword `in`, usata nei loop e nelle comprehensions, non c'entra niente con questa keyword `in`.
+`in` è la stessa keyword usata nei loop e nelle comprehensions, ma è semplicemente un altro contesto, non c'entra niente con l'operatore di membership.
 
 
 ## Overload 
