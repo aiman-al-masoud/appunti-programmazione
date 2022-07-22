@@ -39,8 +39,3 @@ def function():
     """
     # codice ...
 ```
-
-
-
-
-
