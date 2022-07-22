@@ -1,4 +1,4 @@
-# KEYS
+# Keys
 
 ```python
 list(d.keys()) # ['gatto', 'cane', 'pesce']
