@@ -10,8 +10,4 @@ if x:
     print("condizione soddisfatta")
 ```
 
-
-# 
-# Nota: la classe bool è una sottoclasse di int!
-# True è mappato a 1 
-# False è mappato a 0
+Una nota a parte: la classe `bool` è una sottoclasse di `int`. True corrisponde ad 1, e False corrisponde a 0.
