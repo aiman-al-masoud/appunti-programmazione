@@ -26,7 +26,6 @@ Vero se la condizione è falsa
 not x
 ```
 
-
 # Xor
 
 Vero se una sola condizione è vera. Ossia, se le condizioni sono diverse.
