@@ -1,6 +1,6 @@
 # Shortcircuting
 
-Cosa succede se si concatenano tanti valori booleani 
+Cosa succede se si concatenana una sfilza di valori booleani (o falsy/truthy) tramite gli operatori `and` o `or`?
 
 # catena di or non esegue tutta, ma si ferma non appena trova un 
 # valore truthy:
