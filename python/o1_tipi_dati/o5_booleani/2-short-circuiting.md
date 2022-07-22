@@ -28,7 +28,7 @@ quantita = None
 ordina_spedizione(quantita or 1) # se quantità non specificata da utente, default=1
 ```
 
-L'uncia cosa è stare attenti quando lo `0` (o la lista vuota, o la stringa vuota...) sono valori validi, perché verrano rimpiazzati dal default in quanto falsy!
+L'uncia cosa è stare attenti quando lo `0` (o la lista vuota `[]`, o la stringa vuota `""` ...) sono valori validi, perché verrano rimpiazzati dal default in quanto falsy!
 
 
 
