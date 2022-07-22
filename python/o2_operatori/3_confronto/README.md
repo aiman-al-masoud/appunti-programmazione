@@ -33,7 +33,7 @@ Possono anche essere concatenati, "come in notazione matematica":
 che equivale a:
 
 ```python
-(0 <= 0.1) and ( 0.1 <= 1)  # True
+(0 <= 0.1) and (0.1 <= 1)  # True
 ```
 
 Attenzione però, proprio per via di questa equivalenza, vale il fatto che non per forza si va fino alla fine, se l'esito della catena è già chiaro:
