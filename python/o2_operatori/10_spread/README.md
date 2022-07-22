@@ -29,7 +29,7 @@ Col dizionario **due** asterischi invece che uno.
 ```python
 d = {"gatto":"miao", "cane":"bau"}
 d = {**d, "tigre": "ciuff"}
-d # 
+d # {'gatto': 'miao', 'cane' : 'bau', 'tigre' : 'ciuff'}
 ```
 
 
