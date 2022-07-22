@@ -1,7 +1,9 @@
 # Unpacking/Spread
 
 Per svolgere lo 'spacchettamento' (unpacking) di un **tipo iterabile**
-(lista, dizionario, insieme, tupla ...). Spacchettamento vuol dire poter usare gli elementi dell'iterabile come argomenti di una funzione, oppure al posto dei literals in una nuova lista/dizionario.
+(lista, dizionario, insieme, tupla ...). 
+
+**Spacchettamento** vuol dire: poter usare gli elementi dell'iterabile come argomenti di una funzione, oppure al posto dei literals in una nuova lista/dizionario.
 
 ## Lista
 
