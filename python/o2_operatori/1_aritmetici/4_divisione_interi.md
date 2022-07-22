@@ -1,6 +1,6 @@
 # Divisione Interi
 
-Questa 
+Questa invece ritorna un intero:
 
 ```python
 4//5 # 0
