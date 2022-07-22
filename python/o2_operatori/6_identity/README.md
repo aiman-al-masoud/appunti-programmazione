@@ -6,7 +6,7 @@
 proprietà **equivalenti**.
 
 **Identità** (`is`) fra due variabili vuol dire che puntano
-allo **stesso** oggetto in memoria.
+allo **stesso** oggetto in memoria, è una condizione più forte.
 
 
 L'identità implica l'uguaglianza ovviamente, perché un oggetto è equivalente a se stesso. Ma non vale il viceversa.
