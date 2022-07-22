@@ -23,7 +23,7 @@ x # 'maggiorenne'
 
 ## Semplificazione Ulteriore
 
-Se devi ottenere valori booleani, allora puoi semplificare ulteriormente, es:
+Se il booleano è il tuo 'capolinea', allora puoi semplificare ulteriormente, es:
 
 ```python
 if eta >= 18:
