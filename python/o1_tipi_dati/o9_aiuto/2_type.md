@@ -14,7 +14,7 @@ Cos'è `str`? Ma è proprio la builtin `str()`, o costruttore delle stringhe, a 
 t(1) # '1'
 ```
 
-Come fare:
+Come dire:
 
 ```python
 str(1) # '`'
