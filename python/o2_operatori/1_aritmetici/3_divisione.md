@@ -1,3 +1,11 @@
+# Divisione
 
-# DIVISIONE
+L'operatore di divisione "standard" (`/`) ritorna un float all'occorrenza:
+
+```python
 4/5 # 0.8
+```
+
+## Overloading 
+
+`__truediv__()`
