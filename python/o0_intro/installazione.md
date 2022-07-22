@@ -1,6 +1,6 @@
 # Python 
 
-Python è un linguaggio di programmazione ad ["altissimo" livello](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione_ad_altissimo_livello), **dinamicamente e fortemente tipizzato**, che oggi viene usato nei campi più disparati: analisi dei dati, scripting, back-end dei siti web... E risulta sempre al [top delle classifiche fra i linguaggi più amati dagli sviluppatori](https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-language-want).
+Python è un linguaggio di programmazione ad ["altissimo" livello](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione_ad_altissimo_livello), **dinamicamente e fortemente tipizzato**, che oggi viene usato nei campi più disparati dell'informatica: analisi dei dati, scripting, back-end dei siti web... E risulta sempre al [top delle classifiche fra i linguaggi più amati dagli sviluppatori](https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-language-want).
 
 
 
