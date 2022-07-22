@@ -8,7 +8,7 @@ t = type(s)
 t # str
 ```
 
-Questa è proprio la builtin `str()`, o costruttore delle stringhe, a cui adesso stiamo puntando con la nostra variabile `t`.
+Cos'è `str`? Ma è proprio la builtin `str()`, o costruttore delle stringhe, a cui adesso stiamo puntando con la nostra variabile `t`.
 
 ```python
 t(1) # '1'
