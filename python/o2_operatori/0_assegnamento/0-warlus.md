@@ -19,15 +19,12 @@ x # 'a te'
 ```
 
 
+## Caso d'uso
 
-# if x = 0: # errore
-    # print("ciao")
+Utile per while loop dove x è sia condizione fine, sia letta nel corpo del loop:
 
-if x := 0: #non esegue. Assegno 0 a x e ritorno 0, 0 falsy. 
-    print("ciao")
+```python
 
-# utile per while loop dove x è sia condizione fine,
-# sia letta nel corpo del loop.
 x = 11
 def countdown():
     global x
@@ -35,5 +32,9 @@ def countdown():
     return x
 
 while x := countdown(): # si ferma quando x è falsy
-    print(x)
+    print(x, "secondi/o al lancio!")
+```
 
+## Attenzione agli if
+
+Attenzione ovviamente a non confondere `=` o `:=`, con `==`.
