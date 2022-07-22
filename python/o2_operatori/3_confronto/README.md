@@ -25,11 +25,14 @@ Sono operatori di "equivalenza" o confronto "logico" fra oggetti. Ritornano un b
 
 ## Concatenazione
 
-possono anche essere concatenati, "come in notazione matematica standard":
+Possono anche essere concatenati, "come in notazione matematica standard":
 
 ```python
 0 <= 0.1 <=1  # True
 ```
+
+Attenzione però che vale la stessa regola delle catene di `and` esplicite, cioè non per forza 
+
 
 ## Overload
 li possiamo definire noi per le classi che creiamo, implementando i metodi speciali `__eq__()`, `__gt__()`...
