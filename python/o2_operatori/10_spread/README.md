@@ -24,9 +24,12 @@ tre_arg(*[1,2,3]) # 6
 
 ## Dizionario
 
+Col dizionario **due** asterischi invece che uno.
+
 ```python
 d = {"gatto":"miao", "cane":"bau"}
-d = {**d, "tigre":"ciuff"}
+d = {**d, "tigre": "ciuff"}
+d # 
 ```
 
 
