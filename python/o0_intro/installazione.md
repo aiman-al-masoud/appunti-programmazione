@@ -14,13 +14,15 @@ Due modalità principali:
 
 1. Scrivi programma su file di testo, ed esegui il file.
 1. Esegui riga per riga da shell interattiva.
+1. [Jupyter Notebooks](#jupyter-notebooks)
 
 Come ogni linguaggio di scripting che vale il silicio che consuma, Python ha non una, ma tante shell a disposizione. Di solito si usa la shell per testare espressioni o funzioni al volo, anche nota come modalità REPL (Read Eval Print Loop). Esistono due principali shell:
 
 * python 
 * ipython (installabile con pip install ipython)
 
-Esiste anche la terza possibilità di eseguire il codice Python su un notebook Jupyter interattivo, solitamente usata per analisi dei dati.
+### Jupyter Notebooks
+Esiste anche la terza possibilità, che è un po' una via di mezzo fra le prime due, di eseguire il codice Python su un notebook Jupyter interattivo (che usa la shell ipython come 'kernel'). Questa modalità permette di presentare i propri ragionamenti agli altri in formato grafico, ed è solitamente usata per analisi dei dati esplorative.
 
 # Python 3 vs Python 2
 
