@@ -25,7 +25,7 @@ Sono operatori di "equivalenza" o confronto "logico" fra oggetti. Ritornano un b
 
 ## Concatenazione
 
-possono anche essere concatenati, come in notazione matematica standard:
+possono anche essere concatenati, "come in notazione matematica standard":
 
 ```python
 0 <= 0.1 <=1  # True
