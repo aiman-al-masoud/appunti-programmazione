@@ -25,6 +25,6 @@ Questo 'trucco' duplica la struttura della lista, ma i gli elementi puntano a qu
 Con inizio e fine impliciti, e step esplicito:
 
 ```python
-l4 = l1[::2] # step=2 (salto i pari)
+l4 = l1[::2] # step=2 (salto gli indici pari)
 l4 # [2, 4]
 ```
