@@ -2,7 +2,7 @@
 
 Questo buffo nomignolo deriva dalla forma dell'operatore `:=` che rammenta gli occhi e zanne di un trichecho sdraiato (con tanta immaginazione).
 
-L'operatore "tricheco" (presente a partire da Python 3.8) serve ad assegnare valori all'interno di espressioni.
+L'operatore "tricheco" (presente a partire da Python 3.8) serve ad assegnare valori **all'interno di espressioni**.
 
 Con l'assegnamento normale, questo è un errore:
 
