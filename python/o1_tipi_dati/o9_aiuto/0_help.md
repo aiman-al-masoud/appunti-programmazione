@@ -1,6 +1,6 @@
 # Help
 
-Stampa a video la stringa di documentazione della funzione su cui è invocato.
+Sulla python shell, stampa a video la stringa di documentazione della funzione su cui è invocato.
 
 ```python
 help(funzione)
@@ -15,5 +15,21 @@ funzione()
 ```
 
 Per uscire da questa visualizzazione premere il tasto Q (per **Q**uit).
+
+
+## Con ipython
+
+In alternativa, se stiamo usando la ipython shell, possiamo stampare la stringa di documentazione semplicemente postponendo un punto interrogativo al nome della funzione:
+
+```python
+funzione?
+```
+In questo caso non dobbiamo nemmeno quittare con Q.
+
+
+
+
+
+
 
 
