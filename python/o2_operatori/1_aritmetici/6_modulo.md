@@ -1,5 +1,6 @@
 # Modulo
 
+Per calcolare `a % b`, si sottrae `b` da `x= a` fino a quando `x` non diventa minore di `b`.
 
 ```python
 10%9 # 1
