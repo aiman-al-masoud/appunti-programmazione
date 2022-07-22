@@ -34,14 +34,14 @@
 1. [Assegnamento](o2_operatori/0_assegnamento/README.md)
 1. [Aritmetici](o2_operatori/1_aritmetici/README.md)
 1. [Combinati](o2_operatori/2_combinati/README.md)
-1. [Confronto](o2_operatori/o3_confronto.py)
-1. [Booleani](o2_operatori/o4_booleani.py)
-1. [Bitwise](o2_operatori/o5_bitwise.py)
-1. [Identità](o2_operatori/o6_identity.py)
-1. [Appartenenza](o2_operatori/o7_membership.py)
-1. [Insiemi](o2_operatori/o8_insiemi.py)
-1. [Ternario](o2_operatori/o9_ternario.py)
-1. [Spread](o2_operatori/o10_spread.py)
+1. [Confronto](o2_operatori/3_confronto/README.md)
+1. [Booleani](o2_operatori/4_booleani/README.md)
+1. [Bitwise](o2_operatori/5_bitwise/README.md)
+1. [Identità](o2_operatori/6_identity/README.md)
+1. [Appartenenza](o2_operatori/7_membership/README.md)
+1. [Insiemi](o2_operatori/8_insiemi/README.md)
+1. [Ternario](o2_operatori/9_ternario/README.md)
+1. [Spread](o2_operatori/10_spread/README.md)
 
 
 # 3. Controllo di Flusso
