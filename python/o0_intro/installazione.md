@@ -10,7 +10,7 @@ Per <a href="https://www.python.org/downloads/">installare</a> Python e pip sul 
 
 # Come eseguirlo
 
-Due modalità principali:
+Due (o tre) modalità principali:
 
 1. Scrivi programma su file di testo, ed esegui il file.
 1. Esegui riga per riga da shell interattiva.
