@@ -21,4 +21,4 @@ Prende un iterabile e una funzione, usa la funzione come test per tenere o butta
 
 ## `reduce()`
 
-
+Prende una funzione, un'interabile e un opzionalmente un valore iniziale.
