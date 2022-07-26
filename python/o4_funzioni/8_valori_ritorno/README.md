@@ -33,6 +33,7 @@ x # None
 
 L'utilità del return vuoto è di terminare l'esecuzione prima che finisca il codice della funzione, e questa ritorni da sé (come in [Func 1](#func-1)).
 
+*Nota Terminogica: le funzioni che non ritornano niente sono dette **funzioni void**, o **procedure** in altri linguaggi.*
 
 
 ## Return di valore
