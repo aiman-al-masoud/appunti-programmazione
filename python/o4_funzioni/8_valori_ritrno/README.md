@@ -2,14 +2,28 @@
 
 La keyword `return` è usata per uscire da una funzione e restituire il controllo al blocco di codice che l'aveva invocata, opzionalmente ritornando uno o più valori.
 
+## Return Implicito
 
 In Python una funzione senza un return esplicito, o con un return vuoto, è implicito che ritorna `None`.
+
+Queste sono tutte uguali:
 
 ```python
 def func():
     pass 
-    # return None
+```
 
+```python
+def func():
+    return 
+```
+
+```python
+def func():
+    return None
+```
+
+```python
 x = func()
 x # None
 ```
