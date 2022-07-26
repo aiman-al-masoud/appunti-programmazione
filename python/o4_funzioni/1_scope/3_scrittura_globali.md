@@ -13,6 +13,7 @@ change_x()
 ```
 
 
+## Keyword `global`
 Per modificare una globale dall'interno della funzione, bisogna ricorrere alla keyword `global`:
 
 ```python
