@@ -41,7 +41,7 @@ li = [1,2]
 
 def bar(li):
 
-    # chiamata metodo modifica l'originale.
+    # chiamata a metodo modifica l'originale.
     li.append(3)
     
     # questo no, perché chiaramente riassegnamento.
