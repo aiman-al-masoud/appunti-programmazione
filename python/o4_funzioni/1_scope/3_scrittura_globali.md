@@ -16,7 +16,7 @@ change_x()
 Per modificarla dall'interno della funzione, bisogna ricorrere alla keyword `global`:
 
 ```python
-x = 1
+x = 10
 
 def change_x_ok():
     global x
