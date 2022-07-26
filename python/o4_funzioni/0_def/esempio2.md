@@ -34,15 +34,12 @@ fib(4)
 
 Esecuzione:
 
-<!-- ```python -->
 <span style="color:red;">fib(2)</span> + <span style="color:green;">fib(3)</span>
-<!-- ``` -->
 
-<!-- ```python -->
+
 <span style="color:red;">2</span>  +  <span style="color:green; font-size:x-large;">(</span> <span style="color:blue;">fib(1)</span> + <span style="color:yellow;"> fib(2)</span> <span style="color:green; font-size:x-large;">)</span>
-<!-- ``` -->
 
-<!-- ```python -->
+
 <span style="color:red;">2</span>  + <span style="color:blue;">1</span> + <span style="color:yellow;">2</span>  =  5
 
 
