@@ -3,8 +3,14 @@
 
 In Python una funzione senza un return esplicito, o con un return vuoto, è implicito che ritorna `None`.
 
+```python
 def func():
     pass # return 
+
+x = func()
+x # None
+```
+
 
 #
 # Una funzione può ritornare qualsiasi numero e 
