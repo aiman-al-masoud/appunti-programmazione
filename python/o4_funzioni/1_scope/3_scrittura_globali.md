@@ -13,7 +13,7 @@ change_x()
 ```
 
 
-Per modificarla dall'interno della funzione, bisogna ricorrere alla keyword `global`:
+Per modificare una globale dall'interno della funzione, bisogna ricorrere alla keyword `global`:
 
 ```python
 x = 10
