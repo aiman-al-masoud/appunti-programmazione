@@ -1,6 +1,7 @@
 # Funzioni Lambda 
 
-Altresì note come funzioni anonime, sono utili da passare come argomenti a funzioni di ordine superiore per farle fare qualcosa di utile.
+Altresì note come funzioni anonime, sono utili da passare come argomenti a [funzioni di ordine superiore](../3_first_class/1_higher_order.md) per farle fare qualcosa di utile.
+
 
 
 Questa è una lambda che converte l'argomento in una stringa:
