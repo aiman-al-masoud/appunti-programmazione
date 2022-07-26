@@ -17,6 +17,8 @@ Prende un iterabile e una funzione, applica la funzione a ciascun elemento dell'
 
 ## `filter()`
 
+Prende un iterabile e una funzione, usa la funzione come 
+
 ## `reduce()`
 
 
