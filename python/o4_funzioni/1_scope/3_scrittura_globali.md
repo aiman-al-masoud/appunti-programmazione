@@ -7,9 +7,12 @@ x = 10
 
 def change_x():
     x+=1 # UnboundLocalError: local variable 'x' referenced before assignment
+
+
+change_x()
 ```
 
-# change_x()
+
 
 # Per modificarla, bisogna dichiarare esplicitamente
 # che si sta usando una var globale:
