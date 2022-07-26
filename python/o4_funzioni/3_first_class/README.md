@@ -5,12 +5,16 @@ In Python le funzioni sono a tutti gli effetti degli oggetti, si possono **asseg
 Si dice che le funzioni sono **cittadine di prima classe**, (**first order citizens**), o più semplicemente **first order**.
 
 
+```python
 def get_nome():
     return "Mario"
 
-# funzione di ordine superiore
+
 def saluta(fx):
     return "Ciao "+fx()+", come stai?"
+```
+
+
 
 
 # questa sintassi per fare riferimento,
