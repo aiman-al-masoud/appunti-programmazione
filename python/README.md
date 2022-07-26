@@ -46,14 +46,14 @@
 
 # 3. Controllo di Flusso
 
-1. [If](o3_controllo_flusso/o0_if.py)
-1. [For](o3_controllo_flusso/o1_for.py)
-1. [While](o3_controllo_flusso/o2_while.py)
-1. [Break/Continue](o3_controllo_flusso/o3_break_continue.py)
-1. [Return](o3_controllo_flusso/o4_return.py)
-1. [Assert](o3_controllo_flusso/o5_assert.py)
-1. [Pass](o3_controllo_flusso/o6_pass.py)
-1. [Match](o3_controllo_flusso/o7_match.py)
+1. [If](./o3_controllo_flusso/0_if/README.md)
+1. [For](./o3_controllo_flusso/1_for/README.md)
+1. [While](./o3_controllo_flusso/2_while/README.md)
+1. [Break/Continue](./o3_controllo_flusso/3_break_continue/README.md)
+1. [Return](./o3_controllo_flusso/4_return/README.md)
+1. [Assert](./o3_controllo_flusso/5_assert/README.md)
+1. [Pass](./o3_controllo_flusso/6_pass/README.md)
+1. [Match](./o3_controllo_flusso/7_match/README.md)
 
 
 # 4. Funzioni
