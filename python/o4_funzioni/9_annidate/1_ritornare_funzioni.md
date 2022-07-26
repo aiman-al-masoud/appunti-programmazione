@@ -15,7 +15,7 @@ def get_finder(regex):
 
 f = get_finder(r"\d+")
 
-print(f("3 4"))
+f("3 4") # ['2', '3']
 ```
 
 Get finder è una [funzione di ordine superiore](../3_first_class/1_higher_order.md) perché ritorna un'altra funzione.
