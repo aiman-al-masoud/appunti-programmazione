@@ -1,6 +1,6 @@
 # Kwargs
 
-Se una funzione comincia ad avere troppi argomenti posizionali, può diventare difficile ricordare l'ordine esatto in cui inserirli,specie se molti sono opzionali.
+Se una funzione comincia ad avere troppi argomenti posizionali, può diventare difficile ricordarsi l'ordine esatto in cui inserirli,specie se molti sono opzionali.
 
 Qui entrano in gioco i **keyword args** (o **kwargs**), che si possono passare in qualunque ordine e opzionalmente.
 
