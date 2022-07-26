@@ -1,10 +1,8 @@
 # Funzioni
-#
-# Una funzione è un pezzo di codice riutilizzabile
-# che può opzionalmente prendere argomenti, e ritornare 
-# valori.
-#
-#
+
+Una funzione è un pezzo di codice riutilizzabile che può opzionalmente prendere argomenti, e ritornare valori.
+
+
 
 # funzione che non fa niente, ma ritorna None (default)
 def func():
