@@ -23,7 +23,20 @@ def fib(n):
         return fib(n-2) + fib(n-1)
 ```
 
-Spiegazione dell'esecuzione:
+Spiegazione dell'esecuzione con esempio:
+
+```python
+fib(4)
+```
+
+La funzione ritorna:
+
+```python
+fib(2) + fib(3) 
+```
+
+```python
+
 
 
 
@@ -33,3 +46,7 @@ Spiegazione dell'esecuzione:
 print([fib(n) for n in range(10)])
 print(fib(-1)) # che succede?
 ```
+
+
+
+<!-- https://stackoverflow.com/questions/310974/what-is-tail-call-optimization -->
