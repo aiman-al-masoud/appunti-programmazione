@@ -1,11 +1,11 @@
 # Passaggio By Value vs By Reference 
 
 ## By Value: 
-la funzione riceve una copia dell'oggetto che le si passa.
+la funzione riceve una copia dell'oggetto che le si passa. Utile per garantire 
 
 
 ## By Reference: 
-la funzione riceve un riferimento all'oggetto originale che le si passa.
+la funzione riceve un riferimento all'oggetto originale che le si passa. Utile per condividere/aggiornare dati comuni, e per risparmiare spazio in memoria.
 
 Con Python si possono emulare le due modalità 
 
