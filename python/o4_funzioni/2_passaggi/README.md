@@ -1,10 +1,14 @@
 # Passaggio By Value vs By Reference 
 
 ## By Value: 
-La funzione riceve una copia dell'oggetto che le si passa. Utile per garantire l'assenza di [effetti collaterali](../1_scope/3_scrittura_globali.md#effetti-collaterali), e semplificare il debugging e ragionamento sulle funzioni.
+La funzione riceve una copia dell'oggetto che le si passa. 
+
+Utile per garantire l'assenza di [effetti collaterali](../1_scope/3_scrittura_globali.md#effetti-collaterali), e semplificare il debugging e ragionamento sulle funzioni.
 
 ## By Reference: 
-La funzione riceve un riferimento all'oggetto originale che le si passa. Utile per condividere/aggiornare dati comuni, e per risparmiare spazio in memoria.
+La funzione riceve un riferimento all'oggetto originale che le si passa. 
+
+Utile per condividere/aggiornare dati comuni, e per risparmiare spazio in memoria.
 
 Con Python si possono emulare le due modalità 
 
