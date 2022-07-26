@@ -55,11 +55,3 @@ def bar(li):
 bar(li)
 print(li)
 
-
-#
-#
-# Ufficialmente Python passa "By Assignment"
-# 
-# 
-#
-#
