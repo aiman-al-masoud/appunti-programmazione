@@ -3,7 +3,7 @@
 Le eccezioni possono anche essere sollevante (raised):
 
 ```python
-raise Exception("bye bye mondo!") # Exception: bye bye mondo!
+raise Exception("addio mondo crudele!") # Exception: addio mondo crudele!
 ```
 
 Questo permette di delegare la gestione della situazione anomala ad altre parti del programma, non necessariamente la posizione da dove è scaturita l'anomalia.
