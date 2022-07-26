@@ -83,10 +83,9 @@
 
 # 6. Eccezioni
 
-1. [Try-Except](o6_eccezioni/o0_try_except.py)
-1. [Else-Finally](o6_eccezioni/o1_finally_else.py)
-1. [Raise](o6_eccezioni/o2_raise.py)
-
+1. [Try/Except](./o6_eccezioni/0_try_except/README.md)
+1. [Else/Finally](./o6_eccezioni/1_finally_else/README.md)
+1. [Raise](./o6_eccezioni/2_raise/README.md)
 
 # Classi 
 
