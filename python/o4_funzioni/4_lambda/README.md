@@ -6,5 +6,5 @@ Altresì note come funzioni anonime, sono utili da passare come argomenti a funz
 c = map(lambda x : str(x) , [1, True, "ciao", {}])
 c = list(c)
 
-print(c)
+c # ['1', 'True', 'ciao', '{}']
 ```
