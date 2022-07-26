@@ -6,18 +6,21 @@ La keyword `return` è usata per uscire da una funzione e restituire il controll
 
 Una funzione senza un return esplicito, o con un return vuoto, ritorna implicitamente `None`. 
 
-Queste sono tutte uguali:
+Queste si comportano tutte uguali:
 
+### Func 1
 ```python
 def func():
     pass 
 ```
 
+### Func 2
 ```python
 def func():
     return 
 ```
 
+### Func 3
 ```python
 def func():
     return None
@@ -28,7 +31,7 @@ x = func()
 x # None
 ```
 
-L'utilità del return vuoto è di terminare l'esecuzione prima che finisca il codice della funzione, e questa ritorni da sé.
+L'utilità del return vuoto è di terminare l'esecuzione prima che finisca il codice della funzione, e questa ritorni da sé (come in [](#1)).
 
 
 
