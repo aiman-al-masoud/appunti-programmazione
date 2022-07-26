@@ -24,7 +24,7 @@ def fib(n):
 ```
 
 ## Esempio Esecuzione
-Spiegazione dell'esecuzione con esempio:
+Spiegazione dell'esecuzione con un esempio:
 
 ```python
 fib(4)
