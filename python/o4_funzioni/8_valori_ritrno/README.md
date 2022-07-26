@@ -44,7 +44,7 @@ def func():
     return "ciao mondo!"
 ```
 
-Attenzione, una funzione può ritornare un tipo diverso in base agli argomenti o allo stato quando viene chiamata!
+**Attenzione**, una funzione può ritornare un **tipo diverso** in base agli argomenti o allo stato quando viene chiamata!
 
 
 ```python
