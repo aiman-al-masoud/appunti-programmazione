@@ -16,4 +16,6 @@ def stampa(**kwargs):
 stampa( ripetiz=4, text="the quick brown fox ...")
 ```
 
+Nota che se una funzione ha sia argomenti posizionali che kwats, i primi esigono di essere inseriti prima dei kwargs.
+
 
