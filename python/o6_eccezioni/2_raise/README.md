@@ -32,4 +32,4 @@ def main():
 
 ```
 
-Per fare un'analogia col cosiddetto "mondo reale", pensiamo alla "issue escalation" in un'azienda; quando un problema (issue) che si scatena ai bassi livelli della gerarchia (semplici impiegati) viene sollevato (escalated) ai vertici più alti dell'azienda perché possano prendere una decisione sul da farsi.
+Per fare un'analogia col cosiddetto "mondo reale", pensiamo alla "issue escalation" in un'azienda; quando un problema (issue) che si scatena ai bassi livelli della gerarchia (semplici impiegati) viene sollevato (escalated) ai vertici più alti dell'azienda (i manager) perché possano prendere una decisione sul da farsi.
