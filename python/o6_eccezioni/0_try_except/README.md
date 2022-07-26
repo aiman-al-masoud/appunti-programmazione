@@ -28,7 +28,7 @@ except Exception as e: # tutte le altre eccezioni
 ```
 
 
-Non specificare il tipo di eccezione che si cattura nella clausola Except è una pratica sconsigliata, rischia di nascondere gli errori più che gestirli.
+Non specificare il tipo di eccezione che si cattura nella clausola Except è una pratica sconsigliata, rischia di nascondere gli errori più che aiutare a gestirli.
 
 
 
