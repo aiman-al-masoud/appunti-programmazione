@@ -8,6 +8,7 @@ def outer():
         pass
 
 outer()
+inner() # NameError: name 'inner' is not defined
 ```
 
 1. [Ritornare Funzioni](./1_ritornare_funzioni.md)
