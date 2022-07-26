@@ -18,7 +18,7 @@ Con Python si possono emulare ambo le modalità di passaggio valori, ufficialmen
 
 # 1) Riassegnamento dentro Funzione
 
-Riassegnare (con =) una variabile argomento funzionera sullo scope locale:
+Riassegnare (con =) una variabile argomento funzionera sullo scope locale, non cambia mai le globali:
 
 ```python
 x = "vecchio"
