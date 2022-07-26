@@ -70,7 +70,7 @@ y = 1
 def foobar(y):
     y.imag = 1
 
-foobar() # 
+foobar() # AttributeError: attribute 'imag' of 'int' objects is not writable
 ```
 
 
