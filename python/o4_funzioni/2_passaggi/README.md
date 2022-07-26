@@ -21,15 +21,14 @@ Con Python si possono emulare ambo le modalità di passaggio valori, ufficialmen
 Riassegnare (con =) una variabile argomento funzionera sullo scope locale:
 
 ```python
-x = 10
+x = "vecchio"
 
 def foo(x):
-    x = 11
+    x = "nuovo"
 
 foo(x)
-print(x)
+x # "vecchio"
 ```
-
 
 
 
