@@ -1,6 +1,6 @@
 # Eccezioni 
 
-Un’eccezione è un evento anomalo che provoca l’interruzione del normale flusso d'esecuzione di un programma
+Un’eccezione è un evento anomalo che provoca l’interruzione del normale flusso d'esecuzione di un programma.
 
 Se un'eccezione non viene catturata, il programma uscira dall'attuale blocco di codice, verso quello esterno. Se non viene catturata in nessun blocco di codice esterno, l'eccezione finirà per uscire il programma con un errore.
 
