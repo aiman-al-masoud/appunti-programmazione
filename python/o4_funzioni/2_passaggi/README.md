@@ -53,7 +53,7 @@ li # [1, 2, 3]
 ```
 
 
-Questo funziona se e solo se il tipo dell'argomento è mutabile.
+Questo funziona **se e solo se il tipo dell'argomento è mutabile**.
 
 
 
