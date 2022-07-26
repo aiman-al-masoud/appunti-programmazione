@@ -26,7 +26,7 @@ def main():
     try:
         subroutine()
     except NonRiescoAGestirlaException as e:
-        print(f"Si è verificato l'errore: {str(e)}")
+        print(f"Si è verificato l'errore: {str(e)}, cosa vuoi fare?")
 
     # fai qualcosa ...
 
