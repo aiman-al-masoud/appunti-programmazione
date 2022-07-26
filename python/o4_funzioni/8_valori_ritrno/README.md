@@ -68,7 +68,7 @@ z # True
 
 ## Return tanti valori
 
-Una funzione può ritornare qualsiasi numero e  qualsiasi tipo di valori!
+Una funzione può ritornare qualsiasi numero e qualsiasi tipo di valori!
 
 ```python
 def get_web_source(url):
