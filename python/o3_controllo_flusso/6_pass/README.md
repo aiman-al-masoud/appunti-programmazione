@@ -1,3 +1,5 @@
+# Pass
+
 È una no-op, non fa niente. La keyword serve dato che in Python l'indentazione è sintattica e richiede almeno una riga di codice nel blocco.
 
 È spesso usata come un segnaposto per le funzioni o blocchi da implementare.
