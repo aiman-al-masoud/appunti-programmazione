@@ -75,11 +75,11 @@
 1. [Passaggio Valori](./o4_funzioni/2_passaggi/README.md)
 1. [Cittadine di Prima Classe](./o4_funzioni/3_first_class/README.md)
 1. [Lambda](./o4_funzioni/4_lambda/README.md)
-1. [Argomenti Posizionali](./o4_funzioni/5_posizionali/)
-1. [Args (illimitati)](./o4_funzioni)
-1. [Kwargs (keyword args)](./o4_funzioni)
-1. [Ritorno Valori](./o4_funzioni)
-1. [Funzioni Annidate ](./o4_funzioni)
+1. [Argomenti Posizionali](./o4_funzioni/5_posizionali/README.md)
+1. [Args (illimitati)](./o4_funzioni/6_args/README.md)
+1. [Kwargs (keyword args)](./o4_funzioni/7_kwargs/README.md)
+1. [Ritorno Valori](./o4_funzioni/8_valori_ritorno/README.md)
+1. [Funzioni Annidate](./o4_funzioni/9_annidate/README.md)
 
 # 5. I/O
 
