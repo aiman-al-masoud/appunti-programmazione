@@ -60,7 +60,6 @@ Questo funziona se e solo se il tipo dell'argomento è mutabile.
  <!-- # li+=[4] # strano comportamento dovuto a __iadd__() https://stackoverflow.com/questions/2347265/why-does-behave-unexpectedly-on-lists -->
 
 
-
 # 3) Oggetti Immutabili
 
 Invece, gli oggetti immutabili (numeri, stringhe, tuple) non possono mutare, né nelle funzioni, né da nessun'altra parte:
