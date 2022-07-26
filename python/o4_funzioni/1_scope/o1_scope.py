@@ -1,17 +1,3 @@
-#
-# Scope di una Variabile
-#
-# È la regione del programma in cui si può 
-# fare riferimento alla variabile. 
-#  
-#
-
-# VARIABILI GLOBALI
-
-# Sono dichiarate a livello di modulo (file), cioè al 
-# di fuori di qualunque funzione, classe o oggetto. Sono 
-# visibili in lettura dappertutto nel modulo.
-x = 10
 
 
 # VARIABILI LOCALI
