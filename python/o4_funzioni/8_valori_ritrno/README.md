@@ -31,7 +31,7 @@ x = func()
 x # None
 ```
 
-L'utilità del return vuoto è di terminare l'esecuzione prima che finisca il codice della funzione, e questa ritorni da sé (come in [](#func-1)).
+L'utilità del return vuoto è di terminare l'esecuzione prima che finisca il codice della funzione, e questa ritorni da sé (come in [Func 1](#func-1)).
 
 
 
