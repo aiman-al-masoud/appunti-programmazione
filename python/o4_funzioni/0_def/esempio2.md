@@ -42,13 +42,9 @@ Esecuzione:
 <span style="color:red;">2</span>  +  <span style="color:green; font-size:x-large;">(</span> <span style="color:blue;">fib(1)</span> + <span style="color:yellow;"> fib(2)</span> <span style="color:green; font-size:x-large;">)</span>
 <!-- ``` -->
 
-```python
-2  + (1 + 2) 
-```
+<!-- ```python -->
+<span style="color:red;">2</span>  + <span style="color:blue;">1</span> + <span style="color:yellow;">2</span>  =  5
 
-```python
-5
-```
 
 
 
