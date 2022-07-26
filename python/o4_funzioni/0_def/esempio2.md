@@ -30,15 +30,17 @@ Spiegazione dell'esecuzione con esempio:
 fib(4)
 ```
 
+<span style="color:red;"></span>
+
 Esecuzione:
 
-```python
-fib(2) + fib(3) 
-```
+<!-- ```python -->
+<span style="color:red;">fib(2)</span> + <span style="color:green;">fib(3)</span>
+<!-- ``` -->
 
-```python
-2  + (fib(1) + fib(2)) 
-```
+<!-- ```python -->
+<span style="color:red;">2</span>  +  <span style="color:green; font-size:x-large;">(</span> <span style="color:blue;">fib(1)</span> + <span style="color:yellow;"> fib(2)</span> <span style="color:green; font-size:x-large;">)</span>
+<!-- ``` -->
 
 ```python
 2  + (1 + 2) 
