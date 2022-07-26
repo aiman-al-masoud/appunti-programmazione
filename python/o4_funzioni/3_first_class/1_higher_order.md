@@ -8,7 +8,7 @@ Le [funzioni di ordine superiore](https://it.wikipedia.org/wiki/Funzione_di_ordi
 
 ## Funzioni Famose
 
-Alcune funzioni di ordine superiore paradigmatiche sono:
+Alcuni esempi paradigmatici di funzioni di ordine superiore sono:
 
 ## `map()`
 
