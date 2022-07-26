@@ -15,9 +15,13 @@ change_x()
 
 Per modificarla dall'interno della funzione, bisogna ricorrere alla keyword `global`:
 
+```python
+x = 1
+
 def change_x_ok():
     global x
     x+=1 
 
 change_x_ok()
 print(x)
+```
