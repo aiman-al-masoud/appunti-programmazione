@@ -10,10 +10,10 @@ Le [funzioni di ordine superiore](https://it.wikipedia.org/wiki/Funzione_di_ordi
 
 Alcune funzioni di ordine superiore paradigmatiche sono:
 
-`map()`
+## `map()`
 
-`filter()`
+## `filter()`
 
-`reduce()`
+## `reduce()`
 
 
