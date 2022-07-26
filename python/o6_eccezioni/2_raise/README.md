@@ -32,4 +32,5 @@ def main():
 
 ```
 
-Per fare un'analogia pensiamo alla "escalation" di un problema al lavoro, cioè 
+Per fare un'analogia col cosiddetto "mondo reale" pensiamo alla "escalation" di un problema in un'azienda; cioè lo scavalcamento 
+
