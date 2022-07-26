@@ -1,18 +1,21 @@
-#
-# Le eccezioni possono anche essere sollevante.
-#
-# Questo permette di delegare la gestione della situazione anomala
-# ad altre parti del programma, non necessariamente la posizione
-# da dove è scaturita l'anomalia.
-#
+# Raise
 
+Le eccezioni possono anche essere sollevante (raised):
+
+```python
+raise Exception("bye bye mondo!") # Exception: bye bye mondo!
+```
+
+Questo permette di delegare la gestione della situazione anomala ad altre parti del programma, non necessariamente la posizione da dove è scaturita l'anomalia.
+
+```python
 from random import choice
 
 
 def servizio_web1(x=""):
 
     """
-    Questa è una funzione non interagisce con l'utente
+    Questa è una funzione che non interagisce con l'utente
     """
 
     connessione = choice([True, False])
@@ -39,7 +42,7 @@ def main():
         exit()
 
 
-# 
 if __name__ == "__main__":
     main()
+```
 
