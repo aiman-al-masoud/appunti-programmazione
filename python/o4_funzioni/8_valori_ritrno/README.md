@@ -37,7 +37,7 @@ L'utilità del return vuoto è di terminare l'esecuzione prima che finisca il co
 
 ## Return di valore
 
-Una funzione può ritornare un valore con return:
+Una funzione può ritornare un valore:
 
 ```python
 def func():
