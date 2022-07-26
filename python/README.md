@@ -70,16 +70,16 @@
 1. [Funzioni Annidate](o4_funzioni/o9_annidate.py)
 
 
-Definire Funzioni
-Scope
-Passaggio Valori
-Cittadine di Prima Classe
-Lambda
-Argomenti Posizionali
-Args (illimitati)
-Kwargs (keyword args)
-Ritorno Valori
-Funzioni Annidate 
+1. [Definire Funzioni](./o4_funzioni/0_def/README.md)
+1. [Scope](./o4_funzioni/1_scope/README.md)
+1. [Passaggio Valori](./o4_funzioni/2_passaggi/README.md)
+1. [Cittadine di Prima Classe](./o4_funzioni/3_first_class/README.md)
+1. [Lambda](./o4_funzioni/4_lambda/README.md)
+1. [Argomenti Posizionali](./o4_funzioni/5_posizionali/)
+1. [Args (illimitati)](./o4_funzioni)
+1. [Kwargs (keyword args)](./o4_funzioni)
+1. [Ritorno Valori](./o4_funzioni)
+1. [Funzioni Annidate ](./o4_funzioni)
 
 # 5. I/O
 
