@@ -78,15 +78,20 @@ def get_web_source(url):
     return html, css, js
 ```
 
+I valori vengono ritornati come una tupla:
+
 ```python
-# i valori vengono ritornati come una tupla
 t = get_web_source("www.google.com")
-print(t, type(t))
+type(t) # tuple
 ```
+
+Ma si possono "spacchettare" usando questa comoda sintassi:
+
 ```python
-# ma si possono "spacchettare" usando questa comoda sintassi:
 h, c, j = get_web_source("www.google.com")
-print(h, c, j)
+h
+c
+j
 ```
 
 
