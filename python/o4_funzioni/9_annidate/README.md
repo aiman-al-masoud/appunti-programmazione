@@ -1,19 +1,14 @@
 # Funzioni Annidate
 
+Si possono annidare funzioni dentro ad altre funzioni. Queste saranno visibili solo all'interno della funzione "madre".
 
-#
-# Si possono annidare funzioni dentro ad altre
-# funzioni.
-#
-#
-#
-
+```python
 def outer():
     def inner():
         pass
 
 outer()
-
+```
 
 # 
 # Tecnica che si può usare per creare e ritornare
