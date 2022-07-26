@@ -33,7 +33,7 @@ x # 'vecchio'
 ## 2) Modifica attributi di Oggetto
 
 
-Però, se si modifica il contenuto di un oggetto passato come argomento, (**senza riassegnare** la variabile), si sta proprio modificando l'originale globale:
+Però, se si modifica il **contenuto** dell'argomento, (**senza riassegnare** la variabile), si sta proprio modificando l'originale globale:
 
 
 ```python
