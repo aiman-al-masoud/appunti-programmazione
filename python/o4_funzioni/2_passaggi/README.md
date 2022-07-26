@@ -1,7 +1,7 @@
 # Passaggio By Value vs By Reference 
 
 ## By Value: 
-la funzione riceve una copia dell'oggetto che le si passa. Utile per garantire 
+la funzione riceve una copia dell'oggetto che le si passa. Utile per garantire l'assenza di effetti collaterali, e semplificare il debugging e ragionamento sulle funzioni.
 
 
 ## By Reference: 
