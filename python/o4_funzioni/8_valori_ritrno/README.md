@@ -89,9 +89,9 @@ Ma si possono "spacchettare" usando questa comoda sintassi:
 
 ```python
 h, c, j = get_web_source("www.google.com")
-h
-c
-j
+h # '<h1></h1>'
+c # 'h1{ color: red; }'
+j # "alert('hello world!')"
 ```
 
 
