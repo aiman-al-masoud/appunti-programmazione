@@ -1,6 +1,6 @@
 # Scope 
 
-Lo scope di una variabile ès la regione del programma in cui si può fare riferimento ad essa. 
+Lo scope di una variabile è la regione del codice in cui si può fare riferimento ad essa. 
 
 1. [Variabili Globali](./0_var_globali.md)
 1. [Variabili Locali](./1_var_locali.md)
