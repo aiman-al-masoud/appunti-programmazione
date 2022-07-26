@@ -36,8 +36,17 @@ fib(2) + fib(3)
 ```
 
 ```python
-
+2  + (fib(1) + fib(2)) 
 ```
+
+```python
+2  + (1 + 2) 
+```
+
+```python
+5
+```
+
 
 
 ```python
