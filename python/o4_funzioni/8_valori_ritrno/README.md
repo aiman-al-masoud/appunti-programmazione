@@ -28,6 +28,16 @@ x = func()
 x # None
 ```
 
+## Return di valore
+
+Una funzione può ritornare un valore con return:
+
+```python
+def func():
+    return "ciao mondo!"
+```
+
+
 
 
 
