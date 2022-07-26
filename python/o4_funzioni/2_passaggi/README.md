@@ -35,17 +35,21 @@ x # "vecchio"
 
 Se si modifica il contenuto di un oggetto passato come argomento, (senza riassegnare l'oggetto), si sta proprio modificando l'originale:
 
+
 ```python
 li = [1,2]
 
 def bar(li):
 
+    # chiamata metodo modifica l'originale.
     li.append(3)
     
-    # li = li + [4] # non modifica arg, perché chiaramente riassegnamento
+    # questo no, perché chiaramente riassegnamento.
+    li = li + [4] 
    
+
 bar(li)
-print(li)
+li # [1, 2, 3]
 ```
 
 
