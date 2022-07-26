@@ -1,5 +1,6 @@
+# Esempio 2: Ricorsività 
 
-# funzione che prende un argomento e ritorna un valore.
+```python
 def fib(n):
     
     """
@@ -15,9 +16,11 @@ def fib(n):
     # è 'ricorsiva' perché chiama sé stessa:
     if n > 2:
         return fib(n-2) + fib(n-1)
+```
 
 
+
+```python
 print([fib(n) for n in range(10)])
-
-
 print(fib(-1)) # che succede?
+```
