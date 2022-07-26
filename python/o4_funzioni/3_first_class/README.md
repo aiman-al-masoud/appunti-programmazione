@@ -1,4 +1,4 @@
-# Cittadini di Prima Classe
+# Cittadine di Prima Classe
 
 In Python le funzioni sono a tutti gli effetti degli oggetti, si possono **assegnare a variabili** e **passare come argomento** ad altre funzioni.
 
