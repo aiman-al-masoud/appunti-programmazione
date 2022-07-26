@@ -11,8 +11,8 @@ lambda x : str(x)
 Applichiamo la lambda ad un'intera lista usando la funzione higher order `map()`:
 
 ```python
-c = map(lambda x : str(x) , [1, True, "ciao", {}])
-c = list(c)
 
+li = [1, True, "ciao", {}]
+li = list(map(lambda x : str(x) , li))
 c # ['1', 'True', 'ciao', '{}']
 ```
