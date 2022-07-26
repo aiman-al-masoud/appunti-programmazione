@@ -23,5 +23,5 @@ Prende un iterabile e una funzione, usa la funzione come test per tenere o butta
 
 Prende una funzione, un iterabile e, opzionalmente, un valore iniziale. Applica la funzione, in ordine, a due elementi contigui dell'iterabile, aggregandoli nell'accumulatore, opzionalmente inizializzato dal valore iniziale. Ritorna l'aggregato finale.
 
-### Nota
+### Generatori
 In Python `map()` e `filter()` chiamati su una lista non ritornano direttamente un'altra lista, ma un generatore. Per questo bisogna convertirlo usando `list()`.
