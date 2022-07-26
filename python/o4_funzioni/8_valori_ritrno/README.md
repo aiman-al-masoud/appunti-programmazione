@@ -28,9 +28,7 @@ x = func()
 x # None
 ```
 
-## Terminare
 
-Una funzione può usare return vuto per terminare l'esecuzione
 
 
 #
