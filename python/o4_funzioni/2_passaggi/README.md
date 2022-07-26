@@ -30,32 +30,44 @@ foo(x)
 x # "vecchio"
 ```
 
+# 2) Modifica attributi di Oggetto
 
 
-# Gli oggetti immutabili (numeri, stringhe, tuple) 
-# non possono mutare, né nelle funzioni, 
-# né da nessun'altra parte:
+Se si modifica il contenuto di un oggetto passato come argomento, (senza riassegnare l'oggetto), si sta proprio modificando l'originale:
 
+```python
+li = [1,2]
+
+def bar(li):
+
+    li.append(3)
+    
+    # li = li + [4] # non modifica arg, perché chiaramente riassegnamento
+   
+bar(li)
+print(li)
+```
+
+
+Questo funziona se il tipo dell'argomento è mutabile.
+
+
+
+ <!-- # li+=[4] # strano comportamento dovuto a __iadd__() https://stackoverflow.com/questions/2347265/why-does-behave-unexpectedly-on-lists -->
+
+
+
+# 3) Oggetti Immutabili
+
+Invece, gli oggetti immutabili (numeri, stringhe, tuple) non possono mutare, né nelle funzioni, né da nessun'altra parte:
+
+```python
 y = 1
 
 def foobar(y):
     y.imag = 1
 
-# foobar(y)
+foobar() # 
+```
 
-
-# Invece, se il tipo dell'argomento è mutabile e lo si 
-# modifica senza riassegnarlo, si sta proprio modificando 
-# l'originale:
-
-li = [1,2]
-
-def bar(li):
-    li.append(3)
-    
-    # li = li + [4] # non modifica arg, perché chiaramente riassegnamento
-    # li+=[4] # strano comportamento! https://stackoverflow.com/questions/2347265/why-does-behave-unexpectedly-on-lists
-
-bar(li)
-print(li)
 
