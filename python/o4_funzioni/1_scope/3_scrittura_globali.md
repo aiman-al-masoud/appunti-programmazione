@@ -27,6 +27,7 @@ change_x_ok()
 x # 11
 ```
 
-Tuttavia, è consigliato provare altri stratagemmi prima di ricorrere a questo: se troppe funzioni modificano le variabili globali impunemente, rischiamo di dimenticarcene, e di non accorgerci di eventuali bachi relativi agli effetti collaterali 
+## Effetti Collaterali
 
+Tuttavia, è consigliato provare altri stratagemmi prima di ricorrere a questo: se troppe funzioni modificano le variabili globali impunemente, rischiamo di dimenticarcene, e di non accorgerci di eventuali bachi relativi agli [effetti collaterali](https://it.wikipedia.org/wiki/Effetto_collaterale_(informatica)) di queste funzioni.
 
