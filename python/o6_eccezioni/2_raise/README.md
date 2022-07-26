@@ -32,3 +32,4 @@ def main():
 
 ```
 
+Per fare un'analogia pensiamo alla "escalation" di un problema al lavoro, cioè 
