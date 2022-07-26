@@ -63,7 +63,6 @@ x, y, z = func(0), func(1), func(2)
 x # 'ciao mondo'
 y # 100
 z # True
-
 ```
 
 
