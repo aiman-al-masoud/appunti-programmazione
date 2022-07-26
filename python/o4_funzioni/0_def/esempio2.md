@@ -23,13 +23,14 @@ def fib(n):
         return fib(n-2) + fib(n-1)
 ```
 
+## Esempio Esecuzione
 Spiegazione dell'esecuzione con esempio:
 
 ```python
 fib(4)
 ```
 
-La funzione ritorna:
+Esecuzione:
 
 ```python
 fib(2) + fib(3) 
