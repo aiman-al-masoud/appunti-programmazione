@@ -13,9 +13,7 @@ change_x()
 ```
 
 
-
-# Per modificarla, bisogna dichiarare esplicitamente
-# che si sta usando una var globale:
+Per modificarla dall'interno della funzione, bisogna ricorrere alla keyword `global`:
 
 def change_x_ok():
     global x
