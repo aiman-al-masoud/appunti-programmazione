@@ -1,6 +1,6 @@
 # Raise
 
-Le eccezioni possono anche essere sollevante (raised):
+Le eccezioni possono anche essere sollevate (raised):
 
 ```python
 raise Exception("addio mondo crudele!") # Exception: addio mondo crudele!
