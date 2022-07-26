@@ -12,18 +12,16 @@ def get_nome():
 
 def saluta(fx):
     return "Ciao "+fx()+", come stai?"
-```
 
-
-
-
-# questa sintassi per fare riferimento,
-# da notare che non non si usano le (), perché 
-# NON vogliamo chiamare la funzione!
-
+# assegnamento a var
 fx = get_nome
 
-print(saluta(fx))
+
+# passaggio come arg
+saluta(fx) # 'Ciao Mario, come stai?'
+
+```
+
 
 
 
