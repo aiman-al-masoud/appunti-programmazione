@@ -1,12 +1,11 @@
-#
-# Se una funzione comincia ad avere troppi argomenti posizionali,
-# può diventare difficile ricordare l'ordine esatto in cui inserirli,
-# specie se molti sono opzionali.
-# 
-# Qui entrano in gioco i keyword args (o kwargs), che si possono passare
-# in qualunque ordine e opzionalmente.
-#
+# Kwargs
 
+Se una funzione comincia ad avere troppi argomenti posizionali, può diventare difficile ricordare l'ordine esatto in cui inserirli,specie se molti sono opzionali.
+
+Qui entrano in gioco i keyword args (o kwargs), che si possono passare in qualunque ordine e opzionalmente.
+
+
+```python
 def stampa(**kwargs):
     params = {"text":"ciao mondo", "ripetiz":2}
     params.update(kwargs)
@@ -15,3 +14,6 @@ def stampa(**kwargs):
         print(params["text"])
 
 stampa( ripetiz=4, text="the quick brown fox ...")
+```
+
+
