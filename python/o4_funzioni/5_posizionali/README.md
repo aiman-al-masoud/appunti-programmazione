@@ -1,6 +1,6 @@
 # Argomenti Posizionali
 
-Li abbiamo già intravisto, è il modo più semplice di passare argomenti ad una funzione:
+Li abbiamo già intravisti, sono il modo più semplice di passare argomenti ad una funzione:
 
 ```python
 def stampa(text, ripetiz):
