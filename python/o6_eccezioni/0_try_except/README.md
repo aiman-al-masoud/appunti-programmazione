@@ -5,7 +5,7 @@ Un’eccezione è un evento anomalo che provoca l’interruzione del normale flu
 Se un'eccezione non viene catturata, il programma uscirà dall'attuale blocco di codice, verso il blocco esterno o chiamante. Se non viene catturata in nessun blocco di codice esterno, l'eccezione finirà per terminare il programma (il "blocco" più esterno che c'è) con un errore.
 
 
-Se sospettiamo che del codice lancerà un'eccezione, possiamo gestirla tramite un try-except:
+Se sospettiamo che del codice possa lanciare un'eccezione, possiamo gestirla tramite un try-except:
 
 ```python
 try: # viene eseguito tutto solo se non solleva eccezioni
