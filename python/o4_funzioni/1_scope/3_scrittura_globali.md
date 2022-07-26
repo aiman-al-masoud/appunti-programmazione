@@ -1,6 +1,6 @@
 # Modifica Globali da Funzione
 
-Se si prova a **modificare** una variabile globale dall'interno di una funzione, Python crederà che si tratti di una variabile locale non ancora definita:
+Se si prova a **modificare** una variabile globale dall'interno di una funzione, Python crederà che si tratti di una variabile locale non ancora definita, e lancerà un'eccezione:
 
 ```python
 x = 10
