@@ -1,6 +1,6 @@
 # Esempio 2: Ricorsività 
 
-Una funzione che implementa un [algoritmo ricorsivo](https://it.wikipedia.org/wiki/Algoritmo_ricorsivo), invoca se stessa più volte con argomenti via via più "semplici". Gli input più "semplici" in assoluto fermano questo processo, ritornando un valore concreto; e si dice che la funzione raggiunge il suo base case. Senza un base case, o condizione di terminazione, la funzione chiamerebbe se stessa così tante volte da intasare lo stack delle chiamate a funzione, provocando in Python un'eccezione di tipo: `RecursionError` con messaggio `maximum recursion depth exceeded`, altresì nota come stack overflow.
+Una funzione che implementa un [algoritmo ricorsivo](https://it.wikipedia.org/wiki/Algoritmo_ricorsivo), invoca se stessa più volte con argomenti via via più "semplici". Quelli più "semplici" in assoluto, fermano questo processo, ritornando un valore concreto; e si dice che la funzione raggiunge il suo base case. Senza un base case, o condizione di terminazione, la funzione chiamerebbe se stessa così tante volte da intasare lo stack delle chiamate a funzione, provocando in Python un'eccezione di tipo: `RecursionError` con messaggio `maximum recursion depth exceeded`, altresì nota come stack overflow.
 
 
 ```python
