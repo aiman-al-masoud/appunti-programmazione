@@ -7,6 +7,7 @@ la funzione riceve una copia dell'oggetto che le si passa.
 ## By Reference: 
 la funzione riceve un riferimento all'oggetto originale che le si passa.
 
+Con Python si possono emulare le due modalità 
 
 
 # Riassegnare (con =) una variabile argomento 
