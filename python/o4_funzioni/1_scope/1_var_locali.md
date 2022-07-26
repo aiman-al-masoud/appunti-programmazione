@@ -1,6 +1,6 @@
 # Variabili Locali
 
-Sono dichiarate all'interno di una funzione, non sono visibili al suo esterno. Esistono solo durante l'esecuzione della funzione, poi vengono deallocate.
+Sono dichiarate all'interno di una funzione, non sono visibili al suo esterno, ed esistono solo durante l'esecuzione della funzione, poi vengono deallocate.
 
 ```python
 def func():
