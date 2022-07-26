@@ -6,7 +6,7 @@ Le eccezioni possono anche essere sollevate (raised):
 raise Exception("addio mondo crudele!") # Exception: addio mondo crudele!
 ```
 
-Questo permette di delegare la gestione della situazione anomala ad altre parti del programma, dato che la posizione da dove è scaturita l'anomalia potrebbe non essere sempre un luogo adeguato per risolverla:
+Questo permette di delegare la gestione della situazione anomala ad altre parti del programma, dato che la posizione da dove è scaturita l'anomalia potrebbe non essere sempre il luogo adeguato per risolverla:
 
 ```python
 
