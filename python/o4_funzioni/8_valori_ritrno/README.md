@@ -5,11 +5,16 @@ In Python una funzione senza un return esplicito, o con un return vuoto, è impl
 
 ```python
 def func():
-    pass # return 
+    pass 
+    # return None
 
 x = func()
 x # None
 ```
+
+## Terminare
+
+Una funzione può usare return vuto per terminare l'esecuzione
 
 
 #
