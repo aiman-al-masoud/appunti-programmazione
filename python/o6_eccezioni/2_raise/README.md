@@ -32,5 +32,5 @@ def main():
 
 ```
 
-Per fare un'analogia col cosiddetto "mondo reale", pensiamo alla "issue escalation" in un'azienda;
+Per fare un'analogia col cosiddetto "mondo reale", pensiamo alla "issue escalation" in un'azienda; quando un problema (issue) che si scatena ai bassi livelli della gerarchia (semplici impiegati) viene 
 
