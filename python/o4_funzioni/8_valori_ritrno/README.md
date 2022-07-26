@@ -1,6 +1,6 @@
 # Return
 
-La keyword `return` è usata per uscire da una funzione e restituire il controllo al blocco di codice che l'aveva invocata, opzionalmente ritornando uno o più valori.
+La keyword `return` è usata per uscire da una funzione e restituire il controllo al blocco di codice che l'aveva invocata, opzionalmente "ritornandogli" uno o più valori.
 
 ## Return Implicito
 
