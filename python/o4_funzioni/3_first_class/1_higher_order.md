@@ -12,6 +12,8 @@ Alcune funzioni di ordine superiore paradigmatiche sono:
 
 ## `map()`
 
+Prende un iterabile e una funzione, ritorna un nuovo iterabile dove è stata applicata la funzione a ciascun argomento.
+
 ## `filter()`
 
 ## `reduce()`
