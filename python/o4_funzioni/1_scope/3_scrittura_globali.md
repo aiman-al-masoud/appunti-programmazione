@@ -26,6 +26,6 @@ change_x_ok()
 x # 11
 ```
 
-Tuttavia, è consigliato provare altri stratagemmi prima di ricorrere a questo: se troppe funzioni modificano le variabili globali impunemente, 
+Tuttavia, è consigliato provare altri stratagemmi prima di ricorrere a questo: se troppe funzioni modificano le variabili globali impunemente, si rischia di dimenticarsi 
 
 
