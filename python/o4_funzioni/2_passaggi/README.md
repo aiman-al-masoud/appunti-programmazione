@@ -72,5 +72,3 @@ def foobar(y):
 
 foobar() # AttributeError: attribute 'imag' of 'int' objects is not writable
 ```
-
-
