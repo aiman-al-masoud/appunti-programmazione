@@ -16,10 +16,11 @@ Utile per condividere/aggiornare dati comuni, e per risparmiare spazio in memori
 Con Python si possono emulare ambo le modalità di passaggio valori, ufficialmente Python si dice un linguaggio "pass by assignment". [[1]](https://realpython.com/python-pass-by-reference/) [[2]](https://stackoverflow.com/questions/50534394/what-does-it-mean-by-passed-by-assignment)
 
 
+# 1) Riassegnamento dentro Funzione
 
-# Riassegnare (con =) una variabile argomento 
-# funzionera sullo scope locale:
+Riassegnare (con =) una variabile argomento funzionera sullo scope locale:
 
+```python
 x = 10
 
 def foo(x):
@@ -27,6 +28,10 @@ def foo(x):
 
 foo(x)
 print(x)
+```
+
+
+
 
 # Gli oggetti immutabili (numeri, stringhe, tuple) 
 # non possono mutare, né nelle funzioni, 
