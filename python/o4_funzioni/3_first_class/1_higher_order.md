@@ -17,7 +17,7 @@ Prende un iterabile e una funzione, applica la funzione a ciascun elemento dell'
 
 ## `filter()`
 
-Prende un iterabile e una funzione, usa la funzione come test per tenere o buttare via un elemento dell'iterabile, e ritorna una nuova copia potenzialmente più corta.
+Prende un iterabile e una funzione, usa la funzione come test per tenere o buttare via un elemento dell'iterabile, e ritorna una nuova copia potenzialmente accorciata.
 
 ## `reduce()`
 
