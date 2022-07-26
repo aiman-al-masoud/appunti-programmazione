@@ -49,7 +49,7 @@ print(li)
 ```
 
 
-Questo funziona se il tipo dell'argomento è mutabile.
+Questo funziona se e solo se il tipo dell'argomento è mutabile.
 
 
 
