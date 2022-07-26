@@ -26,4 +26,4 @@ change_x_ok()
 x # 11
 ```
 
-Tuttavia è consigliato provare altri stratagemmi prima di ricorrere a questo, dato che  
+Tuttavia è consigliato provare altri stratagemmi prima di ricorrere a questo; modificare  
