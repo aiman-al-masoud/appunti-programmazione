@@ -25,14 +25,12 @@ saluta(fx) # 'Ciao Mario, come stai?'
 
 
 
-#
-# Funzioni di ordine superiore:
-# sono funzioni che prendono come argomento, o ritornano
-# altre funzioni. 
-# https://it.wikipedia.org/wiki/Funzione_di_ordine_superiore
-# 
-# saluta() è una funzione di ordine superiore.
-#
+Funzioni di ordine superiore:
+sono funzioni che prendono come argomento, o ritornano
+altre funzioni. 
+https://it.wikipedia.org/wiki/Funzione_di_ordine_superiore
+
+saluta() è una funzione di ordine superiore.
 
 
 
