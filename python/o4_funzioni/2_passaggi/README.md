@@ -27,7 +27,7 @@ def foo(x):
     x = "nuovo"
 
 foo(x)
-x # "vecchio"
+x # 'vecchio'
 ```
 
 ## 2) Modifica attributi di Oggetto
