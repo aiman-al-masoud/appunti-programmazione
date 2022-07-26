@@ -44,8 +44,27 @@ def func():
     return "ciao mondo!"
 ```
 
+Attenzione, una funzione può ritornare un tipo diverso in base agli argomenti o allo stato quando viene chiamata!
 
 
+```python
+def func(n):
+    if n ==0:
+        return "ciao mondo"
+
+    if n ==1:
+        return 100
+    
+    if n ==2:
+        return True
+
+
+x, y, z = func(0), func(1), func(2)
+x # 'ciao mondo'
+y # 100
+z # True
+
+```
 
 
 #
