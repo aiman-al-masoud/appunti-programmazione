@@ -43,13 +43,16 @@ Esecuzione:
 <span style="color:red;">2</span>  + <span style="color:blue;">1</span> + <span style="color:yellow;">2</span>  =  5
 
 
+## Prova:
+
+```python
+[fib(n) for n in range(10)] # [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+```
 
 
 ```python
-print([fib(n) for n in range(10)])
 print(fib(-1)) # che succede?
 ```
-
 
 
 <!-- https://stackoverflow.com/questions/310974/what-is-tail-call-optimization -->
