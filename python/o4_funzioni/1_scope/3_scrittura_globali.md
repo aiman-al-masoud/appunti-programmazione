@@ -23,5 +23,5 @@ def change_x_ok():
     x+=1 
 
 change_x_ok()
-print(x)
+x # 11
 ```
