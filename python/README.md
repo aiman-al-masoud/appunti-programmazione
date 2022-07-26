@@ -70,6 +70,17 @@
 1. [Funzioni Annidate](o4_funzioni/o9_annidate.py)
 
 
+Definire Funzioni
+Scope
+Passaggio Valori
+Cittadine di Prima Classe
+Lambda
+Argomenti Posizionali
+Args (illimitati)
+Kwargs (keyword args)
+Ritorno Valori
+Funzioni Annidate 
+
 # 5. I/O
 
 1. [Input](o5_io/o0_input.py)
