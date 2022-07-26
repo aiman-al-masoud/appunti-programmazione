@@ -62,7 +62,7 @@ Questo funziona **se e solo se il tipo dell'argomento è mutabile**.
 
 ## 3) Oggetti Immutabili
 
-Invece, gli oggetti immutabili (numeri, stringhe, tuple) non possono mutare le loro proprietà, né nelle funzioni, né da nessun'altra parte:
+Invece, gli oggetti **immutabili** (numeri, stringhe, tuple) non possono mutare le loro proprietà, né nelle funzioni, né da nessun'altra parte:
 
 ```python
 y = 1
