@@ -11,9 +11,12 @@ Questo permette di delegare la gestione della situazione anomala ad altre parti 
 ```python
 
 def subroutine():
+    
     # fai qualcosa ...
+
     if condizione_anomala:
         raise NonRiescoAGestirlaException(error_code)
+    
     # fai qualcosa ...
 
 def main():
