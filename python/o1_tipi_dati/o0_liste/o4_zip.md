@@ -1,5 +1,3 @@
 # Zipping 
 
-La builtin zip
-
-zip()
+La builtin `zip()`
