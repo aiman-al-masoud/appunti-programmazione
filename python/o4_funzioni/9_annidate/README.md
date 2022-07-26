@@ -9,3 +9,7 @@ def outer():
 
 outer()
 ```
+
+1. [Ritornare Funzioni](./1_ritornare_funzioni.md)
+1. [Closures](./2_closures.md)
+
