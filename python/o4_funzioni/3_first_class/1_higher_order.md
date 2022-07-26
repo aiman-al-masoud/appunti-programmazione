@@ -7,6 +7,7 @@ Le [funzioni di ordine superiore](https://it.wikipedia.org/wiki/Funzione_di_ordi
 
 
 ## Esempi
+
 Alcune funzioni di ordine superiore paradigmatiche sono:
 
 `map()`
