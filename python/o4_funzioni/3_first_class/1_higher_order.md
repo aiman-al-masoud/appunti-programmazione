@@ -6,6 +6,7 @@ Le [funzioni di ordine superiore](https://it.wikipedia.org/wiki/Funzione_di_ordi
 [`saluta()` nell'esempio precedente ](./README.md) è una funzione di ordine superiore, perché prende come argomento un'altra funzione.
 
 
+## Esempi
 Alcune funzioni di ordine superiore paradigmatiche sono:
 
 `map()`
