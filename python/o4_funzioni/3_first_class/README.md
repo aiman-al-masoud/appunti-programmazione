@@ -23,7 +23,7 @@ saluta(fx) # 'Ciao Mario, come stai?'
 ```
 
 
-Funzioni di ordine superiore:
+## Funzioni di ordine superiore:
 
 [Funzioni di ordine superiore](./1_higher_order.md)
 
