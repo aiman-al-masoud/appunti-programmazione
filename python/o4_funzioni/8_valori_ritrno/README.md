@@ -4,7 +4,7 @@ La keyword `return` è usata per uscire da una funzione e restituire il controll
 
 ## Return Implicito
 
-Una funzione senza un return esplicito, o con un return vuoto, ritorna implicitamente `None`.
+Una funzione senza un return esplicito, o con un return vuoto, ritorna implicitamente `None`. L'utilità del return vuoto è di terminare l'esecuzione.
 
 Queste sono tutte uguali:
 
