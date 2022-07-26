@@ -1,7 +1,7 @@
 # Passaggio By value vs By reference 
 
 ## By value (Per valore): 
-La funzione riceve una copia dell'oggetto che le si passa. 
+La funzione riceve una **copia** dell'oggetto che le si passa. 
 
 Utile per garantire l'assenza di [effetti collaterali](../1_scope/3_scrittura_globali.md#effetti-collaterali), e semplificare il debugging e ragionamento sulle funzioni.
 
