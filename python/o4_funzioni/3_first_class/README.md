@@ -2,7 +2,7 @@
 
 In Python le funzioni sono a tutti gli effetti degli oggetti, si possono **assegnare a variabili** e **passare come argomento** ad altre funzioni.
 
-Si dice che le funzioni sono "cittadine di prima classe".
+Si dice che le funzioni sono **cittadine di prima classe**, (**first order citizens**), o più semplicemente **first order**.
 
 
 def get_nome():
