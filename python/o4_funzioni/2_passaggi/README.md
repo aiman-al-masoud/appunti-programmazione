@@ -13,7 +13,8 @@ Utile per condividere/aggiornare dati comuni, e per risparmiare spazio in memori
 
 ## By Assignment
 
-Con Python si possono emulare ambo le modalità di passaggio valori, ufficialmente Python si dice un linguaggio "pass by assignment".
+Con Python si possono emulare ambo le modalità di passaggio valori, ufficialmente Python si dice un linguaggio "pass by assignment". [[1]](https://realpython.com/python-pass-by-reference/) [[2]](https://stackoverflow.com/questions/50534394/what-does-it-mean-by-passed-by-assignment)
+
 
 
 # Riassegnare (con =) una variabile argomento 
@@ -59,7 +60,6 @@ print(li)
 #
 # Ufficialmente Python passa "By Assignment"
 # 
-# https://realpython.com/python-pass-by-reference/
-# https://stackoverflow.com/questions/50534394/what-does-it-mean-by-passed-by-assignment
+# 
 #
 #
